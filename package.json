@@ -15,7 +15,7 @@
     "m:deploy": "sh dist/setup.sh",
     "m:postdeploy": "mcmd make --role ANONYMOUS umdm_VIEWER && mcmd give anonymous view sys_md",
     "m:demo": "mcmd import -p data/demo/umdm_demo.xlsx --as umdm",
-    "m:refresh-setup": "python3 rd_datamodel/refresh-setup-sh.py",
+    "m:refresh-setup": "python3 rd_datamodel/refresh-setup-sh-eu.py",
     "test": "python3 tests/tests_emx_check.py",
     "zip": "zip -r -j _exclude/umdm.zip dist/umdm.xlsx dist/umdm_lookups_*.csv",
     "zip:mv": "dotenv cross-var mv _exclude/umdm.zip %ZIP_LOCATION%"
