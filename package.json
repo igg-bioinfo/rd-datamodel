@@ -6,15 +6,16 @@
   "author": "dcruvolo",
   "license": "MIT",
   "scripts": {
+    "emx:build-eu": "python3 index.py profiles/eurofever.yaml",
     "emx:build-cosas": "python3 index.py profiles/cosas.yaml",
     "emx:build-users": "python3 index.py profiles/module_users.yaml",
-    "build:lookups": "python3 src/data/data_fairgenomes.py",
+    "build:lookups": "python3 rd_datamodel/data_fairgenomes.py",
     "m:config": "dotenv cross-var mcmd config set host %MOLGENIS_HOST%",
     "m:predeploy": "mcmd delete -p umdm",
     "m:deploy": "sh dist/setup.sh",
     "m:postdeploy": "mcmd make --role ANONYMOUS umdm_VIEWER && mcmd give anonymous view sys_md",
     "m:demo": "mcmd import -p data/demo/umdm_demo.xlsx --as umdm",
-    "m:refresh-setup": "python3 src/data/refresh-setup-sh.py",
+    "m:refresh-setup": "python3 rd_datamodel/refresh-setup-sh.py",
     "test": "python3 tests/tests_emx_check.py",
     "zip": "zip -r -j _exclude/umdm.zip dist/umdm.xlsx dist/umdm_lookups_*.csv",
     "zip:mv": "dotenv cross-var mv _exclude/umdm.zip %ZIP_LOCATION%"

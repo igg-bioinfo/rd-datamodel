@@ -1,0 +1,376 @@
+#//////////////////////////////////////////////////////////////////////////////
+# NAME: cosas.yaml
+# AUTHOR: David Ruvolo
+# CREATED: 2022-06-02
+# MODIFIED: 2022-11-09
+# PURPOSE: UMDM profile for the EUROFEVER database
+# DEPENDENCIES: NA
+# COMMENTS: None
+#//////////////////////////////////////////////////////////////////////////////
+
+name: EUROFEVER
+modelFilePath: [model/eurofever.yaml, model/eurofever_lookups.yaml]
+
+# Set Build options
+# Customize the building of the model for EMX1 and EMX2 environments. Inidicate
+# which environment you would like to run the database in and other options.
+#
+# @param splitLookups If frue, the child package "Lookups" will moved to a new
+#     package. This is only available for EMX2 options
+# @param generateSchema If true, a markdown overview will be generated
+# @param outputDir directory to write emx files
+# @param schemasDir directory to write markdown schemas
+#
+buildOptions: 
+  emx1:
+    active: true
+    generateSchema: true
+    outputDir: dist
+    schemasDir: schemas
+    overrideLabels: true
+    overrideVisibility: true
+
+  emx2:
+    active: false
+    splitLookups: true
+    generateSchema: true
+    outputDir: dist
+    schemasDir: schemas
+    overrideLabels: false
+
+
+
+# override general labels and description for packages
+setEmxLabels:
+  setUmdmLabel: EUROFEVER
+  setUmdmDescription: "The Catalog of Sequencing and Array Samples <version:date>"
+  setLookupsLabel: Reference Tables
+  setLookupsDescription: "Standardized reference lists used in EUROFEVER <version:date>"
+
+
+# override attributes by table
+overrideEmxAttributes:
+
+  # set global overrides
+  _all:
+    
+    # rename refEntity to refSchema
+    renameRefEntityToSchema:
+      currentName: umdm_lookups
+      newName: umdmLookups
+
+    attributesToHide: [
+      belongsToDataRelease,
+      recordMetadata,
+      dateRecordCreated,
+      recordCreatedBy,
+      dateRecordUpdated,
+      wasUpdatedBy
+    ]
+
+  # overrides for table: subjects
+  subjects:
+    overrideTableLabelWith: Patients
+    attributesToHide: [
+      countryOfBirth,
+      countryOfResidence,
+      ancestry,
+      affiliation,
+      primaryOrganization,
+      contactPerson,
+      contactEmail
+    ]
+    
+    attributeLabelsToOverride: {
+      subjectID: MDN_UMCGnr,
+      belongsToFamily: Familienr,
+      belongsToMother: Moeder,
+      belongsToFather: Vader,
+      belongsWithFamilyMembers: Familieleden,  
+      # subjectStatus: '',
+      dateOfBirth: Geboortedatum,
+      yearOfBirth: Geboortejaar,
+      dateOfDeath: Overlijdensdatum,
+      yearOfDeath: Overlijdensjaar,
+      ageAtDeath: leeftijdBijOverlijden,
+      genderIdentity: Geslachtsidentiteit,
+      genderAtBirth: BiologischeGeslacht,
+      # genotypicSex: '', 
+      # countryOfBirth: '', 
+      # countryOfResidence: '', 
+      # ancestry: '',
+      # affiliation: '',
+      # primaryOrganization: '',
+      # contactPerson: '',
+      # contactEmail: '',
+      alternativeIdentifiers: AltIdentifer,
+      firstVisitDate: "Datum eerste bezoek",
+      # belongsWithTwin: '',
+      fetalStatus: foetus,  
+      # consanguinity: '',
+      belongsToStudy: Study, 
+      belongsToCohort: Cohort,
+      # belongsToDataRelease: '',
+    }
+
+  #////////////////////////////////////
+  
+  # overrides for table: studies
+  studies:
+    overrideTableLabelWith: 
+    attributesToHide: []
+    attributeLabelsToOverride: {
+      # studyID: '',
+      # studyAcronym: '',
+      # studyName: '',
+      # inclusionCriteria: '',
+      # principleInvestigator: '',
+      # contactPerson: '',
+      # contactEmail: '',
+      # studyDescription: '',
+      # studyStartDate: '',
+      # studyCompletionDate: '',
+      # currentStudyStatus: '',
+      # numberOfSubjectsEnrolled: '',
+      # samplesCollected: '',
+      # belongsToDataRelease: ''
+    }
+
+  #////////////////////////////////////
+  
+  # overrides for the consent table
+  consent:
+    overrideTableLabelWith:
+    attributesToHide: []
+    attributeLabelsToOverride: {
+      # consentID: '',
+      # belongsToSubject: MDN_UMCGnr,
+      # collectedBy: '',
+      # signingDate: '',
+      # validUntil: '',
+      # consentWithdrawn: '',
+      # dataUsePermission: '',
+      # dataUseModifiers: '',
+      # dataUseSpecification: '',
+      # allowIncidentalFindingRecontact: '',
+      # allowMatchmaker: '',
+      # allowRecontacting: '',
+      
+      # NEW MAPPINGS
+      # consentID: '',
+      belongsToSubject: MDN_UMCGnr,
+      # signedForms: '',
+      # allowUseOfMaterial: '',
+      # allowRecontacting: '',
+      # allowGeneralResearchUse: '',
+      # allowRecontactingForIncidentalFindings: ''
+    }
+    
+  signedconsents:
+    overrideTableLabelWith:
+    attributesToHide: []
+    attributeLabelsToOverride: {
+      # consentID: '',
+      belongsToSubject: MDN_UMCGnr,
+      # consentFormUsed: '',
+      # collectedBy: '',
+      # dateFormedSigned: '',
+      # consentWithdrawn: ''
+      # system: ''
+    }
+
+  #////////////////////////////////////
+  
+  # overrides for table: clinical
+  clinical:
+    overrideTableLabelWith:
+    attributesToHide: [
+      dateOfDiagnosis,
+      ageAtDiagnosis,
+      ageOfOnset,
+      molecularDiagnosis,
+      molecularDiagnosisOther,
+      statusOfDiagnosis,
+      dateDiagnosisConfirmed,
+    ]
+    attributeLabelsToOverride: {
+      # clinicalID: '',
+      belongsToSubject: MDN_UMCGnr,
+      # affectedStatus: '',
+      # dateOfDiagnosis: '',
+      # ageAtDiagnosis: '',
+      # ageOfOnset: '',
+      observedPhenotype: KlinischFenotype,
+      unobservedPhenotype: Fenotype_ZekerNiet,
+      provisionalPhenotype: Fenotype_Onzeker_NietZeker,
+      clinicalDiagnosis: Diagnose,
+      # molecularDiagnosis: ''
+      # molecularDiagnosisOther: '',
+      # statusOfDiagnosis: '',
+      # dateDiagnosisConfirmed: '',
+      belongsToSample: DNAnr,
+    }
+    
+  #////////////////////////////////////
+  
+  # overrides for table: samples
+  samples:
+    overrideTableLabelWith: 
+    attributesToHide: [
+      dateOfRequest,
+      samplingDate,
+      samplingTimestamp,
+      samplingProtocol,
+      samplingProtocolDeviation,
+      reasonForSamplingProtocolDeviation,
+      anatomicalSource,
+      pathologicalState,
+      biospecimenUsability
+    ]
+    attributeLabelsToOverride: {
+      sampleID: DNAnr,
+      belongsToSubject: MDN_UMCGnr,
+      belongsToRequest: Adviesvraag,
+      # dateOfRequest: '',
+      reasonForSampling: Indicatie,
+      # samplingDate: '',
+      # samplingTimestamp: '',
+      # samplingProtocol: '',
+      # samplingProtocolDeviation: '',
+      # reasonForSamplingProtocolDeviation: '',
+      biospecimenType: BiologischeMatriaal,
+      # anatomicalSource: '',
+      # pathologicalState: '',
+      # biospecimenUsability: '',
+      alternativeIdentifiers: AltIdentifer
+    }
+    
+  #////////////////////////////////////
+  
+  # overrides for table: samplePreparation
+  samplePreparation:
+    overrideTableLabelWith:
+    attributesToHide: []
+    attributeLabelsToOverride: {
+      sampleID: samplePreparationID,
+      belongsToSample: DNAnr,
+      belongsToLabProcedure: Test_Code,
+      belongsToRequest: Adviesvraag,
+      # inputAmount: '',
+      # libraryPreparationKit: '',
+      # pcrFree: '',
+      # targetEnrichmentKit: '',
+      # umisPresent: '',
+      # intendedInsertSize: '',
+      # intendedReadLength: '',
+      # barcode: '',
+      belongsToBatch: BatchNr,
+    }
+  
+  #////////////////////////////////////
+  
+  # overrides for table: sequencing
+  sequencing:
+    overrideTableLabelWith:
+    attributesToHide: []
+    attributeLabelsToOverride: {
+      # sequencingID: '',
+      belongsToLabProcedure: Test_Code,
+      belongsToSamplePreparation: samplePreparationID,
+      reasonForSequencing: Indicatie,
+      sequencingDate: Testdatum,
+      # sequencingFacilityOrganization: '',
+      # sequencingPlatform: '',
+      # sequencingInstrumentModel: '',
+      # sequencingMethod: '',
+      # averageReadDepth: '',
+      # observedReadLength: '',
+      # observedInsertSize: '',
+      # percentageQ30: '',
+      # percentageTR20: '',
+      # otherQualityMetrics: '',
+      # refGenome: '',
+    }
+  
+  #////////////////////////////////////
+  
+  # overrides for table: files
+  files:
+    overrideTableLabelWith:
+    attributesToHide: []
+    attributeLabelsToOverride: {
+      # filename: '',
+      producedBySequencing: sequencingID,
+      belongsToSubject: MDN_UMCGnr,
+      belongsToStudy: Study,
+      belongsToSample: DNAnr,
+      belongsToCohort: Cohort,
+      # server: '',
+      # filePath: ''
+      # fileFormat: '',
+      # fileSize: '',
+      # md5Checksum: '',
+      # fileStatus: '',
+      # dateFileCreated: '',
+      # alternativeFileIdentifiers: '',
+    }
+
+
+# bind emx2 extras
+additionalRecordsForEmx2: [
+  {
+    'tableName': 'subjects',
+    'columnName': 'linkedClinicalRecords',
+    'columnType': 'refBack',
+    'refTable': 'clinical',
+    'refBack': 'belongsToSubject',
+    'semantics': 'http://purl.obolibrary.org/obo/NCIT_C87853',
+    'description': 'A unique proper name or character sequence that identifies this particular clinical examination.'
+  },
+  {
+    'tableName': 'subjects',
+    'columnName': 'linkedSamples',
+    'columnType': 'refBack',
+    'refTable': 'samples',
+    'refBack': 'belongsToSubject',
+    'semantics': 'http://edamontology.org/data_3273',
+    'description': 'Name or other identifier of an entry from a biosample database.'
+  },
+  {
+    'tableName': 'subjects',
+    'columnName': 'linkedFiles',
+    'columnType': 'refBack',
+    'refTable': 'files',
+    'refBack': 'belongsToSubject',
+    'semantics': 'http://purl.obolibrary.org/obo/NCIT_C171191',
+    'description': 'The literal identifier for an electronic file.'
+  },
+  {
+    'tableName': 'samples',
+    'columnName': 'linkedSamplePreparations',
+    'columnType': 'refBack',
+    'refTable': 'samplePreparation',
+    'refBack': 'belongsToSample',
+    'semantics': 'http://edamontology.org/data_3273',
+    'description': 'Name or other identifier of an entry from a biosample database.'
+  },
+  {
+    'tableName': 'samplePreparation',
+    'columnName': 'linkedSequences',
+    'columnType': 'refBack',
+    'refTable': 'sequencing',
+    'refBack': 'belongsToSamplePreparation',
+    'semantics': 'http://purl.obolibrary.org/obo/NCIT_C132299',
+    'description': 'A unique proper name or character sequence that identifies this particular sample preparation.'
+  },
+  {
+    'tableName': 'sequencing',
+    'columnName': 'linkedFiles',
+    'columnType': 'refBack',
+    'refTable': 'files',
+    'refBack': 'producedBySequencing',
+    'semantics': 'http://purl.obolibrary.org/obo/NCIT_C171191',
+    'description': 'The literal identifier for an electronic file.'
+  }
+
+]
