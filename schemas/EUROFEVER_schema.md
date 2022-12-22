@@ -4,90 +4,90 @@
 
 | Name | Description | Parent |
 |:---- |:-----------|:------|
-| umdm | The Catalog of Sequencing and Array Samples (v1.2.0, 2022-06-07) | - |
-| umdm_lookups | Lookup tables for the Unified Molgenis Data Model (UMDM) (v1.2.0, 2022-06-07) | umdm |
+| efm | The Catalog of Sequencing and Array Samples (v1.2.0, 2022-06-07) | - |
+| efm_lookups | Lookup tables for Eurofever Molgenis Data Model (EFM) (v1.2.0, 2022-06-07) | efm |
 
 ## Entities
 
 | Name | Description | Package |
 |:---- |:-----------|:-------|
-| subjects | Persons who are observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study | umdm |
-| studies | A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts. | umdm |
-| consent | A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be used. | umdm |
-| signedconsents | Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved. | umdm |
-| clinical | Findings and circumstances relating to the examination and treatment of a patient. | umdm |
-| samples | A sample is a limited quantity of something (e.g. an individual or set of individuals from a population, or a portion of a material) to be used for testing, analysis, inspection, investigation, demonstration, or trial use. | umdm |
-| samplePreparation | A sample preparation for a nucleic acids sequencing assay. | umdm |
-| sequencing | The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes. | umdm |
-| files | A set of related records (either written or electronic) kept together. | umdm |
-| cohorts | A group of individuals, identified by a common characteristic. | umdm |
-| labProcedures | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | umdm |
-| organizations | Organization information standardized to the Research Organization Registry (ROR) | umdm |
-| releases | The act of making data or other structured information accessible to the public or to the user group of a database. | umdm |
-| samplingProtocols | Describes the procedure whereby biological samples for an experiment are sourced. | umdm |
-| patients | Eurofever patients data | umdm |
-| patient_additional_information | Eurofever patient additional information data | umdm |
-| patient_proband | Eurofever patient proband data | umdm |
-| diagnosis_autoinflammatory_and_family_history | Eurofever diagnosis autoinflammatory and family history data | umdm |
-| concomitant_diseases | Eurofever concomitant diseases data | umdm |
-| lab_exam | Eurofever lab exam data | umdm |
-| molecular_analysis | Eurofever molecular analysis data | umdm |
-| signs_and_symptoms | Eurofever signs and symptoms data | umdm |
-| drug_therapy | Eurofever drug therapy data | umdm |
-| drug_therapy_height_and_weight | Eurofever drug therapy height and weight data | umdm |
-| attributeTemplateDefault | attribute template where value is the primary key | umdm_lookups |
-| attributeTemplateCode | attribute template where code is the primary key | umdm_lookups |
-| anatomicalSource | Anatomical Source (FAIR Genomes, v1.1) | umdm_lookups |
-| ancestry | Ancestry (FAIR Genomes, v1.1) | umdm_lookups |
-| biospecimenType | Biospecimen Type (FAIR Genomes, v1.1) | umdm_lookups |
-| country | Country (FAIR Genomes, v1.1) | umdm_lookups |
-| dataUseModifiers | A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be used. | umdm_lookups |
-| dataUsePermissions | Data Use Permissions (FAIR Genomes, v1.1) | umdm_lookups |
-| diagnosisConfirmationStatuses | The satisfactory closure of a data item query. | umdm_lookups |
-| diseases | Diseases (FAIR Genomes, v1.1) | umdm_lookups |
-| fileStatus | The condition for an electronic file relative to the current data or file processing step. | umdm_lookups |
-| genomeAccessions | Genome Accessions (FAIR Genomes, v1.1) | umdm_lookups |
-| genderIdentity | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | umdm_lookups |
-| genderAtBirth | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | umdm_lookups |
-| genotypicSex | Genotypic Sex (FAIR Genomes, v1.1) | umdm_lookups |
-| inclusionCriteria | Inclusion Criteria (FAIR Genomes, v1.1) | umdm_lookups |
-| molecularDiagnosis | Molecular Diagnosis (FAIR Genomes, v1.1) | umdm_lookups |
-| ngsKits | NGS Kits (FAIR Genomes, v1.1) | umdm_lookups |
-| pathologicalState | pathological state (FAIR Genomes, v1.1) | umdm_lookups |
-| phenotype | Human Phenotype Ontology (HPO, v2021-08-02) | umdm_lookups |
-| samplingReason | The explanation for why a test, measurement, or assessment is executed. | umdm_lookups |
-| sequencingInstrumentModels | Sequencing instrument models (FAIR Genomes, v1.1) | umdm_lookups |
-| sequencingMethods | Sequencing methods (FAIR Genomes, v1.1) | umdm_lookups |
-| sequencingPlatform | Sequencing platforms (FAIR Genomes, v1.1) | umdm_lookups |
-| studyStatus | The status of a study or trial. | umdm_lookups |
-| subjectStatus | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | umdm_lookups |
-| attributeTemplateEurofever | attribute template where value is the primary key and label is description | umdm_lookups |
-| MaleFemale | Eurofever lookup | umdm_lookups |
-| AfricanArcticCaucasianCaucasianCaucasianCauca | Eurofever lookup | umdm_lookups |
-| YesNoUnknown | Eurofever lookup | umdm_lookups |
-| Degrees | Eurofever lookup | umdm_lookups |
-| YesAsymptomaticCarrierNoUnknown | Eurofever lookup | umdm_lookups |
-| YesNo | Eurofever lookup | umdm_lookups |
-| AutosomicDominantRecessiveXLinkedUnknown | Eurofever lookup | umdm_lookups |
-| NotdoneDoneWaitingforresponse | Eurofever lookup | umdm_lookups |
-| CompleteGeneScreeningMostRelevantExonsMostRel | Eurofever lookup | umdm_lookups |
-| TestNotInformativeTestInformativeTestNegative | Eurofever lookup | umdm_lookups |
-| PresentNoPresentNotKnown | Eurofever lookup | umdm_lookups |
-| NeverSometimesOrOftenAlwaysNotKnown | Eurofever lookup | umdm_lookups |
-| NeverSometimesAlwaysNotknown | Eurofever lookup | umdm_lookups |
-| NeverSometimesAlwaysNotKnown | Eurofever lookup | umdm_lookups |
-| 01Day2Days3Days4Days5Days6Days7Days8Days9Days | Eurofever lookup | umdm_lookups |
-| YesNoUnknow | Eurofever lookup | umdm_lookups |
-| 1Day2Days3Days4Days5Days6Days7Days8Days9Days1 | Eurofever lookup | umdm_lookups |
-| MonolateralBilateralNotKnown | Eurofever lookup | umdm_lookups |
-| RegularPeriodicIrregularNonPeriodicNotKnown | Eurofever lookup | umdm_lookups |
-| YesNoNotApplicableNotKnown | Eurofever lookup | umdm_lookups |
-| ContinuousRecurrentContinuousAndRecurrentComp | Eurofever lookup | umdm_lookups |
-| NoMildSevereNotKnown | Eurofever lookup | umdm_lookups |
+| subjects | Persons who are observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study | efm |
+| studies | A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts. | efm |
+| consent | A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be used. | efm |
+| signedconsents | Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved. | efm |
+| clinical | Findings and circumstances relating to the examination and treatment of a patient. | efm |
+| samples | A sample is a limited quantity of something (e.g. an individual or set of individuals from a population, or a portion of a material) to be used for testing, analysis, inspection, investigation, demonstration, or trial use. | efm |
+| samplePreparation | A sample preparation for a nucleic acids sequencing assay. | efm |
+| sequencing | The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes. | efm |
+| files | A set of related records (either written or electronic) kept together. | efm |
+| cohorts | A group of individuals, identified by a common characteristic. | efm |
+| labProcedures | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | efm |
+| organizations | Organization information standardized to the Research Organization Registry (ROR) | efm |
+| releases | The act of making data or other structured information accessible to the public or to the user group of a database. | efm |
+| samplingProtocols | Describes the procedure whereby biological samples for an experiment are sourced. | efm |
+| patients | Eurofever patients data | efm |
+| patient_additional_information | Eurofever patient additional information data | efm |
+| patient_proband | Eurofever patient proband data | efm |
+| diagnosis_autoinflammatory_and_family_history | Eurofever diagnosis autoinflammatory and family history data | efm |
+| concomitant_diseases | Eurofever concomitant diseases data | efm |
+| lab_exam | Eurofever lab exam data | efm |
+| molecular_analysis | Eurofever molecular analysis data | efm |
+| signs_and_symptoms | Eurofever signs and symptoms data | efm |
+| drug_therapy | Eurofever drug therapy data | efm |
+| drug_therapy_height_and_weight | Eurofever drug therapy height and weight data | efm |
+| attributeTemplateDefault | attribute template where value is the primary key | efm_lookups |
+| attributeTemplateCode | attribute template where code is the primary key | efm_lookups |
+| anatomicalSource | Anatomical Source (FAIR Genomes, v1.1) | efm_lookups |
+| ancestry | Ancestry (FAIR Genomes, v1.1) | efm_lookups |
+| biospecimenType | Biospecimen Type (FAIR Genomes, v1.1) | efm_lookups |
+| country | Country (FAIR Genomes, v1.1) | efm_lookups |
+| dataUseModifiers | A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be used. | efm_lookups |
+| dataUsePermissions | Data Use Permissions (FAIR Genomes, v1.1) | efm_lookups |
+| diagnosisConfirmationStatuses | The satisfactory closure of a data item query. | efm_lookups |
+| diseases | Diseases (FAIR Genomes, v1.1) | efm_lookups |
+| fileStatus | The condition for an electronic file relative to the current data or file processing step. | efm_lookups |
+| genomeAccessions | Genome Accessions (FAIR Genomes, v1.1) | efm_lookups |
+| genderIdentity | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | efm_lookups |
+| genderAtBirth | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | efm_lookups |
+| genotypicSex | Genotypic Sex (FAIR Genomes, v1.1) | efm_lookups |
+| inclusionCriteria | Inclusion Criteria (FAIR Genomes, v1.1) | efm_lookups |
+| molecularDiagnosis | Molecular Diagnosis (FAIR Genomes, v1.1) | efm_lookups |
+| ngsKits | NGS Kits (FAIR Genomes, v1.1) | efm_lookups |
+| pathologicalState | pathological state (FAIR Genomes, v1.1) | efm_lookups |
+| phenotype | Human Phenotype Ontology (HPO, v2021-08-02) | efm_lookups |
+| samplingReason | The explanation for why a test, measurement, or assessment is executed. | efm_lookups |
+| sequencingInstrumentModels | Sequencing instrument models (FAIR Genomes, v1.1) | efm_lookups |
+| sequencingMethods | Sequencing methods (FAIR Genomes, v1.1) | efm_lookups |
+| sequencingPlatform | Sequencing platforms (FAIR Genomes, v1.1) | efm_lookups |
+| studyStatus | The status of a study or trial. | efm_lookups |
+| subjectStatus | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | efm_lookups |
+| attributeTemplateEurofever | attribute template where value is the primary key and label is description | efm_lookups |
+| MaleFemale | Eurofever lookup | efm_lookups |
+| AfricanArcticCaucasianCaucasianCaucasianCauca | Eurofever lookup | efm_lookups |
+| YesNoUnknown | Eurofever lookup | efm_lookups |
+| Degrees | Eurofever lookup | efm_lookups |
+| YesAsymptomaticCarrierNoUnknown | Eurofever lookup | efm_lookups |
+| YesNo | Eurofever lookup | efm_lookups |
+| AutosomicDominantRecessiveXLinkedUnknown | Eurofever lookup | efm_lookups |
+| NotdoneDoneWaitingforresponse | Eurofever lookup | efm_lookups |
+| CompleteGeneScreeningMostRelevantExonsMostRel | Eurofever lookup | efm_lookups |
+| TestNotInformativeTestInformativeTestNegative | Eurofever lookup | efm_lookups |
+| PresentNoPresentNotKnown | Eurofever lookup | efm_lookups |
+| NeverSometimesOrOftenAlwaysNotKnown | Eurofever lookup | efm_lookups |
+| NeverSometimesAlwaysNotknown | Eurofever lookup | efm_lookups |
+| NeverSometimesAlwaysNotKnown | Eurofever lookup | efm_lookups |
+| 01Day2Days3Days4Days5Days6Days7Days8Days9Days | Eurofever lookup | efm_lookups |
+| YesNoUnknow | Eurofever lookup | efm_lookups |
+| 1Day2Days3Days4Days5Days6Days7Days8Days9Days1 | Eurofever lookup | efm_lookups |
+| MonolateralBilateralNotKnown | Eurofever lookup | efm_lookups |
+| RegularPeriodicIrregularNonPeriodicNotKnown | Eurofever lookup | efm_lookups |
+| YesNoNotApplicableNotKnown | Eurofever lookup | efm_lookups |
+| ContinuousRecurrentContinuousAndRecurrentComp | Eurofever lookup | efm_lookups |
+| NoMildSevereNotKnown | Eurofever lookup | efm_lookups |
 
 ## Attributes
 
-### Entity: umdm_subjects
+### Entity: efm_subjects
 
 Persons who are observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study
 
@@ -792,7 +792,7 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | dateRecordUpdated | - | The date (and time) on which report was updated after it had been submitted. | datetime |
 | wasUpdatedBy | - | An entity which is updated by another entity or an agent. | string |
 
-### Entity: umdm_studies
+### Entity: efm_studies
 
 A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts.
 
@@ -1047,7 +1047,7 @@ A detailed examination, analysis, or critical inspection of one or multiple subj
 | dateRecordUpdated | - | The date (and time) on which report was updated after it had been submitted. | datetime |
 | wasUpdatedBy | - | An entity which is updated by another entity or an agent. | string |
 
-### Entity: umdm_consent
+### Entity: efm_consent
 
 A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be used.
 
@@ -1094,7 +1094,7 @@ A data item that is used to indicate consent permissions for datasets and/or mat
 | allowGeneralResearchUse | - | This data use limitation indicates that use is allowed for general research use for any research purpose. | bool |
 | allowRecontactingForIncidentalFindings | - | Willingness to be recontacted when new knowledge regarding incidental findings becomes available to benefit the patient. | bool |
 
-### Entity: umdm_signedconsents
+### Entity: efm_signedconsents
 
 Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved.
 
@@ -1151,7 +1151,7 @@ Consent given by a patient to a surgical or medical procedure or participation i
 | consentWithdrawn | - | An indication that the consent to participate in the study or one or more segments of the study has been revoked. | bool |
 | system | - | - | string |
 
-### Entity: umdm_clinical
+### Entity: efm_clinical
 
 Findings and circumstances relating to the examination and treatment of a patient.
 
@@ -1453,7 +1453,7 @@ Findings and circumstances relating to the examination and treatment of a patien
 | dateRecordUpdated | - | The date (and time) on which report was updated after it had been submitted. | datetime |
 | wasUpdatedBy | - | An entity which is updated by another entity or an agent. | string |
 
-### Entity: umdm_samples
+### Entity: efm_samples
 
 A sample is a limited quantity of something (e.g. an individual or set of individuals from a population, or a portion of a material) to be used for testing, analysis, inspection, investigation, demonstration, or trial use.
 
@@ -1755,7 +1755,7 @@ A sample is a limited quantity of something (e.g. an individual or set of indivi
 | dateRecordUpdated | - | The date (and time) on which report was updated after it had been submitted. | datetime |
 | wasUpdatedBy | - | An entity which is updated by another entity or an agent. | string |
 
-### Entity: umdm_samplePreparation
+### Entity: efm_samplePreparation
 
 A sample preparation for a nucleic acids sequencing assay.
 
@@ -2010,7 +2010,7 @@ A sample preparation for a nucleic acids sequencing assay.
 | dateRecordUpdated | - | The date (and time) on which report was updated after it had been submitted. | datetime |
 | wasUpdatedBy | - | An entity which is updated by another entity or an agent. | string |
 
-### Entity: umdm_sequencing
+### Entity: efm_sequencing
 
 The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.
 
@@ -2337,7 +2337,7 @@ The determination of complete (typically nucleotide) sequences, including those 
 | dateRecordUpdated | - | The date (and time) on which report was updated after it had been submitted. | datetime |
 | wasUpdatedBy | - | An entity which is updated by another entity or an agent. | string |
 
-### Entity: umdm_files
+### Entity: efm_files
 
 A set of related records (either written or electronic) kept together.
 
@@ -2639,7 +2639,7 @@ A set of related records (either written or electronic) kept together.
 | dateRecordUpdated | - | The date (and time) on which report was updated after it had been submitted. | datetime |
 | wasUpdatedBy | - | An entity which is updated by another entity or an agent. | string |
 
-### Entity: umdm_cohorts
+### Entity: efm_cohorts
 
 A group of individuals, identified by a common characteristic.
 
@@ -2777,7 +2777,7 @@ A group of individuals, identified by a common characteristic.
 | dateRecordUpdated | - | The date (and time) on which report was updated after it had been submitted. | datetime |
 | wasUpdatedBy | - | An entity which is updated by another entity or an agent. | string |
 
-### Entity: umdm_labProcedures
+### Entity: efm_labProcedures
 
 Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting.
 
@@ -2815,7 +2815,7 @@ Any procedure that involves testing or manipulating a sample of blood, urine, or
 | subcategory | - | A sub-division of the laboratory test classification. | string |
 | geneList | - | A data set of the names or identifiers of genes that are the outcome of an analysis or have been put together for the purpose of an analysis. | text |
 
-### Entity: umdm_organizations
+### Entity: efm_organizations
 
 Organization information standardized to the Research Organization Registry (ROR)
 
@@ -2845,7 +2845,7 @@ Organization information standardized to the Research Organization Registry (ROR
 | code | - | A symbol or combination of symbols which is assigned to the members of a collection. | string |
 | iri | - | A unique symbol that establishes identity of the resource. | hyperlink |
 
-### Entity: umdm_releases
+### Entity: efm_releases
 
 The act of making data or other structured information accessible to the public or to the user group of a database.
 
@@ -2902,7 +2902,7 @@ The act of making data or other structured information accessible to the public 
 | dataSource | - | The person or authoritative body who provided the information. | string |
 | releaseComments | - | A notation regarding the decisions, and/or clarification of any information pertaining to data management. | text |
 
-### Entity: umdm_samplingProtocols
+### Entity: efm_samplingProtocols
 
 Describes the procedure whereby biological samples for an experiment are sourced.
 
@@ -2932,7 +2932,7 @@ Describes the procedure whereby biological samples for an experiment are sourced
 | version | - | A form or variant of a type or original; one of a sequence of copies of a program, each incorporating new modifications. | string |
 | iri | - | A unique symbol that establishes identity of the resource. | hyperlink |
 
-### Entity: umdm_patients
+### Entity: efm_patients
 
 Eurofever patients data
 
@@ -3039,7 +3039,7 @@ Eurofever patients data
 | protocol_date_end | - | Protocol discontinuation date | datetime |
 | protocol_end_reason | - | Protocol discontinuation reason | string |
 
-### Entity: umdm_patient_additional_information
+### Entity: efm_patient_additional_information
 
 Eurofever patient additional information data
 
@@ -3062,7 +3062,7 @@ Eurofever patient additional information data
 | Ethnicity | - | Ethnicity of the child | xref |
 | EthniSp | - | Specify ethnicity in case of mixed ethnicity and other ethnicity | string |
 
-### Entity: umdm_patient_proband
+### Entity: efm_patient_proband
 
 Eurofever patient proband data
 
@@ -3184,7 +3184,7 @@ Eurofever patient proband data
 | protocol_date_end | - | Protocol discontinuation date | datetime |
 | protocol_end_reason | - | Protocol discontinuation reason | string |
 
-### Entity: umdm_diagnosis_autoinflammatory_and_family_history
+### Entity: efm_diagnosis_autoinflammatory_and_family_history
 
 Eurofever diagnosis autoinflammatory and family history data
 
@@ -3264,7 +3264,7 @@ Eurofever diagnosis autoinflammatory and family history data
 | RelaFollow | - | Is at least one of the relatives affected followed by your center? | xref |
 | PatInher | - | Pattern of inheritance | xref |
 
-### Entity: umdm_concomitant_diseases
+### Entity: efm_concomitant_diseases
 
 Eurofever concomitant diseases data
 
@@ -3281,7 +3281,7 @@ Eurofever concomitant diseases data
 | export_id_pt | - | Patient Registry code | xref |
 | concomitant_disease | - | Concomitant diseases | string |
 
-### Entity: umdm_lab_exam
+### Entity: efm_lab_exam
 
 Eurofever lab exam data
 
@@ -3559,7 +3559,7 @@ Eurofever lab exam data
 | specify | - | nan | string |
 | type | - | Type of lymphocyte | string |
 
-### Entity: umdm_molecular_analysis
+### Entity: efm_molecular_analysis
 
 Eurofever molecular analysis data
 
@@ -3627,7 +3627,7 @@ Eurofever molecular analysis data
 | mutation_name | - | Mutation name | string |
 | mutation_specify | - | Mutation not listed specify | string |
 
-### Entity: umdm_signs_and_symptoms
+### Entity: efm_signs_and_symptoms
 
 Eurofever signs and symptoms data
 
@@ -49989,7 +49989,7 @@ Eurofever signs and symptoms data
 | SIGNS_MUSCULOSKELETAL_MuscAtrop | - | Muscular atrophy | xref |
 | SIGNS_MUSCULOSKELETAL_MuscAtropDa | - | Muscular atrophy date | datetime |
 
-### Entity: umdm_drug_therapy
+### Entity: efm_drug_therapy
 
 Eurofever drug therapy data
 
@@ -50342,7 +50342,7 @@ Eurofever drug therapy data
 | measure_unit_freq | - | Id drug unit of measure and frequancy | int |
 | type_route | - | Type route value | string |
 
-### Entity: umdm_drug_therapy_height_and_weight
+### Entity: efm_drug_therapy_height_and_weight
 
 Eurofever drug therapy height and weight data
 
@@ -50939,7 +50939,7 @@ Eurofever drug therapy height and weight data
 | NoteDrugs | - | Additional drug notes * | string |
 | NoDrugs | - | No drug has been taken for this visit | int |
 
-### Entity: umdm_lookups_attributeTemplateDefault
+### Entity: efm_lookups_attributeTemplateDefault
 
 attribute template where value is the primary key
 
@@ -50969,7 +50969,7 @@ attribute template where value is the primary key
 | code | - | A symbol or combination of symbols which is assigned to the members of a collection. | string |
 | iri | - | A unique symbol that establishes identity of the resource. | hyperlink |
 
-### Entity: umdm_lookups_attributeTemplateCode
+### Entity: efm_lookups_attributeTemplateCode
 
 attribute template where code is the primary key
 
@@ -50999,7 +50999,7 @@ attribute template where code is the primary key
 | code&#8251; | - | A symbol or combination of symbols which is assigned to the members of a collection. | string |
 | iri | - | A unique symbol that establishes identity of the resource. | hyperlink |
 
-### Entity: umdm_lookups_attributeTemplateEurofever
+### Entity: efm_lookups_attributeTemplateEurofever
 
 attribute template where value is the primary key and label is description
 

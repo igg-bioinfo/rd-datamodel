@@ -53,11 +53,6 @@ overrideEmxAttributes:
 
   # set global overrides
   _all:
-    
-    # rename refEntity to refSchema
-    renameRefEntityToSchema:
-      currentName: umdm_lookups
-      newName: umdmLookups
 
     attributesToHide: [
       belongsToDataRelease,
