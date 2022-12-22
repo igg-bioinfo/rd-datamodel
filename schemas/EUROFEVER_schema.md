@@ -93,269 +93,247 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
-| genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
-| countryOfBirth | - | The country that this person was born in. | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
-| subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
-| countryOfResidence | - | Country of residence at enrollment. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
-| ancestry | - | Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
 | ancestry | - | Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data. | xref |
-| affiliation | - | A formal association between entities. | compound |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
 | ancestry | - | Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data. | xref |
 | affiliation | - | A formal association between entities. | compound |
-| primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
 | ancestry | - | Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data. | xref |
 | affiliation | - | A formal association between entities. | compound |
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
-| contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -363,22 +341,21 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | affiliation | - | A formal association between entities. | compound |
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
-| contactEmail | - | Email address of the contact person or organization | email |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -387,22 +364,21 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -411,23 +387,22 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
-| firstVisitDate | Datum eerste bezoek | The date for the first patient visit. | date |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -436,24 +411,49 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
-| firstVisitDate | Datum eerste bezoek | The date for the first patient visit. | date |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| firstVisitDate | - | The date for the first patient visit. | date |
+| Name | Label | Description | Data Type |
+|:---- |:-----|:-----------|:---------|
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
+| subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
+| countryOfBirth | - | The country that this person was born in. | xref |
+| countryOfResidence | - | Country of residence at enrollment. | xref |
+| ancestry | - | Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data. | xref |
+| affiliation | - | A formal association between entities. | compound |
+| primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
+| contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
+| contactEmail | - | Email address of the contact person or organization | email |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| firstVisitDate | - | The date for the first patient visit. | date |
 | belongsWithTwin | - | Either of two offspring born from the same pregnancy. | bool |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -462,25 +462,25 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
-| firstVisitDate | Datum eerste bezoek | The date for the first patient visit. | date |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| firstVisitDate | - | The date for the first patient visit. | date |
 | belongsWithTwin | - | Either of two offspring born from the same pregnancy. | bool |
-| fetalStatus | foetus | Any tissue from a fetus. | bool |
+| fetalStatus | - | Any tissue from a fetus. | bool |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -489,26 +489,26 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
-| firstVisitDate | Datum eerste bezoek | The date for the first patient visit. | date |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| firstVisitDate | - | The date for the first patient visit. | date |
 | belongsWithTwin | - | Either of two offspring born from the same pregnancy. | bool |
-| fetalStatus | foetus | Any tissue from a fetus. | bool |
+| fetalStatus | - | Any tissue from a fetus. | bool |
 | consanguinity | - | Genetic relatedness between individuals who are descendants of at least one common ancestor. | bool |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -517,27 +517,27 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
-| firstVisitDate | Datum eerste bezoek | The date for the first patient visit. | date |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| firstVisitDate | - | The date for the first patient visit. | date |
 | belongsWithTwin | - | Either of two offspring born from the same pregnancy. | bool |
-| fetalStatus | foetus | Any tissue from a fetus. | bool |
+| fetalStatus | - | Any tissue from a fetus. | bool |
 | consanguinity | - | Genetic relatedness between individuals who are descendants of at least one common ancestor. | bool |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -546,28 +546,28 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
-| firstVisitDate | Datum eerste bezoek | The date for the first patient visit. | date |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| firstVisitDate | - | The date for the first patient visit. | date |
 | belongsWithTwin | - | Either of two offspring born from the same pregnancy. | bool |
-| fetalStatus | foetus | Any tissue from a fetus. | bool |
+| fetalStatus | - | Any tissue from a fetus. | bool |
 | consanguinity | - | Genetic relatedness between individuals who are descendants of at least one common ancestor. | bool |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -576,29 +576,29 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
-| firstVisitDate | Datum eerste bezoek | The date for the first patient visit. | date |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| firstVisitDate | - | The date for the first patient visit. | date |
 | belongsWithTwin | - | Either of two offspring born from the same pregnancy. | bool |
-| fetalStatus | foetus | Any tissue from a fetus. | bool |
+| fetalStatus | - | Any tissue from a fetus. | bool |
 | consanguinity | - | Genetic relatedness between individuals who are descendants of at least one common ancestor. | bool |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -607,30 +607,30 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
-| firstVisitDate | Datum eerste bezoek | The date for the first patient visit. | date |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| firstVisitDate | - | The date for the first patient visit. | date |
 | belongsWithTwin | - | Either of two offspring born from the same pregnancy. | bool |
-| fetalStatus | foetus | Any tissue from a fetus. | bool |
+| fetalStatus | - | Any tissue from a fetus. | bool |
 | consanguinity | - | Genetic relatedness between individuals who are descendants of at least one common ancestor. | bool |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -639,31 +639,31 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
-| firstVisitDate | Datum eerste bezoek | The date for the first patient visit. | date |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| firstVisitDate | - | The date for the first patient visit. | date |
 | belongsWithTwin | - | Either of two offspring born from the same pregnancy. | bool |
-| fetalStatus | foetus | Any tissue from a fetus. | bool |
+| fetalStatus | - | Any tissue from a fetus. | bool |
 | consanguinity | - | Genetic relatedness between individuals who are descendants of at least one common ancestor. | bool |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -672,32 +672,32 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
-| firstVisitDate | Datum eerste bezoek | The date for the first patient visit. | date |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| firstVisitDate | - | The date for the first patient visit. | date |
 | belongsWithTwin | - | Either of two offspring born from the same pregnancy. | bool |
-| fetalStatus | foetus | Any tissue from a fetus. | bool |
+| fetalStatus | - | Any tissue from a fetus. | bool |
 | consanguinity | - | Genetic relatedness between individuals who are descendants of at least one common ancestor. | bool |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
 | dateRecordCreated | - | The date on which the activity or entity is created. | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -706,13 +706,13 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
-| firstVisitDate | Datum eerste bezoek | The date for the first patient visit. | date |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| firstVisitDate | - | The date for the first patient visit. | date |
 | belongsWithTwin | - | Either of two offspring born from the same pregnancy. | bool |
-| fetalStatus | foetus | Any tissue from a fetus. | bool |
+| fetalStatus | - | Any tissue from a fetus. | bool |
 | consanguinity | - | Genetic relatedness between individuals who are descendants of at least one common ancestor. | bool |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -720,19 +720,19 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | recordCreatedBy | - | Indicates the person or authoritative body who brought the item into existence. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -741,13 +741,13 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
-| firstVisitDate | Datum eerste bezoek | The date for the first patient visit. | date |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| firstVisitDate | - | The date for the first patient visit. | date |
 | belongsWithTwin | - | Either of two offspring born from the same pregnancy. | bool |
-| fetalStatus | foetus | Any tissue from a fetus. | bool |
+| fetalStatus | - | Any tissue from a fetus. | bool |
 | consanguinity | - | Genetic relatedness between individuals who are descendants of at least one common ancestor. | bool |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -756,19 +756,19 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | dateRecordUpdated | - | The date (and time) on which report was updated after it had been submitted. | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| subjectID&#8251; | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
-| belongsToFamily | Familienr | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
-| belongsToMother | Moeder | A designation that has some relationship to motherhood. | xref |
-| belongsToFather | Vader | Having to do with the father, coming from the father, or related through the father. | xref |
-| belongsWithFamilyMembers | Familieleden | Any individual related biologically or legally to another individual. | text |
+| subjectID&#8251; | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | string |
+| belongsToFamily | - | A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption. | string |
+| belongsToMother | - | A designation that has some relationship to motherhood. | xref |
+| belongsToFather | - | Having to do with the father, coming from the father, or related through the father. | xref |
+| belongsWithFamilyMembers | - | Any individual related biologically or legally to another individual. | text |
 | subjectStatus | - | A findings domain that contains general subject characteristics that are evaluated periodically to determine if they have changed. | xref |
-| dateOfBirth | Geboortedatum | The calendar date on which a person was born. | date |
-| yearOfBirth | Geboortejaar | The year in which a person was born. | int |
-| dateOfDeath | Overlijdensdatum | The calendar date of subject's death. | date |
-| yearOfDeath | Overlijdensjaar | The year in which an individual derived. | int |
-| ageAtDeath | leeftijdBijOverlijden | The age at which death occurred. | decimal |
-| genderIdentity | Geslachtsidentiteit | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
-| genderAtBirth | BiologischeGeslacht | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
+| dateOfBirth | - | The calendar date on which a person was born. | date |
+| yearOfBirth | - | The year in which a person was born. | int |
+| dateOfDeath | - | The calendar date of subject's death. | date |
+| yearOfDeath | - | The year in which an individual derived. | int |
+| ageAtDeath | - | The age at which death occurred. | decimal |
+| genderIdentity | - | A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. A person's sense of self as a member of a particular gender. | xref |
+| genderAtBirth | - | Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth. | xref |
 | genotypicSex | - | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | xref |
 | countryOfBirth | - | The country that this person was born in. | xref |
 | countryOfResidence | - | Country of residence at enrollment. | xref |
@@ -777,13 +777,13 @@ Persons who are observed, analyzed, examined, investigated, experimented upon, o
 | primaryOrganization | - | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | xref |
 | contactPerson | - | A person acting as a channel for communication between groups or on behalf of a group. | string |
 | contactEmail | - | Email address of the contact person or organization | email |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
-| firstVisitDate | Datum eerste bezoek | The date for the first patient visit. | date |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| firstVisitDate | - | The date for the first patient visit. | date |
 | belongsWithTwin | - | Either of two offspring born from the same pregnancy. | bool |
-| fetalStatus | foetus | Any tissue from a fetus. | bool |
+| fetalStatus | - | Any tissue from a fetus. | bool |
 | consanguinity | - | Genetic relatedness between individuals who are descendants of at least one common ancestor. | bool |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -1057,29 +1057,29 @@ A data item that is used to indicate consent permissions for datasets and/or mat
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | consentID&#8251; | - | A unique proper name or character sequence that identifies this particular signed individual consent. | string |
-| belongsToSubject | MDN_UMCGnr | Reference to the subject to whom this individual consent applies. | xref |
+| belongsToSubject | - | Reference to the subject to whom this individual consent applies. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | consentID&#8251; | - | A unique proper name or character sequence that identifies this particular signed individual consent. | string |
-| belongsToSubject | MDN_UMCGnr | Reference to the subject to whom this individual consent applies. | xref |
+| belongsToSubject | - | Reference to the subject to whom this individual consent applies. | xref |
 | signedForms | - | Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | consentID&#8251; | - | A unique proper name or character sequence that identifies this particular signed individual consent. | string |
-| belongsToSubject | MDN_UMCGnr | Reference to the subject to whom this individual consent applies. | xref |
+| belongsToSubject | - | Reference to the subject to whom this individual consent applies. | xref |
 | signedForms | - | Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved. | mref |
 | allowUseOfMaterial | - | This data use limitation indicates that use includes methods development research(e.g., development of software or algorithms). Anonymous use of materials for the development of or for improvement of new techniques. | bool |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | consentID&#8251; | - | A unique proper name or character sequence that identifies this particular signed individual consent. | string |
-| belongsToSubject | MDN_UMCGnr | Reference to the subject to whom this individual consent applies. | xref |
+| belongsToSubject | - | Reference to the subject to whom this individual consent applies. | xref |
 | signedForms | - | Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved. | mref |
 | allowUseOfMaterial | - | This data use limitation indicates that use includes methods development research(e.g., development of software or algorithms). Anonymous use of materials for the development of or for improvement of new techniques. | bool |
 | allowRecontacting | - | The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances. | bool |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | consentID&#8251; | - | A unique proper name or character sequence that identifies this particular signed individual consent. | string |
-| belongsToSubject | MDN_UMCGnr | Reference to the subject to whom this individual consent applies. | xref |
+| belongsToSubject | - | Reference to the subject to whom this individual consent applies. | xref |
 | signedForms | - | Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved. | mref |
 | allowUseOfMaterial | - | This data use limitation indicates that use includes methods development research(e.g., development of software or algorithms). Anonymous use of materials for the development of or for improvement of new techniques. | bool |
 | allowRecontacting | - | The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances. | bool |
@@ -1087,7 +1087,7 @@ A data item that is used to indicate consent permissions for datasets and/or mat
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | consentID&#8251; | - | A unique proper name or character sequence that identifies this particular signed individual consent. | string |
-| belongsToSubject | MDN_UMCGnr | Reference to the subject to whom this individual consent applies. | xref |
+| belongsToSubject | - | Reference to the subject to whom this individual consent applies. | xref |
 | signedForms | - | Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved. | mref |
 | allowUseOfMaterial | - | This data use limitation indicates that use includes methods development research(e.g., development of software or algorithms). Anonymous use of materials for the development of or for improvement of new techniques. | bool |
 | allowRecontacting | - | The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances. | bool |
@@ -1104,29 +1104,29 @@ Consent given by a patient to a surgical or medical procedure or participation i
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | consentID&#8251; | - | A unique proper name or character sequence that identifies this particular signed individual consent. | string |
-| belongsToSubject | MDN_UMCGnr | Reference to the subject to whom this individual consent applies. | xref |
+| belongsToSubject | - | Reference to the subject to whom this individual consent applies. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | consentID&#8251; | - | A unique proper name or character sequence that identifies this particular signed individual consent. | string |
-| belongsToSubject | MDN_UMCGnr | Reference to the subject to whom this individual consent applies. | xref |
+| belongsToSubject | - | Reference to the subject to whom this individual consent applies. | xref |
 | consentFormType | - | A document that either prescribes actions or prescribes the permissions, obligations, restrictions, or protections relating to public or legal policy. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | consentID&#8251; | - | A unique proper name or character sequence that identifies this particular signed individual consent. | string |
-| belongsToSubject | MDN_UMCGnr | Reference to the subject to whom this individual consent applies. | xref |
+| belongsToSubject | - | Reference to the subject to whom this individual consent applies. | xref |
 | consentFormType | - | A document that either prescribes actions or prescribes the permissions, obligations, restrictions, or protections relating to public or legal policy. | string |
 | consentFormUsed | - | Reference to the informed consent form that was signed. Points to a particular instance of leaflet and consent form that usually exists as a record (i.e. a row) within the same database as this individual consent. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | consentID&#8251; | - | A unique proper name or character sequence that identifies this particular signed individual consent. | string |
-| belongsToSubject | MDN_UMCGnr | Reference to the subject to whom this individual consent applies. | xref |
+| belongsToSubject | - | Reference to the subject to whom this individual consent applies. | xref |
 | consentFormType | - | A document that either prescribes actions or prescribes the permissions, obligations, restrictions, or protections relating to public or legal policy. | string |
 | consentFormUsed | - | Reference to the informed consent form that was signed. Points to a particular instance of leaflet and consent form that usually exists as a record (i.e. a row) within the same database as this individual consent. | string |
 | collectedBy | - | Indicates the person, group, or institution who performed the collection act. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | consentID&#8251; | - | A unique proper name or character sequence that identifies this particular signed individual consent. | string |
-| belongsToSubject | MDN_UMCGnr | Reference to the subject to whom this individual consent applies. | xref |
+| belongsToSubject | - | Reference to the subject to whom this individual consent applies. | xref |
 | consentFormType | - | A document that either prescribes actions or prescribes the permissions, obligations, restrictions, or protections relating to public or legal policy. | string |
 | consentFormUsed | - | Reference to the informed consent form that was signed. Points to a particular instance of leaflet and consent form that usually exists as a record (i.e. a row) within the same database as this individual consent. | string |
 | collectedBy | - | Indicates the person, group, or institution who performed the collection act. | string |
@@ -1134,7 +1134,7 @@ Consent given by a patient to a surgical or medical procedure or participation i
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | consentID&#8251; | - | A unique proper name or character sequence that identifies this particular signed individual consent. | string |
-| belongsToSubject | MDN_UMCGnr | Reference to the subject to whom this individual consent applies. | xref |
+| belongsToSubject | - | Reference to the subject to whom this individual consent applies. | xref |
 | consentFormType | - | A document that either prescribes actions or prescribes the permissions, obligations, restrictions, or protections relating to public or legal policy. | string |
 | consentFormUsed | - | Reference to the informed consent form that was signed. Points to a particular instance of leaflet and consent form that usually exists as a record (i.e. a row) within the same database as this individual consent. | string |
 | collectedBy | - | Indicates the person, group, or institution who performed the collection act. | string |
@@ -1143,7 +1143,7 @@ Consent given by a patient to a surgical or medical procedure or participation i
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | consentID&#8251; | - | A unique proper name or character sequence that identifies this particular signed individual consent. | string |
-| belongsToSubject | MDN_UMCGnr | Reference to the subject to whom this individual consent applies. | xref |
+| belongsToSubject | - | Reference to the subject to whom this individual consent applies. | xref |
 | consentFormType | - | A document that either prescribes actions or prescribes the permissions, obligations, restrictions, or protections relating to public or legal policy. | string |
 | consentFormUsed | - | Reference to the informed consent form that was signed. Points to a particular instance of leaflet and consent form that usually exists as a record (i.e. a row) within the same database as this individual consent. | string |
 | collectedBy | - | Indicates the person, group, or institution who performed the collection act. | string |
@@ -1161,224 +1161,224 @@ Findings and circumstances relating to the examination and treatment of a patien
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
-| dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
-| ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
-| ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
-| clinicalDiagnosis | Diagnose | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
-| clinicalDiagnosis | Diagnose | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| clinicalDiagnosis | - | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| Name | Label | Description | Data Type |
+|:---- |:-----|:-----------|:---------|
+| clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
+| dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
+| ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
+| ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| clinicalDiagnosis | - | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
 | molecularDiagnosis | - | Gene affected by pathogenic variation that is causal for disease of the patient. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
-| clinicalDiagnosis | Diagnose | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
-| molecularDiagnosis | - | Gene affected by pathogenic variation that is causal for disease of the patient. | mref |
-| molecularDiagnosisOther | - | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | text |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
-| dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
-| ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
-| ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
-| clinicalDiagnosis | Diagnose | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| clinicalDiagnosis | - | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
 | molecularDiagnosis | - | Gene affected by pathogenic variation that is causal for disease of the patient. | mref |
 | molecularDiagnosisOther | - | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | text |
-| statusOfDiagnosis | - | A condition or state at a particular time. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
-| clinicalDiagnosis | Diagnose | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| clinicalDiagnosis | - | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
 | molecularDiagnosis | - | Gene affected by pathogenic variation that is causal for disease of the patient. | mref |
 | molecularDiagnosisOther | - | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | text |
 | statusOfDiagnosis | - | A condition or state at a particular time. | xref |
-| dateDiagnosisConfirmed | - | The particular day, month and year an event has happened or will happen. | date |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
-| clinicalDiagnosis | Diagnose | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| clinicalDiagnosis | - | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
 | molecularDiagnosis | - | Gene affected by pathogenic variation that is causal for disease of the patient. | mref |
 | molecularDiagnosisOther | - | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | text |
 | statusOfDiagnosis | - | A condition or state at a particular time. | xref |
 | dateDiagnosisConfirmed | - | The particular day, month and year an event has happened or will happen. | date |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
-| clinicalDiagnosis | Diagnose | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| clinicalDiagnosis | - | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
 | molecularDiagnosis | - | Gene affected by pathogenic variation that is causal for disease of the patient. | mref |
 | molecularDiagnosisOther | - | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | text |
 | statusOfDiagnosis | - | A condition or state at a particular time. | xref |
 | dateDiagnosisConfirmed | - | The particular day, month and year an event has happened or will happen. | date |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| Name | Label | Description | Data Type |
+|:---- |:-----|:-----------|:---------|
+| clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
+| dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
+| ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
+| ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| clinicalDiagnosis | - | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| molecularDiagnosis | - | Gene affected by pathogenic variation that is causal for disease of the patient. | mref |
+| molecularDiagnosisOther | - | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | text |
+| statusOfDiagnosis | - | A condition or state at a particular time. | xref |
+| dateDiagnosisConfirmed | - | The particular day, month and year an event has happened or will happen. | date |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
-| clinicalDiagnosis | Diagnose | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| clinicalDiagnosis | - | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
 | molecularDiagnosis | - | Gene affected by pathogenic variation that is causal for disease of the patient. | mref |
 | molecularDiagnosisOther | - | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | text |
 | statusOfDiagnosis | - | A condition or state at a particular time. | xref |
 | dateDiagnosisConfirmed | - | The particular day, month and year an event has happened or will happen. | date |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
-| clinicalDiagnosis | Diagnose | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| clinicalDiagnosis | - | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
 | molecularDiagnosis | - | Gene affected by pathogenic variation that is causal for disease of the patient. | mref |
 | molecularDiagnosisOther | - | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | text |
 | statusOfDiagnosis | - | A condition or state at a particular time. | xref |
 | dateDiagnosisConfirmed | - | The particular day, month and year an event has happened or will happen. | date |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
-| clinicalDiagnosis | Diagnose | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| clinicalDiagnosis | - | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
 | molecularDiagnosis | - | Gene affected by pathogenic variation that is causal for disease of the patient. | mref |
 | molecularDiagnosisOther | - | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | text |
 | statusOfDiagnosis | - | A condition or state at a particular time. | xref |
 | dateDiagnosisConfirmed | - | The particular day, month and year an event has happened or will happen. | date |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -1386,20 +1386,20 @@ Findings and circumstances relating to the examination and treatment of a patien
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
-| clinicalDiagnosis | Diagnose | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| clinicalDiagnosis | - | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
 | molecularDiagnosis | - | Gene affected by pathogenic variation that is causal for disease of the patient. | mref |
 | molecularDiagnosisOther | - | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | text |
 | statusOfDiagnosis | - | A condition or state at a particular time. | xref |
 | dateDiagnosisConfirmed | - | The particular day, month and year an event has happened or will happen. | date |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -1408,20 +1408,20 @@ Findings and circumstances relating to the examination and treatment of a patien
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
-| clinicalDiagnosis | Diagnose | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| clinicalDiagnosis | - | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
 | molecularDiagnosis | - | Gene affected by pathogenic variation that is causal for disease of the patient. | mref |
 | molecularDiagnosisOther | - | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | text |
 | statusOfDiagnosis | - | A condition or state at a particular time. | xref |
 | dateDiagnosisConfirmed | - | The particular day, month and year an event has happened or will happen. | date |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -1431,20 +1431,20 @@ Findings and circumstances relating to the examination and treatment of a patien
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | clinicalID&#8251; | - | A unique proper name or character sequence that identifies this particular clinical examination. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | affectedStatus | - | Individuals in a pedigree who exhibit the specific phenotype under study. | bool |
 | dateOfDiagnosis | - | The date on which a diagnosis of disease was made. | date |
 | ageAtDiagnosis | - | The age (in years), measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease. | decimal |
 | ageOfOnset | - | Age (in years) of onset of clinical manifestations related to the disease of the patient. | decimal |
-| observedPhenotype | KlinischFenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
-| unobservedPhenotype | Fenotype_ZekerNiet | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
-| provisionalPhenotype | Fenotype_Onzeker_NietZeker | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
-| clinicalDiagnosis | Diagnose | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
+| observedPhenotype | - | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | mref |
+| unobservedPhenotype | - | Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance. | mref |
+| provisionalPhenotype | - | The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria. | mref |
+| clinicalDiagnosis | - | A diagnosis made from a study of the signs and symptoms of a disease. | mref |
 | molecularDiagnosis | - | Gene affected by pathogenic variation that is causal for disease of the patient. | mref |
 | molecularDiagnosisOther | - | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | text |
 | statusOfDiagnosis | - | A condition or state at a particular time. | xref |
 | dateDiagnosisConfirmed | - | The particular day, month and year an event has happened or will happen. | date |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -1459,249 +1459,249 @@ A sample is a limited quantity of something (e.g. an individual or set of indivi
 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
-| samplingDate | - | The date that a sample was collected or obtained. | date |
-| samplingTimestamp | - | Date and time at which this material was collected. | datetime |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
-| dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
-| samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
 | samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
-| samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
 | samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
 | samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
-| reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
 | samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
 | samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
 | reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
-| biospecimenType | BiologischeMatriaal | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
 | samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
 | samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
 | reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
-| biospecimenType | BiologischeMatriaal | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
+| biospecimenType | - | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
+| Name | Label | Description | Data Type |
+|:---- |:-----|:-----------|:---------|
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| dateOfRequest | - | The date on which the activity or entity was ordered. | date |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
+| samplingDate | - | The date that a sample was collected or obtained. | date |
+| samplingTimestamp | - | Date and time at which this material was collected. | datetime |
+| samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
+| samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
+| reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
+| biospecimenType | - | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
 | anatomicalSource | - | Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
 | samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
 | samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
 | reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
-| biospecimenType | BiologischeMatriaal | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
-| anatomicalSource | - | Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken. | xref |
-| pathologicalState | - | The pathological state of the tissue from which this material was derived. | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
-| dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
-| samplingDate | - | The date that a sample was collected or obtained. | date |
-| samplingTimestamp | - | Date and time at which this material was collected. | datetime |
-| samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
-| samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
-| reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
-| biospecimenType | BiologischeMatriaal | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
+| biospecimenType | - | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
 | anatomicalSource | - | Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken. | xref |
 | pathologicalState | - | The pathological state of the tissue from which this material was derived. | xref |
-| biospecimenUsability | - | An indication as to whether a biospecimen is suitable for testing purposes. | bool |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
 | samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
 | samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
 | reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
-| biospecimenType | BiologischeMatriaal | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
+| biospecimenType | - | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
 | anatomicalSource | - | Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken. | xref |
 | pathologicalState | - | The pathological state of the tissue from which this material was derived. | xref |
 | biospecimenUsability | - | An indication as to whether a biospecimen is suitable for testing purposes. | bool |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
 | samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
 | samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
 | reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
-| biospecimenType | BiologischeMatriaal | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
+| biospecimenType | - | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
 | anatomicalSource | - | Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken. | xref |
 | pathologicalState | - | The pathological state of the tissue from which this material was derived. | xref |
 | biospecimenUsability | - | An indication as to whether a biospecimen is suitable for testing purposes. | bool |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
+| Name | Label | Description | Data Type |
+|:---- |:-----|:-----------|:---------|
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| dateOfRequest | - | The date on which the activity or entity was ordered. | date |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
+| samplingDate | - | The date that a sample was collected or obtained. | date |
+| samplingTimestamp | - | Date and time at which this material was collected. | datetime |
+| samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
+| samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
+| reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
+| biospecimenType | - | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
+| anatomicalSource | - | Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken. | xref |
+| pathologicalState | - | The pathological state of the tissue from which this material was derived. | xref |
+| biospecimenUsability | - | An indication as to whether a biospecimen is suitable for testing purposes. | bool |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
 | samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
 | samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
 | reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
-| biospecimenType | BiologischeMatriaal | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
+| biospecimenType | - | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
 | anatomicalSource | - | Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken. | xref |
 | pathologicalState | - | The pathological state of the tissue from which this material was derived. | xref |
 | biospecimenUsability | - | An indication as to whether a biospecimen is suitable for testing purposes. | bool |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
 | samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
 | samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
 | reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
-| biospecimenType | BiologischeMatriaal | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
+| biospecimenType | - | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
 | anatomicalSource | - | Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken. | xref |
 | pathologicalState | - | The pathological state of the tissue from which this material was derived. | xref |
 | biospecimenUsability | - | An indication as to whether a biospecimen is suitable for testing purposes. | bool |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
 | samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
 | samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
 | reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
-| biospecimenType | BiologischeMatriaal | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
+| biospecimenType | - | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
 | anatomicalSource | - | Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken. | xref |
 | pathologicalState | - | The pathological state of the tissue from which this material was derived. | xref |
 | biospecimenUsability | - | An indication as to whether a biospecimen is suitable for testing purposes. | bool |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
 | dateRecordCreated | - | The date on which the activity or entity is created. | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
 | samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
 | samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
 | reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
-| biospecimenType | BiologischeMatriaal | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
+| biospecimenType | - | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
 | anatomicalSource | - | Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken. | xref |
 | pathologicalState | - | The pathological state of the tissue from which this material was derived. | xref |
 | biospecimenUsability | - | An indication as to whether a biospecimen is suitable for testing purposes. | bool |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -1709,21 +1709,21 @@ A sample is a limited quantity of something (e.g. an individual or set of indivi
 | recordCreatedBy | - | Indicates the person or authoritative body who brought the item into existence. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
 | samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
 | samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
 | reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
-| biospecimenType | BiologischeMatriaal | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
+| biospecimenType | - | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
 | anatomicalSource | - | Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken. | xref |
 | pathologicalState | - | The pathological state of the tissue from which this material was derived. | xref |
 | biospecimenUsability | - | An indication as to whether a biospecimen is suitable for testing purposes. | bool |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -1732,21 +1732,21 @@ A sample is a limited quantity of something (e.g. an individual or set of indivi
 | dateRecordUpdated | - | The date (and time) on which report was updated after it had been submitted. | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| sampleID&#8251; | DNAnr | Name or other identifier of an entry from a biosample database. | string |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| sampleID&#8251; | - | Name or other identifier of an entry from a biosample database. | string |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | dateOfRequest | - | The date on which the activity or entity was ordered. | date |
-| reasonForSampling | Indicatie | The explanation for why a test, measurement, or assessment is executed. | mref |
+| reasonForSampling | - | The explanation for why a test, measurement, or assessment is executed. | mref |
 | samplingDate | - | The date that a sample was collected or obtained. | date |
 | samplingTimestamp | - | Date and time at which this material was collected. | datetime |
 | samplingProtocol | - | The procedure whereby this material was sampled for an analysis. | mref |
 | samplingProtocolDeviation | - | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | text |
 | reasonForSamplingProtocolDeviation | - | The rationale for why a deviation from the sampling protocol has occurred. | text |
-| biospecimenType | BiologischeMatriaal | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
+| biospecimenType | - | The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. | xref |
 | anatomicalSource | - | Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken. | xref |
 | pathologicalState | - | The pathological state of the tissue from which this material was derived. | xref |
 | biospecimenUsability | - | An indication as to whether a biospecimen is suitable for testing purposes. | bool |
-| alternativeIdentifiers | AltIdentifer | A backup sequence of characters used to identify an entity. | string |
+| alternativeIdentifiers | - | A backup sequence of characters used to identify an entity. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -1765,94 +1765,81 @@ A sample preparation for a nucleic acids sequencing assay.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
-| inputAmount | - | Amount of input material in nanogram (ng). | int |
-| libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
-| pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
 | pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
-| targetEnrichmentKit | - | Indicates which target enrichment kit was used to prepare this sample. Target enrichment is a pre-sequencing DNA preparation step where DNA sequences are either directly amplified (amplicon or multiplex PCR-based) or captured (hybrid capture-based) in order to only focus on specific regions of a genome or DNA sample. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
 | pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
 | targetEnrichmentKit | - | Indicates which target enrichment kit was used to prepare this sample. Target enrichment is a pre-sequencing DNA preparation step where DNA sequences are either directly amplified (amplicon or multiplex PCR-based) or captured (hybrid capture-based) in order to only focus on specific regions of a genome or DNA sample. | xref |
-| umisPresent | - | Indicates whether any unique molecular identifiers (UMIs) are present. An UMI barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule. | bool |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
 | pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
 | targetEnrichmentKit | - | Indicates which target enrichment kit was used to prepare this sample. Target enrichment is a pre-sequencing DNA preparation step where DNA sequences are either directly amplified (amplicon or multiplex PCR-based) or captured (hybrid capture-based) in order to only focus on specific regions of a genome or DNA sample. | xref |
 | umisPresent | - | Indicates whether any unique molecular identifiers (UMIs) are present. An UMI barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule. | bool |
-| intendedInsertSize | - | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | int |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
 | pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
 | targetEnrichmentKit | - | Indicates which target enrichment kit was used to prepare this sample. Target enrichment is a pre-sequencing DNA preparation step where DNA sequences are either directly amplified (amplicon or multiplex PCR-based) or captured (hybrid capture-based) in order to only focus on specific regions of a genome or DNA sample. | xref |
 | umisPresent | - | Indicates whether any unique molecular identifiers (UMIs) are present. An UMI barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule. | bool |
 | intendedInsertSize | - | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | int |
-| intendedReadLength | - | The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | int |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
 | pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
@@ -1860,13 +1847,12 @@ A sample preparation for a nucleic acids sequencing assay.
 | umisPresent | - | Indicates whether any unique molecular identifiers (UMIs) are present. An UMI barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule. | bool |
 | intendedInsertSize | - | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | int |
 | intendedReadLength | - | The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | int |
-| barcode | - | A machine-readable representation of information in a visual format on a surface. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
 | pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
@@ -1875,13 +1861,12 @@ A sample preparation for a nucleic acids sequencing assay.
 | intendedInsertSize | - | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | int |
 | intendedReadLength | - | The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | int |
 | barcode | - | A machine-readable representation of information in a visual format on a surface. | string |
-| belongsToBatch | BatchNr | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
 | pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
@@ -1890,14 +1875,29 @@ A sample preparation for a nucleic acids sequencing assay.
 | intendedInsertSize | - | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | int |
 | intendedReadLength | - | The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | int |
 | barcode | - | A machine-readable representation of information in a visual format on a surface. | string |
-| belongsToBatch | BatchNr | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
+| belongsToBatch | - | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
+| Name | Label | Description | Data Type |
+|:---- |:-----|:-----------|:---------|
+| samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| inputAmount | - | Amount of input material in nanogram (ng). | int |
+| libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
+| pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
+| targetEnrichmentKit | - | Indicates which target enrichment kit was used to prepare this sample. Target enrichment is a pre-sequencing DNA preparation step where DNA sequences are either directly amplified (amplicon or multiplex PCR-based) or captured (hybrid capture-based) in order to only focus on specific regions of a genome or DNA sample. | xref |
+| umisPresent | - | Indicates whether any unique molecular identifiers (UMIs) are present. An UMI barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule. | bool |
+| intendedInsertSize | - | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | int |
+| intendedReadLength | - | The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | int |
+| barcode | - | A machine-readable representation of information in a visual format on a surface. | string |
+| belongsToBatch | - | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
 | pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
@@ -1906,15 +1906,15 @@ A sample preparation for a nucleic acids sequencing assay.
 | intendedInsertSize | - | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | int |
 | intendedReadLength | - | The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | int |
 | barcode | - | A machine-readable representation of information in a visual format on a surface. | string |
-| belongsToBatch | BatchNr | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
+| belongsToBatch | - | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
 | pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
@@ -1923,16 +1923,16 @@ A sample preparation for a nucleic acids sequencing assay.
 | intendedInsertSize | - | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | int |
 | intendedReadLength | - | The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | int |
 | barcode | - | A machine-readable representation of information in a visual format on a surface. | string |
-| belongsToBatch | BatchNr | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
+| belongsToBatch | - | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
 | pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
@@ -1941,7 +1941,7 @@ A sample preparation for a nucleic acids sequencing assay.
 | intendedInsertSize | - | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | int |
 | intendedReadLength | - | The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | int |
 | barcode | - | A machine-readable representation of information in a visual format on a surface. | string |
-| belongsToBatch | BatchNr | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
+| belongsToBatch | - | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -1949,9 +1949,9 @@ A sample preparation for a nucleic acids sequencing assay.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
 | pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
@@ -1960,7 +1960,7 @@ A sample preparation for a nucleic acids sequencing assay.
 | intendedInsertSize | - | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | int |
 | intendedReadLength | - | The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | int |
 | barcode | - | A machine-readable representation of information in a visual format on a surface. | string |
-| belongsToBatch | BatchNr | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
+| belongsToBatch | - | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -1969,9 +1969,9 @@ A sample preparation for a nucleic acids sequencing assay.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
 | pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
@@ -1980,7 +1980,7 @@ A sample preparation for a nucleic acids sequencing assay.
 | intendedInsertSize | - | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | int |
 | intendedReadLength | - | The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | int |
 | barcode | - | A machine-readable representation of information in a visual format on a surface. | string |
-| belongsToBatch | BatchNr | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
+| belongsToBatch | - | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -1990,9 +1990,9 @@ A sample preparation for a nucleic acids sequencing assay.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | samplePreparationID&#8251; | - | A unique proper name or character sequence that identifies this particular sample preparation. | string |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | xref |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToRequest | Adviesvraag | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToRequest | - | A sequence of letters, numbers, or other characters that specifically identifies a particular order. | string |
 | inputAmount | - | Amount of input material in nanogram (ng). | int |
 | libraryPreparationKit | - | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | xref |
 | pcrFree | - | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | bool |
@@ -2001,7 +2001,7 @@ A sample preparation for a nucleic acids sequencing assay.
 | intendedInsertSize | - | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | int |
 | intendedReadLength | - | The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | int |
 | barcode | - | A machine-readable representation of information in a visual format on a surface. | string |
-| belongsToBatch | BatchNr | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
+| belongsToBatch | - | A quantity of people or things treated or regarded as a group, especially when subdivided from a larger group. | string |
 | belongsToDataRelease | - | The act of making data or other structured information accessible to the public or to the user group of a database. | mref |
 | recordMetadata | - | metadata is data that provides information about data. | compound |
 | comments | - | A written explanation, observation or criticism added to textual material. | text |
@@ -2020,59 +2020,59 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2080,10 +2080,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2092,10 +2092,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2105,10 +2105,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2119,10 +2119,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2134,10 +2134,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2150,10 +2150,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2167,10 +2167,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2185,10 +2185,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2204,10 +2204,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2224,10 +2224,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2245,10 +2245,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2267,10 +2267,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2290,10 +2290,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2314,10 +2314,10 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | sequencingID&#8251; | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | string |
-| belongsToLabProcedure | Test_Code | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
-| belongsToSamplePreparation | samplePreparationID | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
-| reasonForSequencing | Indicatie | A rationale for executing a plan of action. | xref |
-| sequencingDate | Testdatum | Date on which this sequencing assay was performed. | date |
+| belongsToLabProcedure | - | Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting. | xref |
+| belongsToSamplePreparation | - | A unique proper name or character sequence that identifies this particular sample preparation. | xref |
+| reasonForSequencing | - | A rationale for executing a plan of action. | xref |
+| sequencingDate | - | Date on which this sequencing assay was performed. | date |
 | sequencingFacilityOrganization | - | An organization that provides sequence determination service | xref |
 | sequencingPlatform | - | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | xref |
 | sequencingInstrumentModel | - | The used product name and model number of a manufacturer's genomic (dna) sequencer. | xref |
@@ -2347,71 +2347,71 @@ A set of related records (either written or electronic) kept together.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
@@ -2419,11 +2419,11 @@ A set of related records (either written or electronic) kept together.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
@@ -2432,11 +2432,11 @@ A set of related records (either written or electronic) kept together.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
@@ -2446,11 +2446,11 @@ A set of related records (either written or electronic) kept together.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
@@ -2461,11 +2461,11 @@ A set of related records (either written or electronic) kept together.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
@@ -2477,11 +2477,11 @@ A set of related records (either written or electronic) kept together.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
@@ -2494,11 +2494,11 @@ A set of related records (either written or electronic) kept together.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
@@ -2512,11 +2512,11 @@ A set of related records (either written or electronic) kept together.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
@@ -2531,11 +2531,11 @@ A set of related records (either written or electronic) kept together.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
@@ -2551,11 +2551,11 @@ A set of related records (either written or electronic) kept together.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
@@ -2572,11 +2572,11 @@ A set of related records (either written or electronic) kept together.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
@@ -2594,11 +2594,11 @@ A set of related records (either written or electronic) kept together.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
@@ -2617,11 +2617,11 @@ A set of related records (either written or electronic) kept together.
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | fileID&#8251; | - | The literal identifier for an electronic file. | string |
-| producedBySequencing | sequencingID | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
-| belongsToSubject | MDN_UMCGnr | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
-| belongsToSample | DNAnr | Name or other identifier of an entry from a biosample database. | mref |
-| belongsToStudy | Study | Reference to the study or studies in which this person participates. | mref |
-| belongsToCohort | Cohort | A group of individuals, identified by a common characteristic. | mref |
+| producedBySequencing | - | A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. | mref |
+| belongsToSubject | - | An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored. | xref |
+| belongsToSample | - | Name or other identifier of an entry from a biosample database. | mref |
+| belongsToStudy | - | Reference to the study or studies in which this person participates. | mref |
+| belongsToCohort | - | A group of individuals, identified by a common characteristic. | mref |
 | fileName | - | The literal identifier for an electronic file. | text |
 | filePath | - | The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down. | text |
 | fileFormat | - | The format of an electronic file. | string |
