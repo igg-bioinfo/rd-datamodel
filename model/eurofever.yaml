@@ -1473,6 +1473,7 @@ entities:
       - name: export_id_pt
         idAttribute: true
         nillable: false
+        dataType: string
         description: Patient Id
 
       - name: gender
@@ -1527,6 +1528,12 @@ entities:
     description: Eurofever patient additional information data
     attributes:
 
+      - name: auto_id
+        idAttribute: auto
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
+
       - name: export_id_pt
         dataType: xref
         refEntity: umdm_patients
@@ -1547,6 +1554,12 @@ entities:
     label: Patient Proband
     description: Eurofever patient proband data
     attributes:
+
+      - name: auto_id
+        idAttribute: auto
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
 
       - name: export_id_pt
         dataType: xref
@@ -1605,6 +1618,12 @@ entities:
     description: Eurofever diagnosis autoinflammatory and family history data
     attributes:
 
+      - name: auto_id
+        idAttribute: auto
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
+
       - name: export_id_pt
         dataType: xref
         refEntity: umdm_patients
@@ -1654,6 +1673,12 @@ entities:
     description: Eurofever concomitant diseases data
     attributes:
 
+      - name: auto_id
+        idAttribute: auto
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
+
       - name: export_id_pt
         dataType: xref
         refEntity: umdm_patients
@@ -1669,6 +1694,12 @@ entities:
     label: Lab Exam
     description: Eurofever lab exam data
     attributes:
+
+      - name: auto_id
+        idAttribute: auto
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
 
       - name: export_id_pt
         dataType: xref
@@ -1696,7 +1727,7 @@ entities:
         refEntity: umdm_lookups_NotdoneDoneWaitingforresponse
         description: Lab exam status
 
-      - name: Gaslini standard value
+      - name: gaslini_stand_value
         dataType: decimal
         description: Gaslini standard value
 
@@ -1716,7 +1747,7 @@ entities:
         dataType: string
         description: Lab exam unit text
 
-      - name: Gaslini min value
+      - name: gaslini_lab_min
         dataType: decimal
         description: Gaslini min value
 
@@ -1724,7 +1755,7 @@ entities:
         dataType: decimal
         description: Lab exam min
 
-      - name: Gaslini max value
+      - name: gaslini_lab_max
         dataType: decimal
         description: Gaslini max value
 
@@ -1759,14 +1790,16 @@ entities:
     description: Eurofever molecular analysis data
     attributes:
 
+      - name: auto_id
+        idAttribute: auto
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
+
       - name: export_id_pt
         dataType: xref
         refEntity: umdm_patients
         description: Patient Registry code
-
-      - name: gene_name
-        dataType: string
-        description: Gene name
 
       - name: gene_name
         dataType: string
@@ -1806,1434 +1839,1440 @@ entities:
     description: Eurofever signs and symptoms data
     attributes:
 
-      - name: export_id_pt
+      - name: auto_id
+        idAttribute: auto
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
+
+      - name: TP_export_id_pt
         dataType: xref
         refEntity: umdm_patients
         description: Patient Registry code
 
-      - name: date_visit
+      - name: TV_date_visit
         dataType: date
         description: Date of visit
 
-      - name: muco_cutaneous
+      - name: CLINICAL_SUMMARY_muco_cutaneous
         dataType: xref
         refEntity: umdm_lookups_PresentNoPresentNotKnown
         description: Muco-cutaneous manifestations
 
-      - name: Fever
+      - name: SIGNS_EPISODES_Fever
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesOrOftenAlwaysNotKnown
         description: Fever >38º C
 
-      - name: pan
+      - name: SIGNS_HEMATOLOGICAL_pan
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Pancytopenia
 
-      - name: LowFever
+      - name: SIGNS_EPISODES_LowFever
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesOrOftenAlwaysNotKnown
         description: Low grade fever <38º
 
-      - name: Ch_Fr
+      - name: SIGNS_CARDIO_Ch_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Chest pain
 
-      - name: Fever
+      - name: SIGNS_CONSTITUTIONAL_Fever
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Fever (>38) (for cronic course only)
 
-      - name: DurEpiSo
+      - name: SIGNS_EPISODES_DurEpiSo
         dataType: xref
         refEntity: umdm_lookups_01Day2Days3Days4Days5Days6Days7Days8Days9Days
         description: Mean duration of episodes
 
-      - name: Vom_Fr
+      - name: SIGNS_GASTRO_Vom_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Vomiting
 
-      - name: Ure_Fr
+      - name: SIGNS_GENITO_Ure_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Urethritis/ cistitis
 
-      - name: Gen_Fr
+      - name: SIGNS_LYMPHOID_Gen_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Generalized lymphnodes enlargement
 
-      - name: Aph_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Aph_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Aphthous stomatitis
 
-      - name: Art_Fr
+      - name: SIGNS_MUSCULOSKELETAL_Art_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Arthralgia
 
-      - name: HMo_Fr
+      - name: SIGNS_NEURO_HMo_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Headache - morning
 
-      - name: Per_Fr
+      - name: SIGNS_OCULAR_Per_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Periorbital oedema
 
-      - name: HypTen
+      - name: SIGNS_OTHER_HypTen
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Gender / height related hypertension
 
-      - name: musculoskeletal
+      - name: CLINICAL_SUMMARY_musculoskeletal
         dataType: xref
         refEntity: umdm_lookups_PresentNoPresentNotKnown
         description: Musculoskeletal system
 
-      - name: dys
+      - name: SIGNS_CARDIO_dys
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Dyspnoea
 
-      - name: LowFev
+      - name: SIGNS_CONSTITUTIONAL_LowFev
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Low Grade fever (<38) (for cronic course only)
 
-      - name: DurEpisoMean
+      - name: SIGNS_EPISODES_DurEpisoMean
         dataType: string
         description: If >15 please specify the mean
 
-      - name: Abd_Fr
+      - name: SIGNS_GASTRO_Abd_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Abdominal pain
 
-      - name: Gon_Fr
+      - name: SIGNS_GENITO_Gon_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Gonadal pain without proven ischaemia
 
-      - name: leu
+      - name: SIGNS_HEMATOLOGICAL_leu
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Leucopenia
 
-      - name: Enl_Fr
+      - name: SIGNS_LYMPHOID_Enl_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Enlarged cervical lymphnodes
 
-      - name: Ex_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Ex_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Exudative pharyngitis
 
-      - name: Mya_Fr
+      - name: SIGNS_MUSCULOSKELETAL_Mya_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Myalgia
 
-      - name: HAn_Fr
+      - name: SIGNS_NEURO_HAn_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Headache - anytime
 
-      - name: per_pai
+      - name: SIGNS_OCULAR_per_pai
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Periorbital pain
 
-      - name: HypTenDa
+      - name: SIGNS_OTHER_HypTenDa
         dataType: datetime
         description: Date of Gender / height related hypertension manifestation
 
-      - name: ocular
+      - name: CLINICAL_SUMMARY_ocular
         dataType: xref
         refEntity: umdm_lookups_PresentNoPresentNotKnown
         description: Ocular manifestation
 
-      - name: Pe_Fr
+      - name: SIGNS_CARDIO_Pe_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Pericarditis
 
-      - name: Fat_Fr
+      - name: SIGNS_CONSTITUTIONAL_Fat_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Fatigue
 
-      - name: EpiYear
+      - name: SIGNS_EPISODES_EpiYear
         dataType: xref
         refEntity: umdm_lookups_1Day2Days3Days4Days5Days6Days7Days8Days9Days1
         description: Number of episodes/year
 
-      - name: Con_Fr
+      - name: SIGNS_GASTRO_Con_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Constipation
 
-      - name: gon_inf
+      - name: SIGNS_GENITO_gon_inf
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Gonadal infarction
 
-      - name: thr
+      - name: SIGNS_HEMATOLOGICAL_thr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Thrombocytopenia
 
-      - name: Later
+      - name: SIGNS_LYMPHOID_Later
         dataType: xref
         refEntity: umdm_lookups_MonolateralBilateralNotKnown
         description: Enlarged cervical lymphnodes side
 
-      - name: Ery_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Ery_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Erythematous pharyngitis
 
-      - name: mus_wea
+      - name: SIGNS_MUSCULOSKELETAL_mus_wea
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Muscle weakness
 
-      - name: As_Fr
+      - name: SIGNS_NEURO_As_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Aseptic meningitis
 
-      - name: per_ery
+      - name: SIGNS_OCULAR_per_ery
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Periorbital erythema
 
-      - name: Amylo
+      - name: SIGNS_OTHER_Amylo
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: AA- Amyloidosis
 
-      - name: gastro
+      - name: CLINICAL_SUMMARY_gastro
         dataType: xref
         refEntity: umdm_lookups_PresentNoPresentNotKnown
         description: Gastrointestinal system
 
-      - name: Pl_Fr
+      - name: SIGNS_CARDIO_Pl_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Pleurisy
 
-      - name: Mal_Fr
+      - name: SIGNS_CONSTITUTIONAL_Mal_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Malaise
 
-      - name: PatFreq
+      - name: SIGNS_EPISODES_PatFreq
         dataType: xref
         refEntity: umdm_lookups_RegularPeriodicIrregularNonPeriodicNotKnown
         description: Pattern of frequency
 
-      - name: Diar_Fr
+      - name: SIGNS_GASTRO_Diar_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Diarrhea
 
-      - name: epi
+      - name: SIGNS_GENITO_epi
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Epididymitis
 
-      - name: apl_ane
+      - name: SIGNS_HEMATOLOGICAL_apl_ane
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Aplastic anemia
 
-      - name: Pain_Fr
+      - name: SIGNS_LYMPHOID_Pain_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Painful lymph nodes
 
-      - name: Mac_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Mac_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Maculo-papular rash
 
-      - name: Myo_Fr
+      - name: SIGNS_MUSCULOSKELETAL_Myo_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Myositis
 
-      - name: Op_Fr
+      - name: SIGNS_NEURO_Op_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Optic neuritis
 
-      - name: Con_Fr
+      - name: SIGNS_OCULAR_Con_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Conjunctivitis
 
-      - name: amy_spec
+      - name: SIGNS_OTHER_amy_spec
         dataType: string
         description: If AA- Amyloidosis YES, specify
 
-      - name: lymphoid
+      - name: CLINICAL_SUMMARY_lymphoid
         dataType: xref
         refEntity: umdm_lookups_PresentNoPresentNotKnown
         description: Lymphoid organs
 
-      - name: Pn_Fr
+      - name: SIGNS_CARDIO_Pn_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Pneumonia - infectious
 
-      - name: Moo_Fr
+      - name: SIGNS_CONSTITUTIONAL_Moo_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Mood disorders
 
-      - name: SeasCha
+      - name: SIGNS_EPISODES_SeasCha
         dataType: xref
         refEntity: umdm_lookups_YesNoNotApplicableNotKnown
         description: Seasonal changes
 
-      - name: Gastr_Fr
+      - name: SIGNS_GASTRO_Gastr_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Gastrointestinal ulcers *
 
-      - name: ess_hyp
+      - name: SIGNS_GENITO_ess_hyp
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Essential hypertension
 
-      - name: neu
+      - name: SIGNS_HEMATOLOGICAL_neu
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Neutropenia
 
-      - name: Oth_Fr
+      - name: SIGNS_LYMPHOID_Oth_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Other lympadenopathy
 
-      - name: Urt_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Urt_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Urticarial rash
 
-      - name: Fas_Fr
+      - name: SIGNS_MUSCULOSKELETAL_Fas_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Fasciitis
 
-      - name: Sei_Fr
+      - name: SIGNS_NEURO_Sei_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Seizures
 
-      - name: UvA_Fr
+      - name: SIGNS_OCULAR_UvA_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Uveitis anterior
 
-      - name: AmyloDa
+      - name: SIGNS_OTHER_AmyloDa
         dataType: datetime
         description: Date of AA- Amyloidosis manifestation
 
-      - name: disease_course
+      - name: CLINICAL_SUMMARY_disease_course
         dataType: xref
         refEntity: umdm_lookups_ContinuousRecurrentContinuousAndRecurrentComp
         description: Disease Course
 
-      - name: int_lun_dis
+      - name: SIGNS_CARDIO_int_lun_dis
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Interstitial lung disease
 
-      - name: Sen_Fr
+      - name: SIGNS_CONSTITUTIONAL_Sen_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Sensation of fever, chills without fever
 
-      - name: Chills
+      - name: SIGNS_EPISODES_Chills
         dataType: xref
         refEntity: umdm_lookups_YesNoNotApplicableNotKnown
         description: Chills at fever onset
 
-      - name: Ana_Fr
+      - name: SIGNS_GASTRO_Ana_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Anal/perianal ulcers
 
-      - name: ren_hyp
+      - name: SIGNS_GENITO_ren_hyp
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Renovascular hypertension
 
-      - name: lym
+      - name: SIGNS_HEMATOLOGICAL_lym
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Lymphopenia
 
-      - name: SpecTX
+      - name: SIGNS_LYMPHOID_SpecTX
         dataType: string
         description: specify (Other lympadenopathy)
 
-      - name: Mig_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Mig_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Migratory rash
 
-      - name: Bon_Fr
+      - name: SIGNS_MUSCULOSKELETAL_Bon_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Bone pain
 
-      - name: Cra_Fr
+      - name: SIGNS_NEURO_Cra_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Cranial nerve palsy
 
-      - name: UvP_Fr
+      - name: SIGNS_OCULAR_UvP_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Uveitis posterior
 
-      - name: Macrop
+      - name: SIGNS_OTHER_Macrop
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Macrophage activation syndrome
 
-      - name: cardio
+      - name: CLINICAL_SUMMARY_cardio
         dataType: xref
         refEntity: umdm_lookups_PresentNoPresentNotKnown
         description: Cardio-respiratory system
 
-      - name: nec_pne
+      - name: SIGNS_CARDIO_nec_pne
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Necrotising pneumonia
 
-      - name: Weight
+      - name: SIGNS_CONSTITUTIONAL_Weight
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Weight loss
 
-      - name: Trigg
+      - name: SIGNS_EPISODES_Trigg
         dataType: xref
         refEntity: umdm_lookups_YesNoNotApplicableNotKnown
         description: Triggers
 
-      - name: GI_Fr
+      - name: SIGNS_GASTRO_GI_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: GI bleeding
 
-      - name: ren_inf
+      - name: SIGNS_GENITO_ren_inf
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Renal infarction
 
-      - name: hyp
+      - name: SIGNS_HEMATOLOGICAL_hyp
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Hypogammaglobulinemia
 
-      - name: Hep_Fr
+      - name: SIGNS_LYMPHOID_Hep_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Hepatomegaly
 
-      - name: Pal_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Pal_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Palpable purpura
 
-      - name: Ost_Fr
+      - name: SIGNS_MUSCULOSKELETAL_Ost_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Osteitis - non-infectious
 
-      - name: Ver_Fr
+      - name: SIGNS_NEURO_Ver_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Vertigo
 
-      - name: Ker_Fr
+      - name: SIGNS_OCULAR_Ker_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Keratitits
 
-      - name: MacropDa
+      - name: SIGNS_OTHER_MacropDa
         dataType: datetime
         description: Date of Macrophage activation syndrome manifestation
 
-      - name: neuro
+      - name: CLINICAL_SUMMARY_neuro
         dataType: xref
         refEntity: umdm_lookups_PresentNoPresentNotKnown
         description: Neurological manifestations
 
-      - name: Cou_Fr
+      - name: SIGNS_CARDIO_Cou_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Persistent cough
 
-      - name: Cold
+      - name: SIGNS_EPISODES_Cold
         dataType: xref
         refEntity: umdm_lookups_YesNo
         description: Cold
 
-      - name: Ase_Fr
+      - name: SIGNS_GASTRO_Ase_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Aseptic Peritonitis
 
-      - name: ren_ane
+      - name: SIGNS_GENITO_ren_ane
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Renal aneurysm
 
-      - name: hyp_sp
+      - name: SIGNS_HEMATOLOGICAL_hyp_sp
         dataType: string
         description:  specify (Hypogammaglobulinemia)
 
-      - name: Spl_Fr
+      - name: SIGNS_LYMPHOID_Spl_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Splenomegaly
 
-      - name: ery_lik_ery
+      - name: SIGNS_MUCO_CUTANEOUS_ery_lik_ery
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Erysipelas-like erythema
 
-      - name: ost_inf
+      - name: SIGNS_MUSCULOSKELETAL_ost_inf
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Osteomyelitis - infectious
 
-      - name: ata
+      - name: SIGNS_NEURO_ata
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Ataxia
 
-      - name: Scl_Fr
+      - name: SIGNS_OCULAR_Scl_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Scleritis
 
-      - name: Infert
+      - name: SIGNS_OTHER_Infert
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Infertility
 
-      - name: genito
+      - name: CLINICAL_SUMMARY_genito
         dataType: xref
         refEntity: umdm_lookups_PresentNoPresentNotKnown
         description: Genito - Urinary manifestations
 
-      - name: pul_vas
+      - name: SIGNS_CARDIO_pul_vas
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Pulmonary vasculitis
 
-      - name: Stress
+      - name: SIGNS_EPISODES_Stress
         dataType: xref
         refEntity: umdm_lookups_YesNo
         description: Emotional stress
 
-      - name: int_vas
+      - name: SIGNS_GASTRO_int_vas
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Intestinal vasculitis
 
-      - name: kid_amy
+      - name: SIGNS_GENITO_kid_amy
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Kidney amyloidosis *
 
-      - name: hype
+      - name: SIGNS_HEMATOLOGICAL_hype
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Hypercoagulability
 
-      - name: spl_inf
+      - name: SIGNS_LYMPHOID_spl_inf
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Splenic infarct
 
-      - name: Pse_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Pse_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Pseudo-folliculitis
 
-      - name: Mon_Fr
+      - name: SIGNS_MUSCULOSKELETAL_Mon_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Monoarthritis
 
-      - name: per_neu
+      - name: SIGNS_NEURO_per_neu
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Peripheral neuritis
 
-      - name: Epi_Fr
+      - name: SIGNS_OCULAR_Epi_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Episcleritis
 
-      - name: InfertDa
+      - name: SIGNS_OTHER_InfertDa
         dataType: datetime
         description: Date of Infertility manifestation
 
-      - name: constitutional
+      - name: CLINICAL_SUMMARY_constitutional
         dataType: xref
         refEntity: umdm_lookups_PresentNoPresentNotKnown
         description: Constitutional symptoms
 
-      - name: He_Fr
+      - name: SIGNS_CARDIO_He_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Hemoptysis
 
-      - name: Vaccin
+      - name: SIGNS_EPISODES_Vaccin
         dataType: xref
         refEntity: umdm_lookups_YesNo
         description: Vaccination
 
-      - name: mes_inf
+      - name: SIGNS_GASTRO_mes_inf
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Mesenteric infarct
 
-      - name: gln
+      - name: SIGNS_GENITO_gln
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Glomerulonephritis *
 
-      - name: rec_inf
+      - name: SIGNS_HEMATOLOGICAL_rec_inf
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Recurrent infections
 
-      - name: Par_Fr
+      - name: SIGNS_LYMPHOID_Par_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Parotitis
 
-      - name: Pa_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Pa_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Papulopustular lesions
 
-      - name: Oli_Fr
+      - name: SIGNS_MUSCULOSKELETAL_Oli_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Oligoarthritis - ≤4 joints
 
-      - name: tra_isc_att
+      - name: SIGNS_NEURO_tra_isc_att
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Transient Ischemic Attack - TIA
 
-      - name: Lac_Fr
+      - name: SIGNS_OCULAR_Lac_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Lacrymal gland involvement
 
-      - name: Cultur
+      - name: SIGNS_OTHER_Cultur
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Culture proven severe infections
 
-      - name: other
+      - name: CLINICAL_SUMMARY_other
         dataType: xref
         refEntity: umdm_lookups_PresentNoPresentNotKnown
         description: Other Complications
 
-      - name: Ven_Fr
+      - name: SIGNS_CARDIO_Ven_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Venous thrombosis
 
-      - name: Infect
+      - name: SIGNS_EPISODES_Infect
         dataType: xref
         refEntity: umdm_lookups_YesNo
         description: Infection
 
-      - name: mes_ane
+      - name: SIGNS_GASTRO_mes_ane
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Mesenteric aneurysm
 
-      - name: gls
+      - name: SIGNS_GENITO_gls
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Glomeruloscerosis
 
-      - name: sev_inf
+      - name: SIGNS_HEMATOLOGICAL_sev_inf
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Severe infections (hospitalization)
 
-      - name: Ac_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Ac_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Acne
 
-      - name: Pol_Fr
+      - name: SIGNS_MUSCULOSKELETAL_Pol_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Polyarthritis - ≥5 joints
 
-      - name: str
+      - name: SIGNS_NEURO_str
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Stroke
 
-      - name: Pa_Fr
+      - name: SIGNS_OCULAR_Pa_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Papilledema
 
-      - name: CulturDa
+      - name: SIGNS_OTHER_CulturDa
         dataType: datetime
         description: Date on which culture has proven severe infections
 
-      - name: hemato
+      - name: CLINICAL_SUMMARY_hemato
         dataType: xref
         refEntity: umdm_lookups_PresentNoPresentNotKnown
         description: Hematological alteration
 
-      - name: Art_Fr
+      - name: SIGNS_CARDIO_Art_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Arterial thrombosis
 
-      - name: Excercise
+      - name: SIGNS_EPISODES_Excercise
         dataType: xref
         refEntity: umdm_lookups_YesNo
         description: Exercise
 
-      - name: hep
+      - name: SIGNS_GASTRO_hep
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Hepatitis
 
-      - name: OthSp
+      - name: SIGNS_GENITO_OthSp
         dataType: string
         description: specify (Other)
 
-      - name: opp_inf
+      - name: SIGNS_HEMATOLOGICAL_opp_inf
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Opportunistic infections (bacterial, viral, elimintic, other)
 
-      - name: Ps_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Ps_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Psoriasis
 
-      - name: Te_Fr
+      - name: SIGNS_MUSCULOSKELETAL_Te_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Tenosynovitis
 
-      - name: isc_str_noe
+      - name: SIGNS_NEURO_isc_str_noe
         dataType: int
         description: Number of events - Ischemic stroke
 
-      - name: pap
+      - name: SIGNS_OCULAR_pap
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Papillitis
 
-      - name: Tumor
+      - name: SIGNS_OTHER_Tumor
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Tumors
 
-      - name: myo
+      - name: SIGNS_CARDIO_myo
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Myocarditis
 
-      - name: Trauma
+      - name: SIGNS_EPISODES_Trauma
         dataType: xref
         refEntity: umdm_lookups_YesNo
         description: Trauma
 
-      - name: por_hyp
+      - name: SIGNS_GASTRO_por_hyp
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Portal hypertension
 
-      - name: Oth_Fr
+      - name: SIGNS_GENITO_Oth_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Other
 
-      - name: rec_inf_sp
+      - name: SIGNS_HEMATOLOGICAL_rec_inf_sp
         dataType: string
         description: Recurrent infections specify
 
-      - name: Ul_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Ul_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Ulcers at genitalia
 
-      - name: Dactylitis_Fr
+      - name: SIGNS_MUSCULOSKELETAL_Dactylitis_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Dactylitis
 
-      - name: hem_str_noe
+      - name: SIGNS_NEURO_hem_str_noe
         dataType: int
         description: Number of events - Hemorrhagic stroke
 
-      - name: Op_Fr
+      - name: SIGNS_OCULAR_Op_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Optic nerve atrophy
 
-      - name: tum_spec
+      - name: SIGNS_OTHER_tum_spec
         dataType: string
         description: If Tumores YES, specify (i.e. chondroma in CINCA)
 
-      - name: lar_ves_vas
+      - name: SIGNS_CARDIO_lar_ves_vas
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Large vessel vasculitis *
 
-      - name: Food
+      - name: SIGNS_EPISODES_Food
         dataType: xref
         refEntity: umdm_lookups_YesNo
         description: Food
 
-      - name: gas
+      - name: SIGNS_GASTRO_gas
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Gastritis
 
-      - name: sev_inf_sp
+      - name: SIGNS_HEMATOLOGICAL_sev_inf_sp
         dataType: string
         description: Severe infections specify
 
-      - name: Py_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Py_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Pyoderma gangrenosum
 
-      - name: dig_amp
+      - name: SIGNS_MUSCULOSKELETAL_dig_amp
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Digit(s) amputation
 
-      - name: int_hem
+      - name: SIGNS_NEURO_int_hem
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Intracranial hemorrhage
 
-      - name: Re_Fr
+      - name: SIGNS_OCULAR_Re_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Retinal vasculitis
 
-      - name: TumorDa
+      - name: SIGNS_OTHER_TumorDa
         dataType: datetime
         description: Date of tumor manifestation
 
-      - name: sma_ves_vas
+      - name: SIGNS_CARDIO_sma_ves_vas
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Middle/small vessel vasculitis **
 
-      - name: Menstr
+      - name: SIGNS_EPISODES_Menstr
         dataType: xref
         refEntity: umdm_lookups_YesNo
         description: Menstruation
 
-      - name: Gut
+      - name: SIGNS_GASTRO_Gut
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Gut perforation
 
-      - name: opp_inf_sp
+      - name: SIGNS_HEMATOLOGICAL_opp_inf_sp
         dataType: string
         description: Opportunistic infections specify
 
-      - name: pal_pla_pus
+      - name: SIGNS_MUCO_CUTANEOUS_pal_pla_pus
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Palmo-plantar pustulosis
 
-      - name: lim_amp
+      - name: SIGNS_MUSCULOSKELETAL_lim_amp
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Limb amputation
 
-      - name: int_hem_noe
+      - name: SIGNS_NEURO_int_hem_noe
         dataType: int
         description: Number of events (Intracranial hemorrhage)
 
-      - name: Catar
+      - name: SIGNS_OCULAR_Catar
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Cataract
 
-      - name: Death
+      - name: SIGNS_OTHER_Death
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Death
 
-      - name: Myocar
+      - name: SIGNS_CARDIO_Myocar
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Myocardial ischemia, infarction
 
-      - name: Fatigue
+      - name: SIGNS_EPISODES_Fatigue
         dataType: xref
         refEntity: umdm_lookups_YesNo
         description: Fatigue
 
-      - name: GutDa
+      - name: SIGNS_GASTRO_GutDa
         dataType: datetime
         description: Complication gut perforationon set date
 
-      - name: leuk
+      - name: SIGNS_HEMATOLOGICAL_leuk
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Leukemia
 
-      - name: Er_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Er_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Erythema nodosum EN
 
-      - name: Flex
+      - name: SIGNS_MUSCULOSKELETAL_Flex
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Flexion contractures
 
-      - name: Hydro
+      - name: SIGNS_NEURO_Hydro
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Hydrocephalus
 
-      - name: CatarDa
+      - name: SIGNS_OCULAR_CatarDa
         dataType: datetime
         description: Cataract date
 
-      - name: dea_spec
+      - name: SIGNS_OTHER_dea_spec
         dataType: string
         description: If death YES, specify (cause)
 
-      - name: MyocarDa
+      - name: SIGNS_CARDIO_MyocarDa
         dataType: datetime
         description: Complication myocardial ischemia, infarction onset date
 
-      - name: Travel
+      - name: SIGNS_EPISODES_Travel
         dataType: xref
         refEntity: umdm_lookups_YesNo
         description: Travel
 
-      - name: Perit
+      - name: SIGNS_GASTRO_Perit
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Peritoneal adhesions
 
-      - name: leuk_dt
+      - name: SIGNS_HEMATOLOGICAL_leuk_dt
         dataType: datetime
         description: Leukemia date
 
-      - name: OP_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_OP_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Other Panniculitis non-EN
 
-      - name: FlexDa
+      - name: SIGNS_MUSCULOSKELETAL_FlexDa
         dataType: datetime
         description: Flexion contractures date
 
-      - name: HydroDa
+      - name: SIGNS_NEURO_HydroDa
         dataType: datetime
         description: Hydrocephalus date
 
-      - name: Glauc
+      - name: SIGNS_OCULAR_Glauc
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Glaucoma
 
-      - name: DeathDa
+      - name: SIGNS_OTHER_DeathDa
         dataType: datetime
         description: Other complication Death date
 
-      - name: car_hyp
+      - name: SIGNS_CARDIO_car_hyp
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Cardiac hypertrophy
 
-      - name: OthSp
+      - name: SIGNS_EPISODES_OthSp
         dataType: string
         description: If other specify
 
-      - name: PeritDa
+      - name: SIGNS_GASTRO_PeritDa
         dataType: datetime
         description: Complication peritoneal adhesions onset date
 
-      - name: leuk_sp
+      - name: SIGNS_HEMATOLOGICAL_leuk_sp
         dataType: string
         description: Leukemia specify
 
-      - name: Ta_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Ta_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Tan coloured/ichthyosiform rash
 
-      - name: Bone
+      - name: SIGNS_MUSCULOSKELETAL_Bone
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Bone alteration
 
-      - name: Neuro
+      - name: SIGNS_NEURO_Neuro
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Neurosensorial hearing loss
 
-      - name: GlaucDa
+      - name: SIGNS_OCULAR_GlaucDa
         dataType: datetime
         description: Glaucoma date
 
-      - name: Fail_thrive
+      - name: SIGNS_OTHER_Fail_thrive
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Failure to thrive
 
-      - name: car_hypDa
+      - name: SIGNS_CARDIO_car_hypDa
         dataType: datetime
         description: Complication cardiac hypertrophy onset date
 
-      - name: Occl
+      - name: SIGNS_GASTRO_Occl
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Intestinal occlusion/sub-occlusion
 
-      - name: hyd_mye
+      - name: SIGNS_HEMATOLOGICAL_hyd_mye
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Hydiopatic myelofibrosis
 
-      - name: Po_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Po_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Positive pathergy test
 
-      - name: BoneDa
+      - name: SIGNS_MUSCULOSKELETAL_BoneDa
         dataType: datetime
         description: Bone alteration date
 
-      - name: NeuroDa
+      - name: SIGNS_NEURO_NeuroDa
         dataType: datetime
         description: Neurosensorial hearing loss date
 
-      - name: Band
+      - name: SIGNS_OCULAR_Band
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Band keratopathy
 
-      - name: Fail_thriveDa
+      - name: SIGNS_OTHER_Fail_thriveDa
         dataType: datetime
         description: Date of failure to thrive
 
-      - name: Aneur
+      - name: SIGNS_CARDIO_Aneur
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Arterial aneurysm/stenosis
 
-      - name: OcclDa
+      - name: SIGNS_GASTRO_OcclDa
         dataType: datetime
         description: Complication occlusion/sub-occlusion onset date
 
-      - name: hyd_mye_dt
+      - name: SIGNS_HEMATOLOGICAL_hyd_mye_dt
         dataType: datetime
         description: Hydiopatic myelofibrosis date
 
-      - name: EryPlaque_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_EryPlaque_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Erythematous/violaceous plaques
 
-      - name: Pat
+      - name: SIGNS_MUSCULOSKELETAL_Pat
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Patellar overgrowth
 
-      - name: Perip
+      - name: SIGNS_NEURO_Perip
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Peripheral neuropathy
 
-      - name: BandDa
+      - name: SIGNS_OCULAR_BandDa
         dataType: datetime
         description: Band keratopathy date
 
-      - name: AneurDa
+      - name: SIGNS_CARDIO_AneurDa
         dataType: datetime
         description: Complication arterial aneurysm/stenosis onset date
 
-      - name: int_amy
+      - name: SIGNS_GASTRO_int_amy
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Intestinal amyloidosis **
 
-      - name: oth
+      - name: SIGNS_HEMATOLOGICAL_oth
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Other
 
-      - name: Lipo_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_Lipo_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Lipodystrophy
 
-      - name: PatDa
+      - name: SIGNS_MUSCULOSKELETAL_PatDa
         dataType: datetime
         description: Patellar overgrowth date
 
-      - name: PeripDa
+      - name: SIGNS_NEURO_PeripDa
         dataType: datetime
         description: Peripheral neuropathy date
 
-      - name: Optic
+      - name: SIGNS_OCULAR_Optic
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Optic nerve atrophy
 
-      - name: Vascul
+      - name: SIGNS_CARDIO_Vascul
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Large vessel vasculopathy
 
-      - name: int_amyDa
+      - name: SIGNS_GASTRO_int_amyDa
         dataType: datetime
         description: Complication intestinal amyloidosis onset date
 
-      - name: oth_sp
+      - name: SIGNS_HEMATOLOGICAL_oth_sp
         dataType: string
         description: specify (Other)
 
-      - name: EyeSw_Fr
+      - name: SIGNS_MUCO_CUTANEOUS_EyeSw_Fr
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Eyelid violacoeus swelling
 
-      - name: Front
+      - name: SIGNS_MUSCULOSKELETAL_Front
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Frontal bossing
 
-      - name: par
+      - name: SIGNS_NEURO_par
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Tetra/paraplegia
 
-      - name: OpticDa
+      - name: SIGNS_OCULAR_OpticDa
         dataType: datetime
         description: Optic nerve atrophy date
 
-      - name: VasculDa
+      - name: SIGNS_CARDIO_VasculDa
         dataType: datetime
         description: Complication large vessel vasculopathy onset date
 
-      - name: OthSp
+      - name: SIGNS_GASTRO_OthSp
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Other
 
-      - name: dig_isc_gan
+      - name: SIGNS_MUCO_CUTANEOUS_dig_isc_gan
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Digital/peripheral ischaemia (gangrenous)
 
-      - name: FrontDa
+      - name: SIGNS_MUSCULOSKELETAL_FrontDa
         dataType: datetime
         description: Frontal bossing date
 
-      - name: parDa
+      - name: SIGNS_NEURO_parDa
         dataType: datetime
         description: Tetra/paraplegia date
 
-      - name: Impa
+      - name: SIGNS_OCULAR_Impa
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Impaired vision
 
-      - name: Cardi
+      - name: SIGNS_CARDIO_Cardi
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Cardiomyopathy
 
-      - name: OthTx
+      - name: SIGNS_GASTRO_OthTx
         dataType: string
         description:  specify (Other gastrointestinal complication)
 
-      - name: dig_isc_non_gan
+      - name: SIGNS_MUCO_CUTANEOUS_dig_isc_non_gan
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Digital/peripheral ischaemia (non-gangrenous)
 
-      - name: Club
+      - name: SIGNS_MUSCULOSKELETAL_Club
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Clubbing
 
-      - name: Cereb
+      - name: SIGNS_NEURO_Cereb
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Cerebellar syndrome
 
-      - name: ImpaDa
+      - name: SIGNS_OCULAR_ImpaDa
         dataType: datetime
         description: Impaired vision date
 
-      - name: CardiDa
+      - name: SIGNS_CARDIO_CardiDa
         dataType: datetime
         description: Complication cardiomyopathy onset date
 
-      - name: OthDa
+      - name: SIGNS_GASTRO_OthDa
         dataType: datetime
         description: Complication Other onset date
 
-      - name: cut_ulc
+      - name: SIGNS_MUCO_CUTANEOUS_cut_ulc
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Cutaneous ulceration
 
-      - name: ClubDa
+      - name: SIGNS_MUSCULOSKELETAL_ClubDa
         dataType: datetime
         description: Clubbing date
 
-      - name: CerSp
+      - name: SIGNS_NEURO_CerSp
         dataType: string
         description: Cerebellar syndrome specify
 
-      - name: Blind
+      - name: SIGNS_OCULAR_Blind
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Blindness
 
-      - name: PulmFibro
+      - name: SIGNS_CARDIO_PulmFibro
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Pulmonary fibrosis
 
-      - name: alo
+      - name: SIGNS_MUCO_CUTANEOUS_alo
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Alopecia
 
-      - name: Camt
+      - name: SIGNS_MUSCULOSKELETAL_Camt
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Camtpodactily
 
-      - name: CerebDa
+      - name: SIGNS_NEURO_CerebDa
         dataType: datetime
         description: Cerebellar syndrome date
 
-      - name: BlindDa
+      - name: SIGNS_OCULAR_BlindDa
         dataType: datetime
         description: Blindness date
 
-      - name: PulmFibroDa
+      - name: SIGNS_CARDIO_PulmFibroDa
         dataType: datetime
         description: Complication pulmonary fibrosis onset date
 
-      - name: liv_rac
+      - name: SIGNS_MUCO_CUTANEOUS_liv_rac
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Livedo racemosa/reticularis
 
-      - name: CamtDa
+      - name: SIGNS_MUSCULOSKELETAL_CamtDa
         dataType: datetime
         description: Camtpodactily date
 
-      - name: Cran
+      - name: SIGNS_NEURO_Cran
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Cranial neuropathy
 
-      - name: other_specify
+      - name: SIGNS_OCULAR_other_specify
         dataType: string
         description: Other specify
 
-      - name: LympDyspl
+      - name: SIGNS_CARDIO_LympDyspl
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Lymphatic dysplasias
 
-      - name: ecz
+      - name: SIGNS_MUCO_CUTANEOUS_ecz
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Eczema
 
-      - name: BonDe
+      - name: SIGNS_MUSCULOSKELETAL_BonDe
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Bone Deformity
 
-      - name: CraSp
+      - name: SIGNS_NEURO_CraSp
         dataType: string
         description: Cranial neuropathy specify
 
-      - name: other
+      - name: SIGNS_OCULAR_other
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Other
 
-      - name: LympDysplDa
+      - name: SIGNS_CARDIO_LympDysplDa
         dataType: datetime
         description: Complication lymphatic dysplasia onset date
 
-      - name: sub_nod
+      - name: SIGNS_MUCO_CUTANEOUS_sub_nod
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Subcutaneous nodules
 
-      - name: BonDeDa
+      - name: SIGNS_MUSCULOSKELETAL_BonDeDa
         dataType: datetime
         description: Bone Deformity date
 
-      - name: CranDa
+      - name: SIGNS_NEURO_CranDa
         dataType: datetime
         description: Cranial neuropathy date
 
-      - name: otherDa
+      - name: SIGNS_OCULAR_otherDa
         dataType: datetime
         description: Other ocular sign date
 
-      - name: cor_art
+      - name: SIGNS_CARDIO_cor_art
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Coronaries' arteritis
 
-      - name: pho
+      - name: SIGNS_MUCO_CUTANEOUS_pho
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Photosensitivity
 
-      - name: BonEr
+      - name: SIGNS_MUSCULOSKELETAL_BonEr
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Bone erosions
 
-      - name: Ment
+      - name: SIGNS_NEURO_Ment
         dataType: xref
         refEntity: umdm_lookups_NoMildSevereNotKnown
         description: Mental retardation
 
-      - name: ray_phe
+      - name: SIGNS_MUCO_CUTANEOUS_ray_phe
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Raynaud&rsquo;s phenomenon
 
-      - name: BonErDa
+      - name: SIGNS_MUSCULOSKELETAL_BonErDa
         dataType: datetime
         description: Bone erosions date
 
-      - name: MentDa
+      - name: SIGNS_NEURO_MentDa
         dataType: datetime
         description: Mental retardation date
 
-      - name: dis_ski_les
+      - name: SIGNS_MUCO_CUTANEOUS_dis_ski_les
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Discoid skin lesion
 
-      - name: Ost
+      - name: SIGNS_MUSCULOSKELETAL_Ost
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Osteolytic lesions
 
-      - name: OthSp
+      - name: SIGNS_NEURO_OthSp
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Other
 
-      - name: chi
+      - name: SIGNS_MUCO_CUTANEOUS_chi
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Chilblains
 
-      - name: OstDa
+      - name: SIGNS_MUSCULOSKELETAL_OstDa
         dataType: datetime
         description: Osteomyelitis - infectious date
 
-      - name: OthTx
+      - name: SIGNS_NEURO_OthTx
         dataType: string
         description: specify (Other)
 
-      - name: nai_dis
+      - name: SIGNS_MUCO_CUTANEOUS_nai_dis
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotKnown
         description: Nail distrophy
 
-      - name: Hyper
+      - name: SIGNS_MUSCULOSKELETAL_Hyper
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Hyperostosis
 
-      - name: OthDa
+      - name: SIGNS_NEURO_OthDa
         dataType: datetime
         description: Other date
 
-      - name: other
+      - name: SIGNS_MUCO_CUTANEOUS_other
         dataType: xref
         refEntity: umdm_lookups_NeverSometimesAlwaysNotknown
         description: Other muco cutaneous sign
 
-      - name: HyperDa
+      - name: SIGNS_MUSCULOSKELETAL_HyperDa
         dataType: datetime
         description: Hyperostosis date
 
-      - name: other_specify
+      - name: SIGNS_MUCO_CUTANEOUS_other_specify
         dataType: string
         description: specify (other muco cutaneous sign)
 
-      - name: Osteo
+      - name: SIGNS_MUSCULOSKELETAL_Osteo
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Osteoporosis
 
-      - name: OsteoDa
+      - name: SIGNS_MUSCULOSKELETAL_OsteoDa
         dataType: datetime
         description: Osteoporosis date
 
-      - name: other_specify
+      - name: SIGNS_MUSCULOSKELETAL_other_specify
         dataType: string
         description: specify (Other musculoskeletal sign)
 
-      - name: other
+      - name: SIGNS_MUSCULOSKELETAL_other
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
-        description: Other (musculoskeletal sign)
+        description: Other Musculoskeletal Sign
 
-      - name: otherDa
+      - name: SIGNS_MUSCULOSKELETAL_otherDa
         dataType: datetime
         description: Other musculoskeletal sign date
 
-      - name: MuscAtrop
+      - name: SIGNS_MUSCULOSKELETAL_MuscAtrop
         dataType: xref
         refEntity: umdm_lookups_YesNoUnknow
         description: Muscular atrophy
 
-      - name: MuscAtropDa
+      - name: SIGNS_MUSCULOSKELETAL_MuscAtropDa
         dataType: datetime
         description: Muscular atrophy date
 
@@ -3243,6 +3282,12 @@ entities:
     label: Drug Therapy
     description: Eurofever drug therapy data
     attributes:
+
+      - name: auto_id
+        idAttribute: auto
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
 
       - name: export_id_pt
         dataType: xref
@@ -3355,6 +3400,12 @@ entities:
     label: Drug Therapy Height And Weight
     description: Eurofever drug therapy height and weight data
     attributes:
+
+      - name: auto_id
+        idAttribute: auto
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
 
       - name: export_id_pt
         dataType: xref
