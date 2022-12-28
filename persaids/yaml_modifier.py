@@ -34,8 +34,8 @@ def main(argv):
     if os.path.exists(args.dts_path) == False or os.path.exists(model_path) == False or os.path.exists(lookup_path) == False:
         print("ERROR - Some main folder does not exist")
         return
-    model_file = os.path.join(model_path, "persaids.yaml")
-    lookup_file = os.path.join(model_path, "persaids_lookups.yaml")
+    model_file = os.path.join(model_path, "psm_base.yaml")
+    lookup_file = os.path.join(model_path, "psm_base_lookups.yaml")
     if os.path.exists(model_file) == False or os.path.exists(lookup_file) == False:
         print("ERROR - A model file does not exist")
         return
