@@ -1,0 +1,11 @@
+value,description,codesystem,code,iri
+Carrier Status,"quantification of the presence or absence of a marker, eg a gene or a substance, in a sample",EFO,0007658,http://www.ebi.ac.uk/efo/EFO_0007658
+Diagnostic,Characteristic or indicative of a condition.,NCIT,C25482,http://purl.obolibrary.org/obo/NCIT_C25482
+Genetic Testing,"The process of isolating and testing the DNA of an embryo or a person to detect the presence of genetic alterations or defects that may predispose to the future development of a disease or disorder.",NCIT,C15709,http://purl.obolibrary.org/obo/NCIT_C15709
+Informative,"Refers to data that is useful in forming an opinion or judging an outcome.",NCIT,C94366,http://purl.obolibrary.org/obo/NCIT_C94366
+Prenatal Examination,"A test or diagnostic examination to assess the health status of the mother and well being of the fetus.",MAXO,0000528,http://purl.obolibrary.org/obo/MAXO_0000528
+Presymptomatic Testing,"Genetic analysis of an asymptomatic or unaffected individual who is at risk of a specific genetic disorder.",NCIT,C94311,http://purl.obolibrary.org/obo/NCIT_C94311
+Research,"Systematic investigation into a subject in order to discover facts, establish or revise a theory, or develop a plan of action based on the facts discovered.",NCIT,C15429,http://purl.obolibrary.org/obo/NCIT_C15429
+Storage,"A maintenance process by which material entities that are not actively metabolizing are placed in well identified location and possibly under controlled environment in ad-hoc devices/structures in order to preserve and protect them from decay/alteration and maintain availability.",OBI,0302893,http://purl.obolibrary.org/obo/OBI_0302893
+Other,"The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).",HL7,OTH,http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH
+Unknown,"A proper value is applicable, but not known.",HL7,UNK,http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK

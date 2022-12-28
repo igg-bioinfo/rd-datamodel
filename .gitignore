@@ -8,8 +8,10 @@ src/molgenis/convert/__pycache__/
 
 # C extensions
 *.so
-eurofever/data/*
-eurofever/dts/*
+
+# PerSAIDs folder data
+persaids/data/*
+persaids/dts/*
 
 # Distribution / packaging
 .Python

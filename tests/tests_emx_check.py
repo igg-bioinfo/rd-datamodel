@@ -157,4 +157,4 @@ def checkEmxStructure(file: str = None):
 
 # Test Emx Structure
 #checkEmxStructure(file = './src/emx-umdm/umdm_emx1.yaml')
-checkEmxStructure(file = './model/eurofever.yaml')
+checkEmxStructure(file = './model/psm.yaml')

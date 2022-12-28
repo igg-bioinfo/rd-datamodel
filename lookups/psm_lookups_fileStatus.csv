@@ -1,0 +1,8 @@
+value,description,codesystem,code,iri
+Invalid,"An indication that a file has invalid data or is in an invalid format and cannot be submitted to a data repository.",NCIT,C172867,http://purl.obolibrary.org/obo/NCIT_C172867
+Live,"An indication that a file is active within a data repository.",NCIT,C172870,http://purl.obolibrary.org/obo/NCIT_C172870
+Redacted,"An indication that a submitted file or the data within a file has been redacted before or during submission to a data repository.",NCIT,C172869,http://purl.obolibrary.org/obo/NCIT_C172869
+Submitted,"An indication that a file has been submitted to a data repository.",NCIT,C172872,http://purl.obolibrary.org/obo/NCIT_C172872
+Suppressed,"An indication that a submitted file has been suppressed from the view of the users for a data repository.",NCIT,C172868,http://purl.obolibrary.org/obo/NCIT_C172868
+Uploaded,"An indication that a submitted file has successfully been uploaded to a data repository.",NCIT,C172862,http://purl.obolibrary.org/obo/NCIT_C172862
+Validated,"An indication that a file has successfully completed the validation process for submission into a data repository.",NCIT,C172871,http://purl.obolibrary.org/obo/NCIT_C172871

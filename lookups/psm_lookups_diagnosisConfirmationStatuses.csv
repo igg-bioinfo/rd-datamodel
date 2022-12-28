@@ -1,0 +1,21 @@
+value,description,codesystem,code,iri
+Cannot Be Assessed,"Aspects of the context prevent the evaluation needed to determine a value.",NCIT,C48657,http://purl.obolibrary.org/obo/NCIT_C48657
+Cannot Be Determined,"An indication that a reason or result cannot be established.",NCIT,C179711,http://purl.obolibrary.org/obo/NCIT_C179711
+Confirmed,"Having been established or verified.",NCIT,C25458,http://purl.obolibrary.org/obo/NCIT_C25458
+Incomplete,"Not whole; lacking some necessary part or detail; unfinished.",NCIT,C49160,http://purl.obolibrary.org/obo/NCIT_C49160
+Insufficient Information Available,"The information available relating to the reported event is not sufficient to identify either the manufacturer, the device, or other essential information.",NCIT,C139465,http://purl.obolibrary.org/obo/NCIT_C139465
+Insufficient Information to Classify Condition,"Not enough information available to classify the clinical signs, symptoms and conditions.",NCIT,C172137,http://purl.obolibrary.org/obo/NCIT_C172137
+Insufficient Information to Classify Health Impact,"Not enough information available to classify the health impact.",NCIT,C172138,http://purl.obolibrary.org/obo/NCIT_C172138
+Insufficient Quality,"Conditions did not meet a qualitative measure necessary for testing or reporting.",NCIT,C177691,http://purl.obolibrary.org/obo/NCIT_C177691
+Insufficient Quantity,"Conditions did not meet a quantitative measure necessary for testing or reporting.",NCIT,C177690,http://purl.obolibrary.org/obo/NCIT_C177690
+Limited Or No Information,"Restricted or no information available.",NCIT,C54352,http://purl.obolibrary.org/obo/NCIT_C54352
+No Information Available,"Information regarding the subject is unknown or inaccessible at this time.",NCIT,C53269,http://purl.obolibrary.org/obo/NCIT_C53269
+Not Applicable,"Determination of a value is not relevant in the current context.",NCIT,C48660,http://purl.obolibrary.org/obo/NCIT_C48660
+Not Available,"The desired information is not available.",NCIT,C126101,http://purl.obolibrary.org/obo/NCIT_C126101
+Not Done,"Indicates a task, process or examination that has either not been initiated or not been completed.",NCIT,C49484,http://purl.obolibrary.org/obo/NCIT_C49484
+Not Assessed,"Indicates that an assessment was not performed.",NCIT,C139527,http://purl.obolibrary.org/obo/NCIT_C139527
+Not Performed,"An indicator that specifies that an activity did not occur.",NCIT,C141477,http://purl.obolibrary.org/obo/NCIT_C141477
+Not Tested,"Indicates that a test was not performed.",NCIT,C101887,http://purl.obolibrary.org/obo/NCIT_C101887
+Not Identified,"The finding is not present, but a value of 'none' cannot be unequivocally established absence in the current context.",NCIT,C48661,http://purl.obolibrary.org/obo/NCIT_C48661
+Not Obtained,"Not acquired, gained or come to the possession.",NCIT,C67325,http://purl.obolibrary.org/obo/NCIT_C67325
+Unknown,"Not known, not observed, not recorded, or refused.",NCIT,C17998,http://purl.obolibrary.org/obo/NCIT_C17998
