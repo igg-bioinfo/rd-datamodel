@@ -4,7 +4,7 @@
 
 | Name | Description | Parent |
 |:---- |:-----------|:------|
-| psm | The Catalog of Sequencing and Array Samples (v1.0.0, 2022-12-01) | - |
+| psm | PerSAIDs Catalog of Eurofever Clinical Data, Sequencing and Array Samples (v1.0.0, 2022-12-01) | - |
 | psm_lookups | Lookup tables for PerSAIDs Molgenis Data Model (PSM) (v1.0.0, 2022-12-01) | psm |
 
 ## Entities
@@ -3076,112 +3076,20 @@ PerSAIDs patient proband data
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Id | xref |
-| gender | - | Gender | xref |
+| id_proband | - | Proband export ID | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Id | xref |
-| gender | - | Gender | xref |
-| date_onset | - | Disease Onset | datetime |
+| id_proband | - | Proband export ID | xref |
+| rel_to_prob | - | Relation to proband | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Id | xref |
-| gender | - | Gender | xref |
-| date_onset | - | Disease Onset | datetime |
-| age_onset | - | Patient age at onset | decimal |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Id | xref |
-| gender | - | Gender | xref |
-| date_onset | - | Disease Onset | datetime |
-| age_onset | - | Patient age at onset | decimal |
-| date_diagnosis | - | Date of Diagnosis | datetime |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Id | xref |
-| gender | - | Gender | xref |
-| date_onset | - | Disease Onset | datetime |
-| age_onset | - | Patient age at onset | decimal |
-| date_diagnosis | - | Date of Diagnosis | datetime |
-| age_diagnosis | - | Patient age at diagnosis | decimal |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Id | xref |
-| gender | - | Gender | xref |
-| date_onset | - | Disease Onset | datetime |
-| age_onset | - | Patient age at onset | decimal |
-| date_diagnosis | - | Date of Diagnosis | datetime |
-| age_diagnosis | - | Patient age at diagnosis | decimal |
-| date_first_visit | - | First visit at your centre | datetime |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Id | xref |
-| gender | - | Gender | xref |
-| date_onset | - | Disease Onset | datetime |
-| age_onset | - | Patient age at onset | decimal |
-| date_diagnosis | - | Date of Diagnosis | datetime |
-| age_diagnosis | - | Patient age at diagnosis | decimal |
-| date_first_visit | - | First visit at your centre | datetime |
-| age_first_visit | - | Patient age at first visit | decimal |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Id | xref |
-| gender | - | Gender | xref |
-| date_onset | - | Disease Onset | datetime |
-| age_onset | - | Patient age at onset | decimal |
-| date_diagnosis | - | Date of Diagnosis | datetime |
-| age_diagnosis | - | Patient age at diagnosis | decimal |
-| date_first_visit | - | First visit at your centre | datetime |
-| age_first_visit | - | Patient age at first visit | decimal |
-| date_end | - | General discontinuation date | datetime |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Id | xref |
-| gender | - | Gender | xref |
-| date_onset | - | Disease Onset | datetime |
-| age_onset | - | Patient age at onset | decimal |
-| date_diagnosis | - | Date of Diagnosis | datetime |
-| age_diagnosis | - | Patient age at diagnosis | decimal |
-| date_first_visit | - | First visit at your centre | datetime |
-| age_first_visit | - | Patient age at first visit | decimal |
-| date_end | - | General discontinuation date | datetime |
-| end_reason | - | General discontinuation reason | string |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Id | xref |
-| gender | - | Gender | xref |
-| date_onset | - | Disease Onset | datetime |
-| age_onset | - | Patient age at onset | decimal |
-| date_diagnosis | - | Date of Diagnosis | datetime |
-| age_diagnosis | - | Patient age at diagnosis | decimal |
-| date_first_visit | - | First visit at your centre | datetime |
-| age_first_visit | - | Patient age at first visit | decimal |
-| date_end | - | General discontinuation date | datetime |
-| end_reason | - | General discontinuation reason | string |
-| protocol_date_end | - | Protocol discontinuation date | datetime |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Id | xref |
-| gender | - | Gender | xref |
-| date_onset | - | Disease Onset | datetime |
-| age_onset | - | Patient age at onset | decimal |
-| date_diagnosis | - | Date of Diagnosis | datetime |
-| age_diagnosis | - | Patient age at diagnosis | decimal |
-| date_first_visit | - | First visit at your centre | datetime |
-| age_first_visit | - | Patient age at first visit | decimal |
-| date_end | - | General discontinuation date | datetime |
-| end_reason | - | General discontinuation reason | string |
-| protocol_date_end | - | Protocol discontinuation date | datetime |
-| protocol_end_reason | - | Protocol discontinuation reason | string |
+| id_proband | - | Proband export ID | xref |
+| rel_to_prob | - | Relation to proband | string |
+| dia_short | - | Diagnosis short name | string |
 
 ### Entity: psm_diagnosis_autoinflammatory_and_family_history
 

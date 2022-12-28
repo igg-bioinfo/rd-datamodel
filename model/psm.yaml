@@ -1566,50 +1566,18 @@ entities:
         refEntity: psm_patients
         description: Patient Id
 
-      - name: gender
+      - name: id_proband
         dataType: xref
-        refEntity: psm_lookups_MaleFemale
-        description: Gender
+        refEntity: psm_patients
+        description: Proband export ID
 
-      - name: date_onset
-        dataType: datetime
-        description: Disease Onset
-
-      - name: age_onset
-        dataType: decimal
-        description: Patient age at onset
-
-      - name: date_diagnosis
-        dataType: datetime
-        description: Date of Diagnosis
-
-      - name: age_diagnosis
-        dataType: decimal
-        description: Patient age at diagnosis
-
-      - name: date_first_visit
-        dataType: datetime
-        description: First visit at your centre
-
-      - name: age_first_visit
-        dataType: decimal
-        description: Patient age at first visit
-
-      - name: date_end
-        dataType: datetime
-        description: General discontinuation date
-
-      - name: end_reason
+      - name: rel_to_prob
         dataType: string
-        description: General discontinuation reason
+        description: Relation to proband
 
-      - name: protocol_date_end
-        dataType: datetime
-        description: Protocol discontinuation date
-
-      - name: protocol_end_reason
+      - name: dia_short
         dataType: string
-        description: Protocol discontinuation reason
+        description: Diagnosis short name
 
   #////////////////////////////////////////////////////////////////////////////
   # @name psm_diagnosis_autoinflammatory_and_family_history
