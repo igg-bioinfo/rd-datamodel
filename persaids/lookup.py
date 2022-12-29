@@ -3,41 +3,45 @@
 import shutil
 import os
 import glob
+from utils import prefix, study
 
 
 class Lookup:
     lookup_file = ""
     lookup_path = ""
     setup_file = ""
-    template = "attributeTemplatePerSAIDs"
+    template = "attributeTemplate" + study
 
     def __init__(self, lookup_file, setup_path, model_path, lookup_path):
         self.lookup_path = lookup_path
-        self.lookup_file = os.path.join(model_path, "psm_lookups.yaml")
+        self.lookup_file = os.path.join(model_path, prefix + "_lookups.yaml")
         shutil.copy(lookup_file, self.lookup_file)
 
         setup_file = os.path.join(setup_path, "setup.sh")
-        self.setup_file = os.path.join(setup_path, "setup_psm.sh")
+        self.setup_file = os.path.join(setup_path, "setup_" + prefix + ".sh")
         shutil.copy(setup_file, self.setup_file)
 
-        for f in glob.glob(os.path.join(model_path, "psm_lookups_*.csv")):
+        for f in glob.glob(os.path.join(model_path, prefix + "_lookups_*.csv")):
             os.remove(f)
 
 
     def save_setup(self, text):
         print("Save " + self.setup_file)
-        eof = "# <!--- end: listEmxFiles --->\n"
+        sof = "# <!--- start: listEmxFiles --->\n"
+        
         file = open(self.setup_file, mode='r')
         text_base = file.read()
         file.close()
-        text_base = text_base.replace("dist/umdm.xlsx", "dist/PerSAIDs.xlsx")
-        #text_base = text_base.replace("umdm_", "psm_")
-        text_base = text_base.split(eof)[0] + text + eof
+        text_base = text_base.replace("2021-11-10", "2022-12-01")
+        text_base = text_base.replace("2022-02-02", "2022-12-01")
+        text_base = text_base.split(sof)[0] + sof + "mcmd import -p dist/" + study + ".xlsx\n"
+        text = text_base + text + "# <!--- end: listEmxFiles --->\n"
+        text += "# mcmd delete -p " + prefix + " # completing remove package\n"
         with open(self.setup_file, "w") as f:
-            f.write(text_base)
+            f.write(text)
 
     def save_csv(self, name, options):
-        file_name = "psm_lookups_" + name + ".csv"
+        file_name = prefix + "_lookups_" + name + ".csv"
         print("Save " + file_name)
         text = "value,description\n"
         for opt in options:
@@ -60,20 +64,21 @@ class Lookup:
                     print("ERROR - " + file_path + " does not exist")
                     continue
                 print("Copy " + file_name)
-                shutil.copy(os.path.join(self.lookup_path, file_name), os.path.join(self.lookup_path, "psm_lookups_" + lu_name + ".csv"))
-                lookups.append(lu_name) 
+                shutil.copy(os.path.join(self.lookup_path, file_name), os.path.join(self.lookup_path, prefix + "_lookups_" + lu_name + ".csv"))
+                lookups.append([lu_name]) 
         return lookups
     
     def save(self, lookups):
         lookups = self.copy_lookups(lookups)
+
         txt_setup = ""
         txt_yaml = ""
         print("Save " + self.lookup_file)
         txt_yaml += self.add_template()
         for lu in lookups:
-            txt_setup += "mcmd import -p lookups/psm_lookups_" + lu[0] + ".csv\n"
+            txt_setup += "mcmd import -p lookups/" + prefix + "_lookups_" + lu[0] + ".csv\n"
             if len(lu) == 2:
-                txt_yaml += self.add(lu[0], "PerSAIDs lookup")
+                txt_yaml += self.add(lu[0], study + " lookup")
                 self.save_csv(lu[0], lu[1])
         with open(self.lookup_file, "a") as f:
             f.write(txt_yaml)
@@ -83,7 +88,7 @@ class Lookup:
         yaml = "\n"
         yaml += "  - name: " + name + "\n"
         yaml += "    description: " + description + "\n"
-        yaml += "    extends: psm_lookups_" + self.template + "\n"
+        yaml += "    extends: " + prefix + "_lookups_" + self.template + "\n"
         return yaml
 
     def add_template(self):

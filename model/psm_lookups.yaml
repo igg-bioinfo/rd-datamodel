@@ -292,10 +292,6 @@ entities:
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
-  - name: YesNoUnknow
-    description: PerSAIDs lookup
-    extends: psm_lookups_attributeTemplatePerSAIDs
-
   - name: 1Day2Days3Days4Days5Days6Days7Days8Days9Days1
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs

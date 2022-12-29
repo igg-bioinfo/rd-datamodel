@@ -1522,8 +1522,8 @@ entities:
         description: Protocol discontinuation reason
 
   #////////////////////////////////////////////////////////////////////////////
-  # @name psm_patient_additional_information
-  - name: patient_additional_information
+  # @name psm_pt_info
+  - name: pt_info
     label: Patient Additional Information
     description: PerSAIDs patient additional information data
     attributes:
@@ -1549,8 +1549,8 @@ entities:
         description: Specify ethnicity in case of mixed ethnicity and other ethnicity
 
   #////////////////////////////////////////////////////////////////////////////
-  # @name psm_patient_proband
-  - name: patient_proband
+  # @name psm_p_proband
+  - name: p_proband
     label: Patient Proband
     description: PerSAIDs patient proband data
     attributes:
@@ -1580,8 +1580,8 @@ entities:
         description: Diagnosis short name
 
   #////////////////////////////////////////////////////////////////////////////
-  # @name psm_diagnosis_autoinflammatory_and_family_history
-  - name: diagnosis_autoinflammatory_and_family_history
+  # @name psm_diagnosis_autoinf
+  - name: diagnosis_autoinf
     label: Diagnosis Autoinflammatory And Family History
     description: PerSAIDs diagnosis autoinflammatory and family history data
     attributes:
@@ -1635,8 +1635,8 @@ entities:
         description: Pattern of inheritance
 
   #////////////////////////////////////////////////////////////////////////////
-  # @name psm_concomitant_diseases
-  - name: concomitant_diseases
+  # @name psm_concomitant
+  - name: concomitant
     label: Concomitant Diseases
     description: PerSAIDs concomitant diseases data
     attributes:
@@ -1801,8 +1801,8 @@ entities:
         description: Mutation not listed specify
 
   #////////////////////////////////////////////////////////////////////////////
-  # @name psm_signs_and_symptoms
-  - name: signs_and_symptoms
+  # @name psm_sgns_symptms
+  - name: sgns_symptms
     label: Signs And Symptoms
     description: PerSAIDs signs and symptoms data
     attributes:
@@ -1894,7 +1894,7 @@ entities:
 
       - name: SIGNS_OTHER_HypTen
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Gender / height related hypertension
 
       - name: CLINICAL_SUMMARY_musculoskeletal
@@ -2022,7 +2022,7 @@ entities:
 
       - name: SIGNS_OTHER_Amylo
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: AA- Amyloidosis
 
       - name: CLINICAL_SUMMARY_gastro
@@ -2214,7 +2214,7 @@ entities:
 
       - name: SIGNS_OTHER_Macrop
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Macrophage activation syndrome
 
       - name: CLINICAL_SUMMARY_cardio
@@ -2337,7 +2337,7 @@ entities:
 
       - name: SIGNS_OTHER_Infert
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Infertility
 
       - name: CLINICAL_SUMMARY_genito
@@ -2426,7 +2426,7 @@ entities:
 
       - name: SIGNS_HEMATOLOGICAL_rec_inf
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Recurrent infections
 
       - name: SIGNS_LYMPHOID_Par_Fr
@@ -2456,7 +2456,7 @@ entities:
 
       - name: SIGNS_OTHER_Cultur
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Culture proven severe infections
 
       - name: CLINICAL_SUMMARY_other
@@ -2486,7 +2486,7 @@ entities:
 
       - name: SIGNS_HEMATOLOGICAL_sev_inf
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Severe infections (hospitalization)
 
       - name: SIGNS_MUCO_CUTANEOUS_Ac_Fr
@@ -2501,7 +2501,7 @@ entities:
 
       - name: SIGNS_NEURO_str
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Stroke
 
       - name: SIGNS_OCULAR_Pa_Fr
@@ -2539,7 +2539,7 @@ entities:
 
       - name: SIGNS_HEMATOLOGICAL_opp_inf
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Opportunistic infections (bacterial, viral, elimintic, other)
 
       - name: SIGNS_MUCO_CUTANEOUS_Ps_Fr
@@ -2563,7 +2563,7 @@ entities:
 
       - name: SIGNS_OTHER_Tumor
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Tumors
 
       - name: SIGNS_CARDIO_myo
@@ -2644,7 +2644,7 @@ entities:
 
       - name: SIGNS_NEURO_int_hem
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Intracranial hemorrhage
 
       - name: SIGNS_OCULAR_Re_Fr
@@ -2668,7 +2668,7 @@ entities:
 
       - name: SIGNS_GASTRO_Gut
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Gut perforation
 
       - name: SIGNS_HEMATOLOGICAL_opp_inf_sp
@@ -2696,7 +2696,7 @@ entities:
 
       - name: SIGNS_OTHER_Death
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Death
 
       - name: SIGNS_CARDIO_Myocar
@@ -2715,7 +2715,7 @@ entities:
 
       - name: SIGNS_HEMATOLOGICAL_leuk
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Leukemia
 
       - name: SIGNS_MUCO_CUTANEOUS_Er_Fr
@@ -2725,12 +2725,12 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_Flex
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Flexion contractures
 
       - name: SIGNS_NEURO_Hydro
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Hydrocephalus
 
       - name: SIGNS_OCULAR_CatarDa
@@ -2752,7 +2752,7 @@ entities:
 
       - name: SIGNS_GASTRO_Perit
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Peritoneal adhesions
 
       - name: SIGNS_HEMATOLOGICAL_leuk_dt
@@ -2805,12 +2805,12 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_Bone
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Bone alteration
 
       - name: SIGNS_NEURO_Neuro
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Neurosensorial hearing loss
 
       - name: SIGNS_OCULAR_GlaucDa
@@ -2819,7 +2819,7 @@ entities:
 
       - name: SIGNS_OTHER_Fail_thrive
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Failure to thrive
 
       - name: SIGNS_CARDIO_car_hypDa
@@ -2828,12 +2828,12 @@ entities:
 
       - name: SIGNS_GASTRO_Occl
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Intestinal occlusion/sub-occlusion
 
       - name: SIGNS_HEMATOLOGICAL_hyd_mye
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Hydiopatic myelofibrosis
 
       - name: SIGNS_MUCO_CUTANEOUS_Po_Fr
@@ -2878,12 +2878,12 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_Pat
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Patellar overgrowth
 
       - name: SIGNS_NEURO_Perip
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Peripheral neuropathy
 
       - name: SIGNS_OCULAR_BandDa
@@ -2896,12 +2896,12 @@ entities:
 
       - name: SIGNS_GASTRO_int_amy
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Intestinal amyloidosis **
 
       - name: SIGNS_HEMATOLOGICAL_oth
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Other
 
       - name: SIGNS_MUCO_CUTANEOUS_Lipo_Fr
@@ -2942,12 +2942,12 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_Front
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Frontal bossing
 
       - name: SIGNS_NEURO_par
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Tetra/paraplegia
 
       - name: SIGNS_OCULAR_OpticDa
@@ -2960,7 +2960,7 @@ entities:
 
       - name: SIGNS_GASTRO_OthSp
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Other
 
       - name: SIGNS_MUCO_CUTANEOUS_dig_isc_gan
@@ -2997,12 +2997,12 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_Club
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Clubbing
 
       - name: SIGNS_NEURO_Cereb
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Cerebellar syndrome
 
       - name: SIGNS_OCULAR_ImpaDa
@@ -3032,7 +3032,7 @@ entities:
 
       - name: SIGNS_OCULAR_Blind
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Blindness
 
       - name: SIGNS_CARDIO_PulmFibro
@@ -3047,7 +3047,7 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_Camt
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Camtpodactily
 
       - name: SIGNS_NEURO_CerebDa
@@ -3073,7 +3073,7 @@ entities:
 
       - name: SIGNS_NEURO_Cran
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Cranial neuropathy
 
       - name: SIGNS_OCULAR_other_specify
@@ -3092,7 +3092,7 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_BonDe
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Bone Deformity
 
       - name: SIGNS_NEURO_CraSp
@@ -3137,7 +3137,7 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_BonEr
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Bone erosions
 
       - name: SIGNS_NEURO_Ment
@@ -3165,12 +3165,12 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_Ost
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Osteolytic lesions
 
       - name: SIGNS_NEURO_OthSp
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Other
 
       - name: SIGNS_MUCO_CUTANEOUS_chi
@@ -3193,7 +3193,7 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_Hyper
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Hyperostosis
 
       - name: SIGNS_NEURO_OthDa
@@ -3215,7 +3215,7 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_Osteo
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Osteoporosis
 
       - name: SIGNS_MUSCULOSKELETAL_OsteoDa
@@ -3228,7 +3228,7 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_other
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Other Musculoskeletal Sign
 
       - name: SIGNS_MUSCULOSKELETAL_otherDa
@@ -3237,7 +3237,7 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_MuscAtrop
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknow
+        refEntity: psm_lookups_YesNoUnknown
         description: Muscular atrophy
 
       - name: SIGNS_MUSCULOSKELETAL_MuscAtropDa
@@ -3245,8 +3245,8 @@ entities:
         description: Muscular atrophy date
 
   #////////////////////////////////////////////////////////////////////////////
-  # @name psm_drug_therapy
-  - name: drug_therapy
+  # @name psm_therapy_sum
+  - name: therapy_sum
     label: Drug Therapy
     description: PerSAIDs drug therapy data
     attributes:
@@ -3363,8 +3363,8 @@ entities:
         description: Type route value
 
   #////////////////////////////////////////////////////////////////////////////
-  # @name psm_drug_therapy_height_and_weight
-  - name: drug_therapy_height_and_weight
+  # @name psm_therapy_height_wieght
+  - name: therapy_height_wieght
     label: Drug Therapy Height And Weight
     description: PerSAIDs drug therapy height and weight data
     attributes:

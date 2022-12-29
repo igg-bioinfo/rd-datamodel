@@ -5,17 +5,8 @@ import argparse
 import os
 from model import Model
 from lookup import Lookup
+from utils import prefix, DTSs
 
-DTSs = ["PATIENTS",
-    "PT_INFO",
-    "P_Proband",
-    "DIAGNOSIS_AUTOINF",
-    "CONCOMITANT",
-    "LAB_EXAM",
-    "MOLECULAR_ANALYSIS",
-    "SGNS_SYMPTMS",
-    "THERAPY_SUM",
-    "THERAPY_HEIGHT_WIEGHT",]
 
 #RETRIEVE THE ARGUMENTS FOR THE PYTHON APPLICATION
 def get_args(argv):
@@ -34,8 +25,8 @@ def main(argv):
     if os.path.exists(args.dts_path) == False or os.path.exists(model_path) == False or os.path.exists(lookup_path) == False:
         print("ERROR - Some main folder does not exist")
         return
-    model_file = os.path.join(model_path, "psm_base.yaml")
-    lookup_file = os.path.join(model_path, "psm_base_lookups.yaml")
+    model_file = os.path.join(model_path, prefix + "_base.yaml")
+    lookup_file = os.path.join(model_path, prefix + "_base_lookups.yaml")
     if os.path.exists(model_file) == False or os.path.exists(lookup_file) == False:
         print("ERROR - A model file does not exist")
         return
@@ -61,4 +52,4 @@ def main(argv):
 if __name__ == '__main__':
     main(sys.argv[1:])
 
-# python3 yaml_modifier.py --dts_path ./dts --yaml_path ../
+# python3 create_model_files.py --dts_path ./dts --yaml_path ../

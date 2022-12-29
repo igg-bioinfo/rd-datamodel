@@ -4,6 +4,8 @@ from dts import DTS
 import shutil
 import os
 import re
+import csv
+from utils import prefix
 
 
 class Model:
@@ -12,22 +14,39 @@ class Model:
     yaml = ""
     lookups = []
     lu_max = 45
+    data_entities = []
 
 
     def __init__(self, model_file, model_path):
-        self.model_file = os.path.join(model_path, "psm.yaml")
+        self.model_file = os.path.join(model_path, prefix + ".yaml")
         shutil.copy(model_file, self.model_file)
         self.yaml = ""
+        self.lookups = []
+        self.data_entities = []
     
 
     def save(self):
         print("Save " + self.model_file)
         with open(self.model_file, "a") as f:
             f.write(self.yaml)
+        with open('./data_entities.tsv', 'w', newline='') as tsvfile:
+            writer = csv.writer(tsvfile, delimiter='\t', lineterminator='\n')
+            writer.writerows(self.data_entities)
     
 
     def get_dts(self, file):
         self.dts = DTS(file)
+
+    
+    def norm_value(self, value):
+        value = value.strip().title()
+        value = value.replace("knonwn", "known")
+        value = value.replace("&Gt;", "Greater than ")
+        value = value.replace("&Lt;", "Less than ")
+        value = value.replace("  ", " ")
+        if value.endswith("know"):
+            value += "n"
+        return value
 
 
     def set_lookup(self, name, description, sep, sep2):
@@ -39,7 +58,7 @@ class Model:
         if name == "Ethnicity":
             values = re.sub("\(.*?\)", "", values)
         if name == "other" and "sign" in values and "musculoskeletal" in values:
-            return ["YesNoUnknow", "Other (musculoskeletal sign)", [['1', 'Yes'], ['0', 'No'], ['99', 'Unknow']]]
+            return ["YesNoUnknown", "Other (musculoskeletal sign)", [['1', 'Yes'], ['0', 'No'], ['99', 'Unknown']]]
             
         #LOOKUP - GET OPTIONS
         opts = []
@@ -51,8 +70,8 @@ class Model:
                 for opt in opts:
                     key_value = opt.split(":" if ":" in values else "=")
                     if len(key_value) > 1:
-                        val1 = key_value[0].strip().title().replace("knonwn", "known")
-                        val2 = key_value[1].strip().title().replace("knonwn", "known")
+                        val1 = self.norm_value(key_value[0])
+                        val2 = self.norm_value(key_value[1])
                         key = val2 if val1.isnumeric() else val1
                         value = val1 if val1.isnumeric() else val2
                         options.append([value, key])
@@ -66,7 +85,7 @@ class Model:
     def check_lookup(self, name, description):
         lookup_table = None
         opts = []
-            
+
         #LOOKUP - FIX BY NAME
         if name == "lab_status":
             [lookup_table, description, opts] = ["NotdoneDoneWaitingforresponse", "Lab exam status", [['0', 'Not done'], ['1', 'Done'], ['2', 'Waiting for response']]]
@@ -90,13 +109,15 @@ class Model:
             [lookup_table, description, opts] = self.set_lookup(name, description, "[", "]")
             
         #LOOKUP - FIX BY LOOKUP
-        if lookup_table == "MusculoskeletalSign(YesNoUnknow":
-            [lookup_table, description, opts] = ["YesNoUnknow", "Other Musculoskeletal Sign", [['1', 'Yes'], ['0', 'No'], ['99', 'Unknow']]]
+        if lookup_table == "MusculoskeletalSign(YesNoUnknown":
+            [lookup_table, description, opts] = ["YesNoUnknown", "Other Musculoskeletal Sign", [['1', 'Yes'], ['0', 'No'], ['99', 'Unknown']]]
+        
         return [lookup_table, description.replace(":", ""), opts]
     
 
     def get_yaml(self):
         self.yaml += self.dts.set_header()
+        self.data_entities.append([self.dts.filename.replace("DTS_", "DT_"), prefix + "_" + self.dts.entity])
         names = []
         if self.dts.group != "patients":
             self.yaml += self.dts.set_attr("auto_id", "Autoincremental ID", "string", None, True, self.dts.group)
