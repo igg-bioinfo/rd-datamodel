@@ -26,15 +26,15 @@
 | releases | The act of making data or other structured information accessible to the public or to the user group of a database. | psm |
 | samplingProtocols | Describes the procedure whereby biological samples for an experiment are sourced. | psm |
 | patients | PerSAIDs patients data | psm |
-| patient_additional_information | PerSAIDs patient additional information data | psm |
-| patient_proband | PerSAIDs patient proband data | psm |
-| diagnosis_autoinflammatory_and_family_history | PerSAIDs diagnosis autoinflammatory and family history data | psm |
-| concomitant_diseases | PerSAIDs concomitant diseases data | psm |
+| pt_info | PerSAIDs patient additional information data | psm |
+| p_proband | PerSAIDs patient proband data | psm |
+| diagnosis_autoinf | PerSAIDs diagnosis autoinflammatory and family history data | psm |
+| concomitant | PerSAIDs concomitant diseases data | psm |
 | lab_exam | PerSAIDs lab exam data | psm |
 | molecular_analysis | PerSAIDs molecular analysis data | psm |
-| signs_and_symptoms | PerSAIDs signs and symptoms data | psm |
-| drug_therapy | PerSAIDs drug therapy data | psm |
-| drug_therapy_height_and_weight | PerSAIDs drug therapy height and weight data | psm |
+| sgns_symptms | PerSAIDs signs and symptoms data | psm |
+| therapy_sum | PerSAIDs drug therapy data | psm |
+| therapy_height_wieght | PerSAIDs drug therapy height and weight data | psm |
 | attributeTemplateDefault | attribute template where value is the primary key | psm_lookups |
 | attributeTemplateCode | attribute template where code is the primary key | psm_lookups |
 | anatomicalSource | Anatomical Source (FAIR Genomes, v1.1) | psm_lookups |
@@ -76,7 +76,6 @@
 | NeverSometimesOrOftenAlwaysNotKnown | PerSAIDs lookup | psm_lookups |
 | NeverSometimesAlwaysNotKnown | PerSAIDs lookup | psm_lookups |
 | 01Day2Days3Days4Days5Days6Days7Days8Days9Days | PerSAIDs lookup | psm_lookups |
-| YesNoUnknow | PerSAIDs lookup | psm_lookups |
 | 1Day2Days3Days4Days5Days6Days7Days8Days9Days1 | PerSAIDs lookup | psm_lookups |
 | MonolateralBilateralNotKnown | PerSAIDs lookup | psm_lookups |
 | RegularPeriodicIrregularNonPeriodicNotKnown | PerSAIDs lookup | psm_lookups |
@@ -3038,7 +3037,7 @@ PerSAIDs patients data
 | protocol_date_end | - | Protocol discontinuation date | datetime |
 | protocol_end_reason | - | Protocol discontinuation reason | string |
 
-### Entity: psm_patient_additional_information
+### Entity: psm_pt_info
 
 PerSAIDs patient additional information data
 
@@ -3061,7 +3060,7 @@ PerSAIDs patient additional information data
 | Ethnicity | - | Ethnicity of the child | xref |
 | EthniSp | - | Specify ethnicity in case of mixed ethnicity and other ethnicity | string |
 
-### Entity: psm_patient_proband
+### Entity: psm_p_proband
 
 PerSAIDs patient proband data
 
@@ -3091,7 +3090,7 @@ PerSAIDs patient proband data
 | rel_to_prob | - | Relation to proband | string |
 | dia_short | - | Diagnosis short name | string |
 
-### Entity: psm_diagnosis_autoinflammatory_and_family_history
+### Entity: psm_diagnosis_autoinf
 
 PerSAIDs diagnosis autoinflammatory and family history data
 
@@ -3112,20 +3111,12 @@ PerSAIDs diagnosis autoinflammatory and family history data
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | dia_name | - | Diagnosis Name | string |
-| classification | - | Main category that includes sub-category of diseases | string |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| dia_name | - | Diagnosis Name | string |
-| classification | - | Main category that includes sub-category of diseases | string |
 | dia_note | - | Notes or other diagnosis | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | dia_name | - | Diagnosis Name | string |
-| classification | - | Main category that includes sub-category of diseases | string |
 | dia_note | - | Notes or other diagnosis | string |
 | Consangu | - | Consanguinity | xref |
 | Name | Label | Description | Data Type |
@@ -3133,7 +3124,6 @@ PerSAIDs diagnosis autoinflammatory and family history data
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | dia_name | - | Diagnosis Name | string |
-| classification | - | Main category that includes sub-category of diseases | string |
 | dia_note | - | Notes or other diagnosis | string |
 | Consangu | - | Consanguinity | xref |
 | ConsanguSp | - | Level of consanguinity | xref |
@@ -3142,7 +3132,6 @@ PerSAIDs diagnosis autoinflammatory and family history data
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | dia_name | - | Diagnosis Name | string |
-| classification | - | Main category that includes sub-category of diseases | string |
 | dia_note | - | Notes or other diagnosis | string |
 | Consangu | - | Consanguinity | xref |
 | ConsanguSp | - | Level of consanguinity | xref |
@@ -3152,7 +3141,6 @@ PerSAIDs diagnosis autoinflammatory and family history data
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | dia_name | - | Diagnosis Name | string |
-| classification | - | Main category that includes sub-category of diseases | string |
 | dia_note | - | Notes or other diagnosis | string |
 | Consangu | - | Consanguinity | xref |
 | ConsanguSp | - | Level of consanguinity | xref |
@@ -3163,7 +3151,6 @@ PerSAIDs diagnosis autoinflammatory and family history data
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | dia_name | - | Diagnosis Name | string |
-| classification | - | Main category that includes sub-category of diseases | string |
 | dia_note | - | Notes or other diagnosis | string |
 | Consangu | - | Consanguinity | xref |
 | ConsanguSp | - | Level of consanguinity | xref |
@@ -3171,7 +3158,7 @@ PerSAIDs diagnosis autoinflammatory and family history data
 | RelaFollow | - | Is at least one of the relatives affected followed by your center? | xref |
 | PatInher | - | Pattern of inheritance | xref |
 
-### Entity: psm_concomitant_diseases
+### Entity: psm_concomitant
 
 PerSAIDs concomitant diseases data
 
@@ -3216,14 +3203,6 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| date_visit | - | Date of visit | datetime |
-| lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
@@ -3231,7 +3210,6 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | Name | Label | Description | Data Type |
@@ -3240,7 +3218,6 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
@@ -3250,7 +3227,6 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
@@ -3261,7 +3237,6 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
@@ -3273,26 +3248,24 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
 | lab_result | - | Lab exam result | decimal |
 | lab_result_text | - | Lab exam result text | string |
-| lab_unit_name | - | Lab exam unit id | int |
+| lab_unit_name | - | Lab exam unit id | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
 | lab_result | - | Lab exam result | decimal |
 | lab_result_text | - | Lab exam result text | string |
-| lab_unit_name | - | Lab exam unit id | int |
+| lab_unit_name | - | Lab exam unit id | string |
 | lab_unit_text | - | Lab exam unit text | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
@@ -3300,13 +3273,12 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
 | lab_result | - | Lab exam result | decimal |
 | lab_result_text | - | Lab exam result text | string |
-| lab_unit_name | - | Lab exam unit id | int |
+| lab_unit_name | - | Lab exam unit id | string |
 | lab_unit_text | - | Lab exam unit text | string |
 | gaslini_lab_min | - | Gaslini min value | decimal |
 | Name | Label | Description | Data Type |
@@ -3315,13 +3287,12 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
 | lab_result | - | Lab exam result | decimal |
 | lab_result_text | - | Lab exam result text | string |
-| lab_unit_name | - | Lab exam unit id | int |
+| lab_unit_name | - | Lab exam unit id | string |
 | lab_unit_text | - | Lab exam unit text | string |
 | gaslini_lab_min | - | Gaslini min value | decimal |
 | lab_min | - | Lab exam min | decimal |
@@ -3331,13 +3302,12 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
 | lab_result | - | Lab exam result | decimal |
 | lab_result_text | - | Lab exam result text | string |
-| lab_unit_name | - | Lab exam unit id | int |
+| lab_unit_name | - | Lab exam unit id | string |
 | lab_unit_text | - | Lab exam unit text | string |
 | gaslini_lab_min | - | Gaslini min value | decimal |
 | lab_min | - | Lab exam min | decimal |
@@ -3348,13 +3318,12 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
 | lab_result | - | Lab exam result | decimal |
 | lab_result_text | - | Lab exam result text | string |
-| lab_unit_name | - | Lab exam unit id | int |
+| lab_unit_name | - | Lab exam unit id | string |
 | lab_unit_text | - | Lab exam unit text | string |
 | gaslini_lab_min | - | Gaslini min value | decimal |
 | lab_min | - | Lab exam min | decimal |
@@ -3366,13 +3335,12 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
 | lab_result | - | Lab exam result | decimal |
 | lab_result_text | - | Lab exam result text | string |
-| lab_unit_name | - | Lab exam unit id | int |
+| lab_unit_name | - | Lab exam unit id | string |
 | lab_unit_text | - | Lab exam unit text | string |
 | gaslini_lab_min | - | Gaslini min value | decimal |
 | lab_min | - | Lab exam min | decimal |
@@ -3385,13 +3353,12 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
 | lab_result | - | Lab exam result | decimal |
 | lab_result_text | - | Lab exam result text | string |
-| lab_unit_name | - | Lab exam unit id | int |
+| lab_unit_name | - | Lab exam unit id | string |
 | lab_unit_text | - | Lab exam unit text | string |
 | gaslini_lab_min | - | Gaslini min value | decimal |
 | lab_min | - | Lab exam min | decimal |
@@ -3405,13 +3372,12 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
 | lab_result | - | Lab exam result | decimal |
 | lab_result_text | - | Lab exam result text | string |
-| lab_unit_name | - | Lab exam unit id | int |
+| lab_unit_name | - | Lab exam unit id | string |
 | lab_unit_text | - | Lab exam unit text | string |
 | gaslini_lab_min | - | Gaslini min value | decimal |
 | lab_min | - | Lab exam min | decimal |
@@ -3426,13 +3392,12 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
 | lab_result | - | Lab exam result | decimal |
 | lab_result_text | - | Lab exam result text | string |
-| lab_unit_name | - | Lab exam unit id | int |
+| lab_unit_name | - | Lab exam unit id | string |
 | lab_unit_text | - | Lab exam unit text | string |
 | gaslini_lab_min | - | Gaslini min value | decimal |
 | lab_min | - | Lab exam min | decimal |
@@ -3448,13 +3413,12 @@ PerSAIDs lab exam data
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
-| id_lab | - | Lab exam id | int |
 | lab_name | - | Lab exam name | string |
 | lab_status | - | Lab exam status | xref |
 | gaslini_stand_value | - | Gaslini standard value | decimal |
 | lab_result | - | Lab exam result | decimal |
 | lab_result_text | - | Lab exam result text | string |
-| lab_unit_name | - | Lab exam unit id | int |
+| lab_unit_name | - | Lab exam unit id | string |
 | lab_unit_text | - | Lab exam unit text | string |
 | gaslini_lab_min | - | Gaslini min value | decimal |
 | lab_min | - | Lab exam min | decimal |
@@ -3534,7 +3498,7 @@ PerSAIDs molecular analysis data
 | mutation_name | - | Mutation name | string |
 | mutation_specify | - | Mutation not listed specify | string |
 
-### Entity: psm_signs_and_symptoms
+### Entity: psm_sgns_symptms
 
 PerSAIDs signs and symptoms data
 
@@ -49896,7 +49860,7 @@ PerSAIDs signs and symptoms data
 | SIGNS_MUSCULOSKELETAL_MuscAtrop | - | Muscular atrophy | xref |
 | SIGNS_MUSCULOSKELETAL_MuscAtropDa | - | Muscular atrophy date | datetime |
 
-### Entity: psm_drug_therapy
+### Entity: psm_therapy_sum
 
 PerSAIDs drug therapy data
 
@@ -49924,14 +49888,14 @@ PerSAIDs drug therapy data
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
@@ -49939,76 +49903,62 @@ PerSAIDs drug therapy data
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
 | ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
 | ever_taken | - | Ever taken drug | xref |
 | reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
 | ever_taken | - | Ever taken drug | xref |
 | reason_ae | - | Discontinued for adverse event | xref |
 | reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
@@ -50016,14 +49966,13 @@ PerSAIDs drug therapy data
 | reason_ae | - | Discontinued for adverse event | xref |
 | reason_ae_mild | - | Discontinued for mild adverse event | xref |
 | reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
@@ -50032,14 +49981,13 @@ PerSAIDs drug therapy data
 | reason_ae_mild | - | Discontinued for mild adverse event | xref |
 | reason_it | - | Discontinuation for drug interruption | xref |
 | reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
@@ -50049,14 +49997,13 @@ PerSAIDs drug therapy data
 | reason_it | - | Discontinuation for drug interruption | xref |
 | reason_dc | - | Discontinuation for dose change | xref |
 | reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
@@ -50067,14 +50014,13 @@ PerSAIDs drug therapy data
 | reason_dc | - | Discontinuation for dose change | xref |
 | reason_ie | - | Discontinuation due to inefficacy | xref |
 | reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
@@ -50086,14 +50032,13 @@ PerSAIDs drug therapy data
 | reason_ie | - | Discontinuation due to inefficacy | xref |
 | reason_r | - | Discontinuation due to remission | xref |
 | reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
@@ -50106,14 +50051,13 @@ PerSAIDs drug therapy data
 | reason_r | - | Discontinuation due to remission | xref |
 | reason_s | - | Discontinuation due to Surgery | xref |
 | reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
@@ -50127,14 +50071,13 @@ PerSAIDs drug therapy data
 | reason_s | - | Discontinuation due to Surgery | xref |
 | reason_p | - | Discontinuation due to pregnancy | xref |
 | reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
@@ -50149,14 +50092,13 @@ PerSAIDs drug therapy data
 | reason_p | - | Discontinuation due to pregnancy | xref |
 | reason_i | - | Discontinued for improvement | xref |
 | reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
@@ -50172,14 +50114,13 @@ PerSAIDs drug therapy data
 | reason_i | - | Discontinued for improvement | xref |
 | reason_sd | - | Discontinued for single dose | xref |
 | reason_oth | - | Discontinuation due to other reason | xref |
-| reason_oth_sp | - | Discontinuation other reason specify | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
@@ -50196,14 +50137,13 @@ PerSAIDs drug therapy data
 | reason_sd | - | Discontinued for single dose | xref |
 | reason_oth | - | Discontinuation due to other reason | xref |
 | reason_oth_sp | - | Discontinuation other reason specify | string |
-| dose | - | Drug dose | decimal |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
@@ -50221,14 +50161,13 @@ PerSAIDs drug therapy data
 | reason_oth | - | Discontinuation due to other reason | xref |
 | reason_oth_sp | - | Discontinuation other reason specify | string |
 | dose | - | Drug dose | decimal |
-| measure_unit_freq | - | Id drug unit of measure and frequancy | int |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
+| drug_name | - | Id drug | string |
 | drug_sp | - | Specify drug | string |
 | start_date | - | Drug Start Date | datetime |
 | end_date | - | Drug discontinuation date | datetime |
@@ -50246,10 +50185,35 @@ PerSAIDs drug therapy data
 | reason_oth | - | Discontinuation due to other reason | xref |
 | reason_oth_sp | - | Discontinuation other reason specify | string |
 | dose | - | Drug dose | decimal |
-| measure_unit_freq | - | Id drug unit of measure and frequancy | int |
+| measure_unit_freq | - | Id drug unit of measure and frequancy | string |
+| Name | Label | Description | Data Type |
+|:---- |:-----|:-----------|:---------|
+| auto_id&#8251; | - | Autoincremental ID | string |
+| export_id_pt | - | Patient Registry code | xref |
+| type_name | - | Type of Drug | string |
+| date_visit | - | Date of visit | datetime |
+| drug_name | - | Id drug | string |
+| drug_sp | - | Specify drug | string |
+| start_date | - | Drug Start Date | datetime |
+| end_date | - | Drug discontinuation date | datetime |
+| ever_taken | - | Ever taken drug | xref |
+| reason_ae | - | Discontinued for adverse event | xref |
+| reason_ae_mild | - | Discontinued for mild adverse event | xref |
+| reason_it | - | Discontinuation for drug interruption | xref |
+| reason_dc | - | Discontinuation for dose change | xref |
+| reason_ie | - | Discontinuation due to inefficacy | xref |
+| reason_r | - | Discontinuation due to remission | xref |
+| reason_s | - | Discontinuation due to Surgery | xref |
+| reason_p | - | Discontinuation due to pregnancy | xref |
+| reason_i | - | Discontinued for improvement | xref |
+| reason_sd | - | Discontinued for single dose | xref |
+| reason_oth | - | Discontinuation due to other reason | xref |
+| reason_oth_sp | - | Discontinuation other reason specify | string |
+| dose | - | Drug dose | decimal |
+| measure_unit_freq | - | Id drug unit of measure and frequancy | string |
 | type_route | - | Type route value | string |
 
-### Entity: psm_drug_therapy_height_and_weight
+### Entity: psm_therapy_height_wieght
 
 PerSAIDs drug therapy height and weight data
 
@@ -50264,483 +50228,15 @@ PerSAIDs drug therapy height and weight data
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
-| reason_oth_sp | - | Discontinuation other reason specify | string |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
-| reason_oth_sp | - | Discontinuation other reason specify | string |
-| dose | - | Drug dose | decimal |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
-| reason_oth_sp | - | Discontinuation other reason specify | string |
-| dose | - | Drug dose | decimal |
-| measure_unit_freq | - | Id drug unit of measure and frequancy | int |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
-| reason_oth_sp | - | Discontinuation other reason specify | string |
-| dose | - | Drug dose | decimal |
-| measure_unit_freq | - | Id drug unit of measure and frequancy | int |
-| type_route | - | Type route value | string |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
-| reason_oth_sp | - | Discontinuation other reason specify | string |
-| dose | - | Drug dose | decimal |
-| measure_unit_freq | - | Id drug unit of measure and frequancy | int |
-| type_route | - | Type route value | string |
-| auto_id&#8251; | - | Autoincremental ID | string |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
-| reason_oth_sp | - | Discontinuation other reason specify | string |
-| dose | - | Drug dose | decimal |
-| measure_unit_freq | - | Id drug unit of measure and frequancy | int |
-| type_route | - | Type route value | string |
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
-| reason_oth_sp | - | Discontinuation other reason specify | string |
-| dose | - | Drug dose | decimal |
-| measure_unit_freq | - | Id drug unit of measure and frequancy | int |
-| type_route | - | Type route value | string |
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| date_visit | - | Date of visit | datetime |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
-| reason_oth_sp | - | Discontinuation other reason specify | string |
-| dose | - | Drug dose | decimal |
-| measure_unit_freq | - | Id drug unit of measure and frequancy | int |
-| type_route | - | Type route value | string |
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | Height | - | Height (cm) | decimal |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
-| reason_oth_sp | - | Discontinuation other reason specify | string |
-| dose | - | Drug dose | decimal |
-| measure_unit_freq | - | Id drug unit of measure and frequancy | int |
-| type_route | - | Type route value | string |
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
@@ -50748,30 +50244,6 @@ PerSAIDs drug therapy height and weight data
 | Weight | - | Weight (kg) | decimal |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
-| reason_oth_sp | - | Discontinuation other reason specify | string |
-| dose | - | Drug dose | decimal |
-| measure_unit_freq | - | Id drug unit of measure and frequancy | int |
-| type_route | - | Type route value | string |
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
@@ -50780,30 +50252,6 @@ PerSAIDs drug therapy height and weight data
 | BodySurf | - | Body Surface area at time of the visit calculated as sqrt((height* weight) / 3600) | decimal |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
-| reason_oth_sp | - | Discontinuation other reason specify | string |
-| dose | - | Drug dose | decimal |
-| measure_unit_freq | - | Id drug unit of measure and frequancy | int |
-| type_route | - | Type route value | string |
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
@@ -50813,30 +50261,6 @@ PerSAIDs drug therapy height and weight data
 | NoteDrugs | - | Additional drug notes * | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| type_name | - | Type of Drug | string |
-| date_visit | - | Date of visit | datetime |
-| drug_name | - | Id drug | int |
-| drug_sp | - | Specify drug | string |
-| start_date | - | Drug Start Date | datetime |
-| end_date | - | Drug discontinuation date | datetime |
-| ever_taken | - | Ever taken drug | xref |
-| reason_ae | - | Discontinued for adverse event | xref |
-| reason_ae_mild | - | Discontinued for mild adverse event | xref |
-| reason_it | - | Discontinuation for drug interruption | xref |
-| reason_dc | - | Discontinuation for dose change | xref |
-| reason_ie | - | Discontinuation due to inefficacy | xref |
-| reason_r | - | Discontinuation due to remission | xref |
-| reason_s | - | Discontinuation due to Surgery | xref |
-| reason_p | - | Discontinuation due to pregnancy | xref |
-| reason_i | - | Discontinued for improvement | xref |
-| reason_sd | - | Discontinued for single dose | xref |
-| reason_oth | - | Discontinuation due to other reason | xref |
-| reason_oth_sp | - | Discontinuation other reason specify | string |
-| dose | - | Drug dose | decimal |
-| measure_unit_freq | - | Id drug unit of measure and frequancy | int |
-| type_route | - | Type route value | string |
 | auto_id&#8251; | - | Autoincremental ID | string |
 | export_id_pt | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |

@@ -4,7 +4,8 @@
 prefix = "psm"
 study = "PerSAIDs"
 
-DTSs = ["PATIENTS",
+DTSs = [
+    "PATIENTS",
     "PT_INFO",
     "P_Proband",
     "DIAGNOSIS_AUTOINF",
@@ -13,4 +14,11 @@ DTSs = ["PATIENTS",
     "MOLECULAR_ANALYSIS",
     "SGNS_SYMPTMS",
     "THERAPY_SUM",
-    "THERAPY_HEIGHT_WIEGHT",]
+    "THERAPY_HEIGHT_WIEGHT"
+]
+
+excluded_fields = [
+    "id_lab",
+    "classification",
+    "Project_Name"
+]

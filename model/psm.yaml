@@ -1601,10 +1601,6 @@ entities:
         dataType: string
         description: Diagnosis Name
 
-      - name: classification
-        dataType: string
-        description: Main category that includes sub-category of diseases
-
       - name: dia_note
         dataType: string
         description: Notes or other diagnosis
@@ -1682,10 +1678,6 @@ entities:
         dataType: datetime
         description: Lab exam date
 
-      - name: id_lab
-        dataType: int
-        description: Lab exam id
-
       - name: lab_name
         dataType: string
         description: Lab exam name
@@ -1708,7 +1700,7 @@ entities:
         description: Lab exam result text
 
       - name: lab_unit_name
-        dataType: int
+        dataType: string
         description: Lab exam unit id
 
       - name: lab_unit_text
@@ -3271,7 +3263,7 @@ entities:
         description: Date of visit
 
       - name: drug_name
-        dataType: int
+        dataType: string
         description: Id drug
 
       - name: drug_sp
@@ -3355,7 +3347,7 @@ entities:
         description: Drug dose
 
       - name: measure_unit_freq
-        dataType: int
+        dataType: string
         description: Id drug unit of measure and frequancy
 
       - name: type_route

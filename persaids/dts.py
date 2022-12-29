@@ -3,7 +3,7 @@
 from pandas import read_excel, concat, DataFrame
 import os
 from math import nan
-from utils import prefix, study
+from utils import prefix, study, excluded_fields
 
 
 class DTS:
@@ -15,7 +15,7 @@ class DTS:
 
     def __init__(self, excel):
         self.df = read_excel(excel, sheet_name=0, header=0, dtype=str)
-        self.df = self.df[~self.df.field_name.isin(["Project_Name"])]
+        self.df = self.df[~self.df.field_name.isin(excluded_fields)]
         self.filename = os.path.basename(excel)
 
         #DTS - FIX DTS_P_Proband
@@ -31,9 +31,9 @@ class DTS:
         self.df = concat([self.df, DataFrame([new_row])], axis=0, ignore_index=True)
 
 
-    def set_dataType(self, dataType):
+    def set_dataType(self, dataType, field):
         dataType = str(dataType).lower()
-        if dataType == "string" or dataType == "nvarchar" or dataType == "varchar":
+        if field == "measure_unit_freq" or "name" in field or dataType == "string" or dataType == "nvarchar" or dataType == "varchar":
             dataType = "string"
         elif dataType == "float":
             dataType = "decimal"
@@ -42,14 +42,14 @@ class DTS:
         return dataType
     
 
-    def set_attr(self, name, description, dataType, lookup_table, is_key, group):
-        dataType = self.set_dataType(dataType)
+    def set_attr(self, field, description, dataType, lookup_table, is_key, group):
+        dataType = self.set_dataType(dataType, field)
         yaml = "\n"
-        yaml += "      - name: " + name + "\n"
+        yaml += "      - name: " + field + "\n"
         if is_key:
-            yaml += "        idAttribute: " + ("auto" if name == "auto_id" else "true") + "\n"
+            yaml += "        idAttribute: " + ("auto" if field == "auto_id" else "true") + "\n"
             yaml += "        nillable: false\n"
-        if (str(name).endswith("export_id_pt") and group != "patients") or name == "id_proband":
+        if (str(field).endswith("export_id_pt") and group != "patients") or field == "id_proband":
             yaml += "        dataType: xref\n"
             yaml += "        refEntity: " + prefix + "_patients\n"
         elif lookup_table is not None:
