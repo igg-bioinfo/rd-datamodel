@@ -21,3 +21,27 @@ Finally you can import data launching from **/persaids** folder:
 ```
 bash import_data_psm.sh
 ```
+# Biobank management
+
+## Import molgenis-app-biobank-explorer
+Clone the repository
+```
+git clone https://github.com/molgenis/molgenis-app-biobank-explorer.git
+```
+Move to the cloned folder
+```
+cd molgenis-app-biobank-explorer
+```
+Build the app to be imported in Molgenis.
+Yarn can be easily installed with conda/mamba, e.g.:
+```
+# mamba create --name yarn -c conda-forge yarn
+# conda activate yarn
+```
+```
+yarn build
+```
+Upload in Molgenis:
+ - ```dist/molgenis-app-biobank-explorer.v7.22.0.zip``` (Plugins -> App manager)
+ - ```sample-data/BBMRI-ERIC_model_Tags.xlsx``` (Import data -> Advanced data import)
+ - ```sample-data/BBMRI-ERIC_model.xlsx``` (Import data -> Advanced data import)
