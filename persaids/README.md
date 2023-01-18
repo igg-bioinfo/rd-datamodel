@@ -41,6 +41,12 @@ Yarn can be easily installed with conda/mamba, e.g.:
 ```
 yarn build
 ```
+
+If you get the ```ERR_OSSL_EVP_UNSUPPORTED``` error, try the next command (suggested [here](https://stackoverflow.com/questions/69394632/webpack-build-failing-with-err-ossl-evp-unsupported)):
+```
+export NODE_OPTIONS=--openssl-legacy-provider
+``` 
+
 Upload in Molgenis:
  - ```dist/molgenis-app-biobank-explorer.v7.22.0.zip``` (Plugins -> App manager)
  - ```sample-data/BBMRI-ERIC_model_Tags.xlsx``` (Import data -> Advanced data import)
