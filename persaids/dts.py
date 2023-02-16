@@ -20,7 +20,7 @@ class DTS:
 
         #DTS - FIX DTS_P_Proband
         if "DTS_P_Proband" in excel:
-            self.df = self.df[~self.df.field_name.isin(["export_id_pt"]) == False]
+            self.df = self.df[~self.df.field_name.isin(["patient_id"]) == False]
             self.add_row('PATIENT PROBAND', 'id_proband', 'Proband export ID')
             self.add_row('PATIENT PROBAND', 'rel_to_prob', 'Relation to proband')
             self.add_row('PATIENT PROBAND', 'dia_short', 'Diagnosis short name')
@@ -42,21 +42,27 @@ class DTS:
         return dataType
     
 
-    def set_attr(self, field, description, dataType, lookup_table, is_key, group):
+    def set_attr(self, field, description, dataType, lookup_table, is_key, group, visible = True):
         dataType = self.set_dataType(dataType, field)
         yaml = "\n"
         yaml += "      - name: " + field + "\n"
         if is_key:
             yaml += "        idAttribute: " + ("auto" if field == "auto_id" else "true") + "\n"
+            yaml += "        lookupAttribute: " + ("false" if field == "auto_id" else "true") + "\n"
+            yaml += "        labelAttribute: " + ("true" if field == "auto_id" else "true") + "\n"
+            yaml += "        visible: " + ("true" if field == "auto_id" else "true") + "\n"
             yaml += "        nillable: false\n"
-        if (str(field).endswith("export_id_pt") and group != "patients") or field == "id_proband":
+        if (str(field).endswith("patient_id") and group != "patients") or field == "id_proband":
             yaml += "        dataType: xref\n"
             yaml += "        refEntity: " + prefix + "_patients\n"
+            yaml += "        nillable: false\n"
         elif lookup_table is not None:
             yaml += "        dataType: xref\n"
             yaml += "        refEntity: " + prefix + "_lookups_" + lookup_table + "\n"
         elif dataType is not None:
             yaml += "        dataType: " + dataType + "\n"
+        #if visible == False:
+        #    yaml += "        visible: false\n"
         yaml += "        description: " + description + "\n"
         return yaml
     

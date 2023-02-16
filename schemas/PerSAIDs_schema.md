@@ -2936,32 +2936,51 @@ PerSAIDs patients data
 
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| export_id_pt&#8251; | - | Patient Id | string |
+| Country | - | Country of the center | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| export_id_pt&#8251; | - | Patient Id | string |
+| Country | - | Country of the center | string |
+| patient_id&#8251; | - | Patient Id | string |
+| Name | Label | Description | Data Type |
+|:---- |:-----|:-----------|:---------|
+| Country | - | Country of the center | string |
+| patient_id&#8251; | - | Patient Id | string |
+| patient_code | - | Patient Code | string |
+| Name | Label | Description | Data Type |
+|:---- |:-----|:-----------|:---------|
+| Country | - | Country of the center | string |
+| patient_id&#8251; | - | Patient Id | string |
+| patient_code | - | Patient Code | string |
 | gender | - | Gender | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| export_id_pt&#8251; | - | Patient Id | string |
+| Country | - | Country of the center | string |
+| patient_id&#8251; | - | Patient Id | string |
+| patient_code | - | Patient Code | string |
 | gender | - | Gender | xref |
 | date_onset | - | Disease Onset | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| export_id_pt&#8251; | - | Patient Id | string |
+| Country | - | Country of the center | string |
+| patient_id&#8251; | - | Patient Id | string |
+| patient_code | - | Patient Code | string |
 | gender | - | Gender | xref |
 | date_onset | - | Disease Onset | datetime |
 | age_onset | - | Patient age at onset | decimal |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| export_id_pt&#8251; | - | Patient Id | string |
+| Country | - | Country of the center | string |
+| patient_id&#8251; | - | Patient Id | string |
+| patient_code | - | Patient Code | string |
 | gender | - | Gender | xref |
 | date_onset | - | Disease Onset | datetime |
 | age_onset | - | Patient age at onset | decimal |
 | date_diagnosis | - | Date of Diagnosis | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| export_id_pt&#8251; | - | Patient Id | string |
+| Country | - | Country of the center | string |
+| patient_id&#8251; | - | Patient Id | string |
+| patient_code | - | Patient Code | string |
 | gender | - | Gender | xref |
 | date_onset | - | Disease Onset | datetime |
 | age_onset | - | Patient age at onset | decimal |
@@ -2969,7 +2988,9 @@ PerSAIDs patients data
 | age_diagnosis | - | Patient age at diagnosis | decimal |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| export_id_pt&#8251; | - | Patient Id | string |
+| Country | - | Country of the center | string |
+| patient_id&#8251; | - | Patient Id | string |
+| patient_code | - | Patient Code | string |
 | gender | - | Gender | xref |
 | date_onset | - | Disease Onset | datetime |
 | age_onset | - | Patient age at onset | decimal |
@@ -2978,7 +2999,9 @@ PerSAIDs patients data
 | date_first_visit | - | First visit at your centre | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| export_id_pt&#8251; | - | Patient Id | string |
+| Country | - | Country of the center | string |
+| patient_id&#8251; | - | Patient Id | string |
+| patient_code | - | Patient Code | string |
 | gender | - | Gender | xref |
 | date_onset | - | Disease Onset | datetime |
 | age_onset | - | Patient age at onset | decimal |
@@ -2988,7 +3011,9 @@ PerSAIDs patients data
 | age_first_visit | - | Patient age at first visit | decimal |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| export_id_pt&#8251; | - | Patient Id | string |
+| Country | - | Country of the center | string |
+| patient_id&#8251; | - | Patient Id | string |
+| patient_code | - | Patient Code | string |
 | gender | - | Gender | xref |
 | date_onset | - | Disease Onset | datetime |
 | age_onset | - | Patient age at onset | decimal |
@@ -2999,7 +3024,9 @@ PerSAIDs patients data
 | date_end | - | General discontinuation date | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| export_id_pt&#8251; | - | Patient Id | string |
+| Country | - | Country of the center | string |
+| patient_id&#8251; | - | Patient Id | string |
+| patient_code | - | Patient Code | string |
 | gender | - | Gender | xref |
 | date_onset | - | Disease Onset | datetime |
 | age_onset | - | Patient age at onset | decimal |
@@ -3011,7 +3038,9 @@ PerSAIDs patients data
 | end_reason | - | General discontinuation reason | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| export_id_pt&#8251; | - | Patient Id | string |
+| Country | - | Country of the center | string |
+| patient_id&#8251; | - | Patient Id | string |
+| patient_code | - | Patient Code | string |
 | gender | - | Gender | xref |
 | date_onset | - | Disease Onset | datetime |
 | age_onset | - | Patient age at onset | decimal |
@@ -3024,7 +3053,9 @@ PerSAIDs patients data
 | protocol_date_end | - | Protocol discontinuation date | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
-| export_id_pt&#8251; | - | Patient Id | string |
+| Country | - | Country of the center | string |
+| patient_id&#8251; | - | Patient Id | string |
+| patient_code | - | Patient Code | string |
 | gender | - | Gender | xref |
 | date_onset | - | Disease Onset | datetime |
 | age_onset | - | Patient age at onset | decimal |
@@ -3047,16 +3078,16 @@ PerSAIDs patient additional information data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | Ethnicity | - | Ethnicity of the child | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | Ethnicity | - | Ethnicity of the child | xref |
 | EthniSp | - | Specify ethnicity in case of mixed ethnicity and other ethnicity | string |
 
@@ -3070,22 +3101,22 @@ PerSAIDs patient proband data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Id | xref |
+| patient_id | - | Patient Id | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Id | xref |
+| patient_id | - | Patient Id | xref |
 | id_proband | - | Proband export ID | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Id | xref |
+| patient_id | - | Patient Id | xref |
 | id_proband | - | Proband export ID | xref |
 | rel_to_prob | - | Relation to proband | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Id | xref |
+| patient_id | - | Patient Id | xref |
 | id_proband | - | Proband export ID | xref |
 | rel_to_prob | - | Relation to proband | string |
 | dia_short | - | Diagnosis short name | string |
@@ -3100,29 +3131,29 @@ PerSAIDs diagnosis autoinflammatory and family history data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | dia_name | - | Diagnosis Name | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | dia_name | - | Diagnosis Name | string |
 | dia_note | - | Notes or other diagnosis | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | dia_name | - | Diagnosis Name | string |
 | dia_note | - | Notes or other diagnosis | string |
 | Consangu | - | Consanguinity | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | dia_name | - | Diagnosis Name | string |
 | dia_note | - | Notes or other diagnosis | string |
 | Consangu | - | Consanguinity | xref |
@@ -3130,7 +3161,7 @@ PerSAIDs diagnosis autoinflammatory and family history data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | dia_name | - | Diagnosis Name | string |
 | dia_note | - | Notes or other diagnosis | string |
 | Consangu | - | Consanguinity | xref |
@@ -3139,7 +3170,7 @@ PerSAIDs diagnosis autoinflammatory and family history data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | dia_name | - | Diagnosis Name | string |
 | dia_note | - | Notes or other diagnosis | string |
 | Consangu | - | Consanguinity | xref |
@@ -3149,7 +3180,7 @@ PerSAIDs diagnosis autoinflammatory and family history data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | dia_name | - | Diagnosis Name | string |
 | dia_note | - | Notes or other diagnosis | string |
 | Consangu | - | Consanguinity | xref |
@@ -3168,11 +3199,11 @@ PerSAIDs concomitant diseases data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | concomitant_disease | - | Concomitant diseases | string |
 
 ### Entity: psm_lab_exam
@@ -3185,29 +3216,29 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3215,7 +3246,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3224,7 +3255,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3234,7 +3265,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3245,7 +3276,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3257,7 +3288,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3270,7 +3301,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3284,7 +3315,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3299,7 +3330,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3315,7 +3346,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3332,7 +3363,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3350,7 +3381,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3369,7 +3400,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3389,7 +3420,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3410,7 +3441,7 @@ PerSAIDs lab exam data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | lab_date | - | Lab exam date | datetime |
 | lab_name | - | Lab exam name | string |
@@ -3440,59 +3471,71 @@ PerSAIDs molecular analysis data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | gene_name | - | Gene name | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
-| gene_name | - | Gene name | string |
-| test_done | - | Has the gene test been done? | xref |
-| Name | Label | Description | Data Type |
-|:---- |:-----|:-----------|:---------|
-| auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | gene_name | - | Gene name | string |
 | test_done | - | Has the gene test been done? | xref |
-| gene_method | - | Used method for the identification of the variants | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | gene_name | - | Gene name | string |
 | test_done | - | Has the gene test been done? | xref |
 | gene_method | - | Used method for the identification of the variants | xref |
+| Name | Label | Description | Data Type |
+|:---- |:-----|:-----------|:---------|
+| auto_id&#8251; | - | Autoincremental ID | string |
+| patient_id | - | Patient Registry code | xref |
+| gene_name | - | Gene name | string |
+| test_done | - | Has the gene test been done? | xref |
+| gene_method | - | Used method for the identification of the variants | xref |
+| laboratory | - | Laboratory where the test was performed | string |
+| Name | Label | Description | Data Type |
+|:---- |:-----|:-----------|:---------|
+| auto_id&#8251; | - | Autoincremental ID | string |
+| patient_id | - | Patient Registry code | xref |
+| gene_name | - | Gene name | string |
+| test_done | - | Has the gene test been done? | xref |
+| gene_method | - | Used method for the identification of the variants | xref |
+| laboratory | - | Laboratory where the test was performed | string |
 | test_type | - | Type of the test | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | gene_name | - | Gene name | string |
 | test_done | - | Has the gene test been done? | xref |
 | gene_method | - | Used method for the identification of the variants | xref |
+| laboratory | - | Laboratory where the test was performed | string |
 | test_type | - | Type of the test | xref |
 | not_informative_specify | - | Test not inforamtive specify | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | gene_name | - | Gene name | string |
 | test_done | - | Has the gene test been done? | xref |
 | gene_method | - | Used method for the identification of the variants | xref |
+| laboratory | - | Laboratory where the test was performed | string |
 | test_type | - | Type of the test | xref |
 | not_informative_specify | - | Test not inforamtive specify | string |
 | mutation_name | - | Mutation name | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | gene_name | - | Gene name | string |
 | test_done | - | Has the gene test been done? | xref |
 | gene_method | - | Used method for the identification of the variants | xref |
+| laboratory | - | Laboratory where the test was performed | string |
 | test_type | - | Type of the test | xref |
 | not_informative_specify | - | Test not inforamtive specify | string |
 | mutation_name | - | Mutation name | string |
@@ -3508,29 +3551,29 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3538,7 +3581,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3547,7 +3590,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3557,7 +3600,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3568,7 +3611,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3580,7 +3623,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3593,7 +3636,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3607,7 +3650,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3622,7 +3665,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3638,7 +3681,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3655,7 +3698,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3673,7 +3716,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3692,7 +3735,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3712,7 +3755,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3733,7 +3776,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3755,7 +3798,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3778,7 +3821,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3802,7 +3845,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3827,7 +3870,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3853,7 +3896,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3880,7 +3923,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3908,7 +3951,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3937,7 +3980,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3967,7 +4010,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -3998,7 +4041,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4030,7 +4073,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4063,7 +4106,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4097,7 +4140,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4132,7 +4175,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4168,7 +4211,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4205,7 +4248,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4243,7 +4286,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4282,7 +4325,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4322,7 +4365,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4363,7 +4406,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4405,7 +4448,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4448,7 +4491,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4492,7 +4535,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4537,7 +4580,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4583,7 +4626,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4630,7 +4673,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4678,7 +4721,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4727,7 +4770,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4777,7 +4820,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4828,7 +4871,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4880,7 +4923,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4933,7 +4976,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -4987,7 +5030,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5042,7 +5085,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5098,7 +5141,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5155,7 +5198,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5213,7 +5256,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5272,7 +5315,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5332,7 +5375,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5393,7 +5436,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5455,7 +5498,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5518,7 +5561,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5582,7 +5625,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5647,7 +5690,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5713,7 +5756,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5780,7 +5823,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5848,7 +5891,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5917,7 +5960,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -5987,7 +6030,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -6058,7 +6101,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -6130,7 +6173,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -6203,7 +6246,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -6277,7 +6320,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -6352,7 +6395,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -6428,7 +6471,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -6505,7 +6548,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -6583,7 +6626,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -6662,7 +6705,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -6742,7 +6785,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -6823,7 +6866,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -6905,7 +6948,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -6988,7 +7031,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -7072,7 +7115,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -7157,7 +7200,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -7243,7 +7286,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -7330,7 +7373,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -7418,7 +7461,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -7507,7 +7550,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -7597,7 +7640,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -7688,7 +7731,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -7780,7 +7823,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -7873,7 +7916,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -7967,7 +8010,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -8062,7 +8105,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -8158,7 +8201,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -8255,7 +8298,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -8353,7 +8396,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -8452,7 +8495,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -8552,7 +8595,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -8653,7 +8696,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -8755,7 +8798,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -8858,7 +8901,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -8962,7 +9005,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -9067,7 +9110,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -9173,7 +9216,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -9280,7 +9323,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -9388,7 +9431,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -9497,7 +9540,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -9607,7 +9650,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -9718,7 +9761,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -9830,7 +9873,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -9943,7 +9986,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -10057,7 +10100,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -10172,7 +10215,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -10288,7 +10331,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -10405,7 +10448,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -10523,7 +10566,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -10642,7 +10685,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -10762,7 +10805,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -10883,7 +10926,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -11005,7 +11048,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -11128,7 +11171,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -11252,7 +11295,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -11377,7 +11420,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -11503,7 +11546,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -11630,7 +11673,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -11758,7 +11801,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -11887,7 +11930,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -12017,7 +12060,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -12148,7 +12191,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -12280,7 +12323,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -12413,7 +12456,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -12547,7 +12590,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -12682,7 +12725,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -12818,7 +12861,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -12955,7 +12998,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -13093,7 +13136,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -13232,7 +13275,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -13372,7 +13415,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -13513,7 +13556,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -13655,7 +13698,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -13798,7 +13841,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -13942,7 +13985,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -14087,7 +14130,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -14233,7 +14276,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -14380,7 +14423,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -14528,7 +14571,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -14677,7 +14720,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -14827,7 +14870,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -14978,7 +15021,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -15130,7 +15173,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -15283,7 +15326,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -15437,7 +15480,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -15592,7 +15635,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -15748,7 +15791,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -15905,7 +15948,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -16063,7 +16106,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -16222,7 +16265,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -16382,7 +16425,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -16543,7 +16586,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -16705,7 +16748,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -16868,7 +16911,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -17032,7 +17075,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -17197,7 +17240,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -17363,7 +17406,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -17530,7 +17573,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -17698,7 +17741,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -17867,7 +17910,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -18037,7 +18080,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -18208,7 +18251,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -18380,7 +18423,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -18553,7 +18596,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -18727,7 +18770,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -18902,7 +18945,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -19078,7 +19121,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -19255,7 +19298,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -19433,7 +19476,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -19612,7 +19655,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -19792,7 +19835,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -19973,7 +20016,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -20155,7 +20198,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -20338,7 +20381,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -20522,7 +20565,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -20707,7 +20750,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -20893,7 +20936,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -21080,7 +21123,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -21268,7 +21311,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -21457,7 +21500,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -21647,7 +21690,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -21838,7 +21881,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -22030,7 +22073,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -22223,7 +22266,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -22417,7 +22460,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -22612,7 +22655,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -22808,7 +22851,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -23005,7 +23048,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -23203,7 +23246,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -23402,7 +23445,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -23602,7 +23645,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -23803,7 +23846,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -24005,7 +24048,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -24208,7 +24251,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -24412,7 +24455,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -24617,7 +24660,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -24823,7 +24866,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -25030,7 +25073,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -25238,7 +25281,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -25447,7 +25490,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -25657,7 +25700,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -25868,7 +25911,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -26080,7 +26123,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -26293,7 +26336,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -26507,7 +26550,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -26722,7 +26765,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -26938,7 +26981,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -27155,7 +27198,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -27373,7 +27416,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -27592,7 +27635,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -27812,7 +27855,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -28033,7 +28076,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -28255,7 +28298,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -28478,7 +28521,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -28702,7 +28745,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -28927,7 +28970,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -29153,7 +29196,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -29380,7 +29423,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -29608,7 +29651,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -29837,7 +29880,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -30067,7 +30110,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -30298,7 +30341,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -30530,7 +30573,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -30763,7 +30806,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -30997,7 +31040,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -31232,7 +31275,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -31468,7 +31511,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -31705,7 +31748,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -31943,7 +31986,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -32182,7 +32225,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -32422,7 +32465,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -32663,7 +32706,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -32905,7 +32948,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -33148,7 +33191,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -33392,7 +33435,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -33637,7 +33680,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -33883,7 +33926,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -34130,7 +34173,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -34378,7 +34421,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -34627,7 +34670,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -34877,7 +34920,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -35128,7 +35171,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -35380,7 +35423,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -35633,7 +35676,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -35887,7 +35930,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -36142,7 +36185,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -36398,7 +36441,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -36655,7 +36698,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -36913,7 +36956,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -37172,7 +37215,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -37432,7 +37475,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -37693,7 +37736,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -37955,7 +37998,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -38218,7 +38261,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -38482,7 +38525,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -38747,7 +38790,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -39013,7 +39056,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -39280,7 +39323,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -39548,7 +39591,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -39817,7 +39860,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -40087,7 +40130,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -40358,7 +40401,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -40630,7 +40673,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -40903,7 +40946,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -41177,7 +41220,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -41452,7 +41495,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -41728,7 +41771,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -42005,7 +42048,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -42283,7 +42326,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -42562,7 +42605,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -42842,7 +42885,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -43123,7 +43166,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -43405,7 +43448,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -43688,7 +43731,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -43972,7 +44015,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -44257,7 +44300,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -44543,7 +44586,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -44830,7 +44873,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -45118,7 +45161,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -45407,7 +45450,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -45697,7 +45740,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -45988,7 +46031,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -46280,7 +46323,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -46573,7 +46616,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -46867,7 +46910,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -47162,7 +47205,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -47458,7 +47501,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -47755,7 +47798,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -48053,7 +48096,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -48352,7 +48395,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -48652,7 +48695,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -48953,7 +48996,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -49255,7 +49298,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -49558,7 +49601,7 @@ PerSAIDs signs and symptoms data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| TP_export_id_pt | - | Patient Registry code | xref |
+| TP_patient_id | - | Patient Registry code | xref |
 | TV_date_visit | - | Date of visit | date |
 | CLINICAL_SUMMARY_muco_cutaneous | - | Muco-cutaneous manifestations | xref |
 | SIGNS_EPISODES_Fever | - | Fever >38º C | xref |
@@ -49870,29 +49913,29 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -49900,7 +49943,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -49909,7 +49952,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -49919,7 +49962,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -49930,7 +49973,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -49942,7 +49985,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -49955,7 +49998,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -49969,7 +50012,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -49984,7 +50027,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -50000,7 +50043,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -50017,7 +50060,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -50035,7 +50078,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -50054,7 +50097,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -50074,7 +50117,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -50095,7 +50138,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -50117,7 +50160,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -50140,7 +50183,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -50164,7 +50207,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -50189,7 +50232,7 @@ PerSAIDs drug therapy data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | type_name | - | Type of Drug | string |
 | date_visit | - | Date of visit | datetime |
 | drug_name | - | Id drug | string |
@@ -50223,29 +50266,29 @@ PerSAIDs drug therapy height and weight data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | Height | - | Height (cm) | decimal |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | Height | - | Height (cm) | decimal |
 | Weight | - | Weight (kg) | decimal |
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | Height | - | Height (cm) | decimal |
 | Weight | - | Weight (kg) | decimal |
@@ -50253,7 +50296,7 @@ PerSAIDs drug therapy height and weight data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | Height | - | Height (cm) | decimal |
 | Weight | - | Weight (kg) | decimal |
@@ -50262,7 +50305,7 @@ PerSAIDs drug therapy height and weight data
 | Name | Label | Description | Data Type |
 |:---- |:-----|:-----------|:---------|
 | auto_id&#8251; | - | Autoincremental ID | string |
-| export_id_pt | - | Patient Registry code | xref |
+| patient_id | - | Patient Registry code | xref |
 | date_visit | - | Date of visit | datetime |
 | Height | - | Height (cm) | decimal |
 | Weight | - | Weight (kg) | decimal |

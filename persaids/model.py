@@ -92,7 +92,8 @@ class Model:
         elif name == "gender":
             [lookup_table, description, opts] = ["MaleFemale", "Gender", [['1', 'Male'], ['2', 'Female']]]
         elif name == "ConsanguSp":
-            [lookup_table, description, opts] = ["Degrees", "Level of consanguinity", [['1', 'First degree relative'], ['2', 'Second degree relative'], ['3', 'Third degree relative']]]
+            [lookup_table, description, opts] = ["Degrees", "Level of consanguinity", [['1', 'First degree relative'], ['2', 'Second degree relative'], 
+            ['3', 'Third degree relative'], ['4', 'Fourth degree relative'], ['5', 'Fifth degree relative'], ['6', 'Sixth degree relative']]]
         elif "hpc" in str(description).lower():
             if "(muco cutaneous sign)" in description:
                 description = "Other muco cutaneous sign"
@@ -120,7 +121,7 @@ class Model:
         self.data_entities.append([self.dts.filename.replace("DTS_", "DT_"), prefix + "_" + self.dts.entity])
         names = []
         if self.dts.group != "patients":
-            self.yaml += self.dts.set_attr("auto_id", "Autoincremental ID", "string", None, True, self.dts.group)
+            self.yaml += self.dts.set_attr("auto_id", "Autoincremental ID", "string", None, True, self.dts.group, False)
             names.append("auto_id")
         for index, row in self.dts.df.iterrows():
             field = row["field_name"]
@@ -148,7 +149,7 @@ class Model:
             description = str(row["field_description"])
             dataType = row["DATA_TYPE"]
             [lookup_table, description, opts] = self.check_lookup(field, description)
-            isKey = field == "export_id_pt" and self.dts.group == "patients"
+            isKey = field == "patient_id" and self.dts.group == "patients"
             self.yaml += self.dts.set_attr(field, description, dataType, lookup_table, isKey, self.dts.group)
             #if lookup_table == "a":
             #    print(description)

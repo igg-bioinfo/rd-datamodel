@@ -1470,11 +1470,22 @@ entities:
     description: PerSAIDs patients data
     attributes:
 
-      - name: export_id_pt
+      - name: Country
+        dataType: string
+        description: Country of the center
+
+      - name: patient_id
         idAttribute: true
+        lookupAttribute: true
+        labelAttribute: true
+        visible: true
         nillable: false
         dataType: string
         description: Patient Id
+
+      - name: patient_code
+        dataType: string
+        description: Patient Code
 
       - name: gender
         dataType: xref
@@ -1530,13 +1541,17 @@ entities:
 
       - name: auto_id
         idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
         nillable: false
         dataType: string
         description: Autoincremental ID
 
-      - name: export_id_pt
+      - name: patient_id
         dataType: xref
         refEntity: psm_patients
+        nillable: false
         description: Patient Registry code
 
       - name: Ethnicity
@@ -1557,18 +1572,23 @@ entities:
 
       - name: auto_id
         idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
         nillable: false
         dataType: string
         description: Autoincremental ID
 
-      - name: export_id_pt
+      - name: patient_id
         dataType: xref
         refEntity: psm_patients
+        nillable: false
         description: Patient Id
 
       - name: id_proband
         dataType: xref
         refEntity: psm_patients
+        nillable: false
         description: Proband export ID
 
       - name: rel_to_prob
@@ -1588,13 +1608,17 @@ entities:
 
       - name: auto_id
         idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
         nillable: false
         dataType: string
         description: Autoincremental ID
 
-      - name: export_id_pt
+      - name: patient_id
         dataType: xref
         refEntity: psm_patients
+        nillable: false
         description: Patient Registry code
 
       - name: dia_name
@@ -1639,13 +1663,17 @@ entities:
 
       - name: auto_id
         idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
         nillable: false
         dataType: string
         description: Autoincremental ID
 
-      - name: export_id_pt
+      - name: patient_id
         dataType: xref
         refEntity: psm_patients
+        nillable: false
         description: Patient Registry code
 
       - name: concomitant_disease
@@ -1661,13 +1689,17 @@ entities:
 
       - name: auto_id
         idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
         nillable: false
         dataType: string
         description: Autoincremental ID
 
-      - name: export_id_pt
+      - name: patient_id
         dataType: xref
         refEntity: psm_patients
+        nillable: false
         description: Patient Registry code
 
       - name: date_visit
@@ -1752,13 +1784,17 @@ entities:
 
       - name: auto_id
         idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
         nillable: false
         dataType: string
         description: Autoincremental ID
 
-      - name: export_id_pt
+      - name: patient_id
         dataType: xref
         refEntity: psm_patients
+        nillable: false
         description: Patient Registry code
 
       - name: gene_name
@@ -1774,6 +1810,10 @@ entities:
         dataType: xref
         refEntity: psm_lookups_CompleteGeneScreeningMostRelevantExonsMostRel
         description: Used method for the identification of the variants
+
+      - name: laboratory
+        dataType: string
+        description: Laboratory where the test was performed
 
       - name: test_type
         dataType: xref
@@ -1801,13 +1841,17 @@ entities:
 
       - name: auto_id
         idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
         nillable: false
         dataType: string
         description: Autoincremental ID
 
-      - name: TP_export_id_pt
+      - name: TP_patient_id
         dataType: xref
         refEntity: psm_patients
+        nillable: false
         description: Patient Registry code
 
       - name: TV_date_visit
@@ -3245,13 +3289,17 @@ entities:
 
       - name: auto_id
         idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
         nillable: false
         dataType: string
         description: Autoincremental ID
 
-      - name: export_id_pt
+      - name: patient_id
         dataType: xref
         refEntity: psm_patients
+        nillable: false
         description: Patient Registry code
 
       - name: type_name
@@ -3363,13 +3411,17 @@ entities:
 
       - name: auto_id
         idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
         nillable: false
         dataType: string
         description: Autoincremental ID
 
-      - name: export_id_pt
+      - name: patient_id
         dataType: xref
         refEntity: psm_patients
+        nillable: false
         description: Patient Registry code
 
       - name: date_visit

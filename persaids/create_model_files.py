@@ -5,7 +5,7 @@ import argparse
 import os
 from model import Model
 from lookup import Lookup
-from utils import prefix, DTSs
+from utils import prefix, DTSs, study
 
 
 #RETRIEVE THE ARGUMENTS FOR THE PYTHON APPLICATION
@@ -21,7 +21,7 @@ def main(argv):
     args = get_args(argv)
     model_path = os.path.join(args.yaml_path, "model")
     lookup_path = os.path.join(args.yaml_path, "lookups")
-    args.yaml_path
+    schema_file = os.path.join(args.yaml_path, "schemas", study + "_schema.md")
     if os.path.exists(args.dts_path) == False or os.path.exists(model_path) == False or os.path.exists(lookup_path) == False:
         print("ERROR - Some main folder does not exist")
         return
@@ -46,6 +46,8 @@ def main(argv):
     #print(model.yaml)
     model.save()
     lookup.save(model.lookups)
+    if os.path.exists(schema_file):
+        os.remove(schema_file)
      
 
 
