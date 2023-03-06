@@ -11,6 +11,7 @@ src/molgenis/convert/__pycache__/
 
 # PerSAIDs folder data
 persaids/data/*
+persaids/files/*
 persaids/dts/*
 
 # Distribution / packaging

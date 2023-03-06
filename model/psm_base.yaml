@@ -390,114 +390,6 @@ entities:
   #////////////////////////////////////////////////////////////////////////////
   
   # @name psm_consent
-  # - name: consent
-  #   label: Consent
-  #   description: Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved.
-  #   tags: NCIT_C16735 http://purl.obolibrary.org/obo/NCIT_C16735
-  #   attributes:
-  #     - name: consentID
-  #       idAttribute: true
-  #       nillable: false
-  #       description: A unique proper name or character sequence that identifies this particular signed individual consent.
-  #       tags: ICO_0000044 http://purl.obolibrary.org/obo/ICO_0000044
-
-  #     - name: belongsToSubject
-  #       dataType: xref
-  #       refEntity: psm_subjects
-  #       description: An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored.
-  #       tags: NCIT_C142495 http://purl.obolibrary.org/obo/NCIT_C142495
-
-  #     - name: collectedBy
-  #       description: Indicates the person, group, or institution who performed the collection act.
-  #       tags: NCIT_C45262 http://purl.obolibrary.org/obo/NCIT_C45262
-
-  #     - name: signingDate
-  #       dataType: date
-  #       description: A date specification that designates when this individual consent form was signed.
-  #       tags: ICO_0000036 http://purl.obolibrary.org/obo/ICO_0000036        
-
-  #     - name: validUntil
-  #       dataType: date
-  #       description: End date of the validity of this individual consent.
-  #       tags: DCMI_valid http://purl.org/dc/terms/valid
-
-  #     - name: consentWithdrawn
-  #       dataType: bool
-  #       description: An indication that the consent to participate in the study or one or more segments of the study has been revoked.
-  #       tags: NCIT_C176342 http://purl.obolibrary.org/obo/NCIT_C176342
-
-  #     - name: dataUsePermission
-  #       dataType: mref
-  #       refEntity: psm_lookups_dataUsePermissions
-  #       description: A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be used.
-  #       tags: DUO_0000001 http://purl.obolibrary.org/obo/DUO_0000001
-
-  #     - name: dataUseModifiers
-  #       dataType: mref
-  #       refEntity: psm_lookups_dataUseModifiers
-  #       description: Data use modifiers indicate additional conditions for use. For instance, a dataset is restricted to investigations into specific diseases or performed at specific geographical locations.
-  #       tags: DUO_0000017 http://purl.obolibrary.org/obo/DUO_0000017
-
-  #     - name: dataUseSpecification
-  #       dataType: text
-  #       description: Further specification of applied data use permissions and modifiers. For example, a list of countries in case of geographic restrictions or a list of diseases when restricted to disease-specific research.
-  #       tags: SIO_000090 http://semanticscience.org/resource/SIO_000090
-
-  #     - name: allowIncidentalFindingRecontact
-  #       dataType: bool
-  #       description: A planned process for a subject agrees not to be informed about any incidental finding.
-  #       tags: ICO_0000178 http://purl.obolibrary.org/obo/ICO_0000178
-
-  #     - name: allowMatchmaker
-  #       dataType: bool
-  #       description: Permission is given for MatchMaking
-
-  #     - name: allowRecontacting
-  #       dataType: bool
-  #       description: The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.
-  #       tags: NCIT_C25737 http://purl.obolibrary.org/obo/NCIT_C25737
-
-  #     - name: belongsToDataRelease
-  #       dataType: mref
-  #       refEntity: psm_releases
-  #       description: The act of making data or other structured information accessible to the public or to the user group of a database.
-  #       tags: NCIT_C172217 http://purl.obolibrary.org/obo/NCIT_C172217
-
-  #     - name: recordMetadata
-  #       dataType: compound
-  #       description: metadata is data that provides information about data.
-  #       tags: SIO_001330 http://semanticscience.org/resource/SIO_001330
-
-  #     - name: comments
-  #       dataType: text
-  #       description: A written explanation, observation or criticism added to textual material.
-  #       partOfAttribute: recordMetadata
-  #       tags: NCIT_C25393 http://purl.obolibrary.org/obo/NCIT_C25393
-      
-  #     - name: dateRecordCreated
-  #       nillable: false
-  #       dataType: datetime
-  #       description: The date on which the activity or entity is created.
-  #       partOfAttribute: recordMetadata
-  #       tags: NCIT_C164483 http://purl.obolibrary.org/obo/NCIT_C164483
-
-  #     - name: recordCreatedBy
-  #       nillable: false
-  #       description: Indicates the person or authoritative body who brought the item into existence.
-  #       partOfAttribute: recordMetadata
-  #       tags: NCIT_C42628 http://purl.obolibrary.org/obo/NCIT_C42628
-
-  #     - name: dateRecordUpdated
-  #       dataType: datetime
-  #       description: The date (and time) on which report was updated after it had been submitted.
-  #       partOfAttribute: recordMetadata
-  #       tags: NCIT_C93629 http://purl.obolibrary.org/obo/NCIT_C93629
-
-  #     - name: wasUpdatedBy
-  #       description: An entity which is updated by another entity or an agent.
-  #       partOfAttribute: recordMetadata
-  #       tags: reproduceme_wasUpdatedBy https://w3id.org/reproduceme#wasUpdatedBy
-  
   - name: consent
     label: Consent Permissions
     description: A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be used.
@@ -1152,7 +1044,12 @@ entities:
       - name: filePath
         dataType: text
         description: The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down.
-        tags: NCIT_C47922 http://purl.obolibrary.org/obo/NCIT_C47922      
+        tags: NCIT_C47922 http://purl.obolibrary.org/obo/NCIT_C47922  
+        
+      - name: fileURL
+        dataType: hyperlink
+        description: A unique symbol that establishes identity of the resource.
+        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071    
 
       - name: fileFormat
         description: The format of an electronic file.

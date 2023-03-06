@@ -1,6 +1,10 @@
 # PerSAIDs Unified Molgenis Data Model & Import Data from Eurofever
 
 ## Instructions
+First of all, you need to install [mcmd](https://github.com/molgenis/molgenis-tools-commander/wiki/Installation-guide) and configure it: set your Molgenis server and admin credentials.
+After that you'll be able to connect to your Molgenis instance.
+
+
 To create the files (yamls, lookup csv and setup bash file) for generating the model data structure, launch from **/persaids** folder:
 ```
 python3 create_model_files.py --dts_path ./dts --yaml_path ../
