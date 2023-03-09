@@ -25,6 +25,15 @@ Finally you can import data launching from **/persaids** folder:
 ```
 bash import_data_psm.sh
 ```
+To import file we need a **/persaids/files/credentials.py** with this content:
+```
+host = ""
+
+username = ""
+
+password = ""
+```
+
 # Biobank management
 
 ## Import molgenis-app-biobank-explorer
