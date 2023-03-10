@@ -33,7 +33,9 @@ class DTS:
 
     def set_dataType(self, dataType, field):
         dataType = str(dataType).lower()
-        if field == "measure_unit_freq" or "name" in field or dataType == "string" or dataType == "nvarchar" or dataType == "varchar":
+        if field in ["DescrEvt", "EventDe", "EventDet"]:
+            dataType = "text"
+        elif field in ["measure_unit_freq", "visit_type", "visit_type", "um_freq"] or "name" in field or dataType == "string" or dataType == "nvarchar" or dataType == "varchar":
             dataType = "string"
         elif dataType == "float":
             dataType = "decimal"

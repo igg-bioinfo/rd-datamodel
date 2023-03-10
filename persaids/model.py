@@ -5,7 +5,7 @@ import shutil
 import os
 import re
 import csv
-from utils import prefix
+from utils import prefix, file_entities
 
 
 class Model:
@@ -29,7 +29,7 @@ class Model:
         print("Save " + self.model_file)
         with open(self.model_file, "a") as f:
             f.write(self.yaml)
-        with open('./data_entities.tsv', 'w', newline='') as tsvfile:
+        with open(file_entities, 'w', newline='') as tsvfile:
             writer = csv.writer(tsvfile, delimiter='\t', lineterminator='\n')
             writer.writerows(self.data_entities)
     
@@ -87,7 +87,9 @@ class Model:
         opts = []
 
         #LOOKUP - FIX BY NAME
-        if name == "lab_status":
+        if name == "Intensit":
+            [lookup_table, description, opts] = ["VerySevereSevereModerateNone", description, [['0', 'None'], ['1', 'Very Severe'], ['2', 'Severe'], ['3', 'Moderate'], ['4', 'Mild']]]
+        elif name == "lab_status":
             [lookup_table, description, opts] = ["NotdoneDoneWaitingforresponse", "Lab exam status", [['0', 'Not done'], ['1', 'Done'], ['2', 'Waiting for response']]]
         elif name == "gender":
             [lookup_table, description, opts] = ["MaleFemale", "Gender", [['1', 'Male'], ['2', 'Female']]]

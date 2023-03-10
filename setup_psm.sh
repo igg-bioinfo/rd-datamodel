@@ -41,6 +41,16 @@ mcmd import -p lookups/psm_lookups_RegularPeriodicIrregularNonPeriodicNotKnown.c
 mcmd import -p lookups/psm_lookups_YesNoNotApplicableNotKnown.csv
 mcmd import -p lookups/psm_lookups_ContinuousRecurrentContinuousAndRecurrentComp.csv
 mcmd import -p lookups/psm_lookups_NoMildSevereNotKnown.csv
+mcmd import -p lookups/psm_lookups_SeriousNonSerious.csv
+mcmd import -p lookups/psm_lookups_VerySevereSevereModerateNone.csv
+mcmd import -p lookups/psm_lookups_FatalResolvedResolvedWithSequelaeImprovedPers.csv
+mcmd import -p lookups/psm_lookups_PossibleProbableDefinite.csv
+mcmd import -p lookups/psm_lookups_DoseReducedDoseIncreasedDrugInterruptedDrugDi.csv
+mcmd import -p lookups/psm_lookups_NoYesUnknown.csv
+mcmd import -p lookups/psm_lookups_NewOnsetWorseningUnknown.csv
+mcmd import -p lookups/psm_lookups_Within24HoursLonger.csv
+mcmd import -p lookups/psm_lookups_YesNoNotApplicable.csv
+mcmd import -p lookups/psm_lookups_DoneNotDoneUnknown.csv
 mcmd import -p lookups/psm_lookups_anatomicalSource.csv
 mcmd import -p lookups/psm_lookups_ancestry.csv
 mcmd import -p lookups/psm_lookups_biospecimenType.csv

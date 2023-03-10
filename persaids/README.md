@@ -17,7 +17,7 @@ To import effectively the model in Molgenis instance, launch the following comma
 ```
 bash setup_psm.sh
 ```
-To coorect excel files to import  create the bash file for importing them, launch from **/persaids** folder:
+To normalize excel files and to create the bash file for importing them, launch from **/persaids** folder:
 ```
 python3 create_import_data_files.py --data_path ./data
 ```

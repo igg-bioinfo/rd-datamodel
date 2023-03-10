@@ -5,7 +5,7 @@ import argparse
 import os
 import csv
 import pandas as pd
-from utils import study, prefix, excluded_fields
+from utils import study, prefix, excluded_fields, file_entities
 
 
 #RETRIEVE THE ARGUMENTS FOR THE PYTHON APPLICATION
@@ -21,7 +21,7 @@ def main(argv):
 
     #GET DATA FILES & ENTITIES
     data_entities = []
-    with open("./data_entities.tsv") as file:
+    with open(file_entities) as file:
         tsv_file = csv.reader(file, delimiter="\t")
         for line in tsv_file:
             data_entities.append(line)

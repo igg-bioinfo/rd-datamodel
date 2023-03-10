@@ -5,6 +5,12 @@ DT_DIAGNOSIS_AUTOINF.xlsx	psm_diagnosis_autoinf
 DT_CONCOMITANT.xlsx	psm_concomitant
 DT_LAB_EXAM.xlsx	psm_lab_exam
 DT_MOLECULAR_ANALYSIS.xlsx	psm_molecular_analysis
+DT_VISITS.xlsx	psm_visits
 DT_SGNS_SYMPTMS.xlsx	psm_sgns_symptms
 DT_THERAPY_SUM.xlsx	psm_therapy_sum
 DT_THERAPY_HEIGHT_WIEGHT.xlsx	psm_therapy_height_wieght
+DT_SAF_REPORT.xlsx	psm_saf_report
+DT_SAF_DRUGS.xlsx	psm_saf_drugs
+DT_SAF_TREAT_DRUGS.xlsx	psm_saf_treat_drugs
+DT_SAF_REL_DRUGS.xlsx	psm_saf_rel_drugs
+DT_SAF_ESI_FORM.xlsx	psm_saf_esi_form

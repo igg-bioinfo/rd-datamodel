@@ -315,3 +315,43 @@ entities:
   - name: NoMildSevereNotKnown
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
+
+  - name: SeriousNonSerious
+    description: PerSAIDs lookup
+    extends: psm_lookups_attributeTemplatePerSAIDs
+
+  - name: VerySevereSevereModerateNone
+    description: PerSAIDs lookup
+    extends: psm_lookups_attributeTemplatePerSAIDs
+
+  - name: FatalResolvedResolvedWithSequelaeImprovedPers
+    description: PerSAIDs lookup
+    extends: psm_lookups_attributeTemplatePerSAIDs
+
+  - name: PossibleProbableDefinite
+    description: PerSAIDs lookup
+    extends: psm_lookups_attributeTemplatePerSAIDs
+
+  - name: DoseReducedDoseIncreasedDrugInterruptedDrugDi
+    description: PerSAIDs lookup
+    extends: psm_lookups_attributeTemplatePerSAIDs
+
+  - name: NoYesUnknown
+    description: PerSAIDs lookup
+    extends: psm_lookups_attributeTemplatePerSAIDs
+
+  - name: NewOnsetWorseningUnknown
+    description: PerSAIDs lookup
+    extends: psm_lookups_attributeTemplatePerSAIDs
+
+  - name: Within24HoursLonger
+    description: PerSAIDs lookup
+    extends: psm_lookups_attributeTemplatePerSAIDs
+
+  - name: YesNoNotApplicable
+    description: PerSAIDs lookup
+    extends: psm_lookups_attributeTemplatePerSAIDs
+
+  - name: DoneNotDoneUnknown
+    description: PerSAIDs lookup
+    extends: psm_lookups_attributeTemplatePerSAIDs

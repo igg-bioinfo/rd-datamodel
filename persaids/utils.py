@@ -3,6 +3,8 @@
 
 prefix = "psm"
 study = "PerSAIDs"
+file_entities = "./data_entities.tsv"
+file_files = "./data_files.tsv"
 
 DTSs = [
     "PATIENTS",
@@ -12,9 +14,16 @@ DTSs = [
     "CONCOMITANT",
     "LAB_EXAM",
     "MOLECULAR_ANALYSIS",
+    "VISITS",
     "SGNS_SYMPTMS",
     "THERAPY_SUM",
-    "THERAPY_HEIGHT_WIEGHT"
+    "THERAPY_HEIGHT_WIEGHT",
+    "SAF_REPORT",
+    "SAF_DRUGS",
+    "SAF_TREAT_DRUGS",
+    "SAF_REL_DRUGS",
+    "SAF_ESI_FORM" #,
+    #"SAF_PREGNANCY"
 ]
 
 excluded_fields = [

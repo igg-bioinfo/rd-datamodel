@@ -390,114 +390,6 @@ entities:
   #////////////////////////////////////////////////////////////////////////////
   
   # @name psm_consent
-  # - name: consent
-  #   label: Consent
-  #   description: Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved.
-  #   tags: NCIT_C16735 http://purl.obolibrary.org/obo/NCIT_C16735
-  #   attributes:
-  #     - name: consentID
-  #       idAttribute: true
-  #       nillable: false
-  #       description: A unique proper name or character sequence that identifies this particular signed individual consent.
-  #       tags: ICO_0000044 http://purl.obolibrary.org/obo/ICO_0000044
-
-  #     - name: belongsToSubject
-  #       dataType: xref
-  #       refEntity: psm_subjects
-  #       description: An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored.
-  #       tags: NCIT_C142495 http://purl.obolibrary.org/obo/NCIT_C142495
-
-  #     - name: collectedBy
-  #       description: Indicates the person, group, or institution who performed the collection act.
-  #       tags: NCIT_C45262 http://purl.obolibrary.org/obo/NCIT_C45262
-
-  #     - name: signingDate
-  #       dataType: date
-  #       description: A date specification that designates when this individual consent form was signed.
-  #       tags: ICO_0000036 http://purl.obolibrary.org/obo/ICO_0000036        
-
-  #     - name: validUntil
-  #       dataType: date
-  #       description: End date of the validity of this individual consent.
-  #       tags: DCMI_valid http://purl.org/dc/terms/valid
-
-  #     - name: consentWithdrawn
-  #       dataType: bool
-  #       description: An indication that the consent to participate in the study or one or more segments of the study has been revoked.
-  #       tags: NCIT_C176342 http://purl.obolibrary.org/obo/NCIT_C176342
-
-  #     - name: dataUsePermission
-  #       dataType: mref
-  #       refEntity: psm_lookups_dataUsePermissions
-  #       description: A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be used.
-  #       tags: DUO_0000001 http://purl.obolibrary.org/obo/DUO_0000001
-
-  #     - name: dataUseModifiers
-  #       dataType: mref
-  #       refEntity: psm_lookups_dataUseModifiers
-  #       description: Data use modifiers indicate additional conditions for use. For instance, a dataset is restricted to investigations into specific diseases or performed at specific geographical locations.
-  #       tags: DUO_0000017 http://purl.obolibrary.org/obo/DUO_0000017
-
-  #     - name: dataUseSpecification
-  #       dataType: text
-  #       description: Further specification of applied data use permissions and modifiers. For example, a list of countries in case of geographic restrictions or a list of diseases when restricted to disease-specific research.
-  #       tags: SIO_000090 http://semanticscience.org/resource/SIO_000090
-
-  #     - name: allowIncidentalFindingRecontact
-  #       dataType: bool
-  #       description: A planned process for a subject agrees not to be informed about any incidental finding.
-  #       tags: ICO_0000178 http://purl.obolibrary.org/obo/ICO_0000178
-
-  #     - name: allowMatchmaker
-  #       dataType: bool
-  #       description: Permission is given for MatchMaking
-
-  #     - name: allowRecontacting
-  #       dataType: bool
-  #       description: The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.
-  #       tags: NCIT_C25737 http://purl.obolibrary.org/obo/NCIT_C25737
-
-  #     - name: belongsToDataRelease
-  #       dataType: mref
-  #       refEntity: psm_releases
-  #       description: The act of making data or other structured information accessible to the public or to the user group of a database.
-  #       tags: NCIT_C172217 http://purl.obolibrary.org/obo/NCIT_C172217
-
-  #     - name: recordMetadata
-  #       dataType: compound
-  #       description: metadata is data that provides information about data.
-  #       tags: SIO_001330 http://semanticscience.org/resource/SIO_001330
-
-  #     - name: comments
-  #       dataType: text
-  #       description: A written explanation, observation or criticism added to textual material.
-  #       partOfAttribute: recordMetadata
-  #       tags: NCIT_C25393 http://purl.obolibrary.org/obo/NCIT_C25393
-      
-  #     - name: dateRecordCreated
-  #       nillable: false
-  #       dataType: datetime
-  #       description: The date on which the activity or entity is created.
-  #       partOfAttribute: recordMetadata
-  #       tags: NCIT_C164483 http://purl.obolibrary.org/obo/NCIT_C164483
-
-  #     - name: recordCreatedBy
-  #       nillable: false
-  #       description: Indicates the person or authoritative body who brought the item into existence.
-  #       partOfAttribute: recordMetadata
-  #       tags: NCIT_C42628 http://purl.obolibrary.org/obo/NCIT_C42628
-
-  #     - name: dateRecordUpdated
-  #       dataType: datetime
-  #       description: The date (and time) on which report was updated after it had been submitted.
-  #       partOfAttribute: recordMetadata
-  #       tags: NCIT_C93629 http://purl.obolibrary.org/obo/NCIT_C93629
-
-  #     - name: wasUpdatedBy
-  #       description: An entity which is updated by another entity or an agent.
-  #       partOfAttribute: recordMetadata
-  #       tags: reproduceme_wasUpdatedBy https://w3id.org/reproduceme#wasUpdatedBy
-  
   - name: consent
     label: Consent Permissions
     description: A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be used.
@@ -1152,7 +1044,12 @@ entities:
       - name: filePath
         dataType: text
         description: The specification of a node (file or directory) in a hierarchical file system, usually specified by listing the nodes top-down.
-        tags: NCIT_C47922 http://purl.obolibrary.org/obo/NCIT_C47922      
+        tags: NCIT_C47922 http://purl.obolibrary.org/obo/NCIT_C47922  
+        
+      - name: fileURL
+        dataType: hyperlink
+        description: A unique symbol that establishes identity of the resource.
+        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071    
 
       - name: fileFormat
         description: The format of an electronic file.
@@ -1831,6 +1728,41 @@ entities:
       - name: mutation_specify
         dataType: string
         description: Mutation not listed specify
+
+  #////////////////////////////////////////////////////////////////////////////
+  # @name psm_visits
+  - name: visits
+    label: Visits
+    description: PerSAIDs visits data
+    attributes:
+
+      - name: auto_id
+        idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
+
+      - name: patient_id
+        dataType: xref
+        refEntity: psm_patients
+        nillable: false
+        description: Patient Registry code
+
+      - name: date_visit
+        dataType: datetime
+        description: Date of visit
+
+      - name: is_lock
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: Locked visit
+
+      - name: visit_type
+        dataType: string
+        description: Project visit type
 
   #////////////////////////////////////////////////////////////////////////////
   # @name psm_sgns_symptms
@@ -3447,3 +3379,1280 @@ entities:
       - name: NoDrugs
         dataType: int
         description: No drug has been taken for this visit
+
+  #////////////////////////////////////////////////////////////////////////////
+  # @name psm_saf_report
+  - name: saf_report
+    label: Safety Report 
+    description: PerSAIDs safety report  data
+    attributes:
+
+      - name: auto_id
+        idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
+
+      - name: patient_id
+        dataType: xref
+        refEntity: psm_patients
+        nillable: false
+        description: Patient Registry code
+
+      - name: date_visit
+        dataType: datetime
+        description: Date of visit
+
+      - name: id_ae
+        dataType: int
+        description: Progressive Adverse Event counter
+
+      - name: EvtOnset
+        dataType: datetime
+        description: Event onset
+
+      - name: DescrEvt
+        dataType: text
+        description: Description of the event and treatment of event
+
+      - name: Seriousn
+        dataType: xref
+        refEntity: psm_lookups_SeriousNonSerious
+        description: Seriousness
+
+      - name: SeriousA
+        dataType: int
+        description: Serious death
+
+      - name: SeriousB
+        dataType: int
+        description: Serious an adverse drug experience that places the subject at immediate risk of death from the adverse drug experience as it occurred (e.g. life threatening)
+
+      - name: SeriousC
+        dataType: int
+        description: Serious inpatient hospitalization or prolongation of existing hospitalization
+
+      - name: SeriousD
+        dataType: int
+        description: Serious a persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions
+
+      - name: SeriousE
+        dataType: int
+        description: Serious a congenital anomaly or birth defect
+
+      - name: SeriousF
+        dataType: int
+        description: Serious an event that, based on appropriate medical judgment, may jeopardize the subject and may require a medical or surgical intervention to prevent an out-come described above
+
+      - name: SeriousG
+        dataType: int
+        description: Serious cancer
+
+      - name: SeriousH
+        dataType: int
+        description: Serious other
+
+      - name: SerOther
+        dataType: string
+        description: Serious other - specify
+
+      - name: DeathDa
+        dataType: datetime
+        description: Serious death - date
+
+      - name: Intensit
+        dataType: xref
+        refEntity: psm_lookups_VerySevereSevereModerateNone
+        description: Intensity (Very severe 1,  Severe 2,  Moderate 3  Mild 4, None 0)
+
+      - name: Outcome
+        dataType: xref
+        refEntity: psm_lookups_FatalResolvedResolvedWithSequelaeImprovedPers
+        description: Outcome
+
+      - name: ResDate
+        dataType: datetime
+        description: Outcome Resolved on (indicate date)
+
+      - name: RelHisto
+        dataType: string
+        description: OTHER RELEVANT HISTORY (e.g. Diagnoses, allergies, pregnancy with last menstrual period, etc.)
+
+  #////////////////////////////////////////////////////////////////////////////
+  # @name psm_saf_drugs
+  - name: saf_drugs
+    label: Safety Drugs
+    description: PerSAIDs safety drugs data
+    attributes:
+
+      - name: auto_id
+        idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
+
+      - name: patient_id
+        dataType: xref
+        refEntity: psm_patients
+        nillable: false
+        description: Patient Registry code
+
+      - name: date_visit
+        dataType: datetime
+        description: Date of visit
+
+      - name: id_ae
+        dataType: int
+        description: Progressive Adverse Event counter
+
+      - name: drug_name
+        dataType: string
+        description: Drug Name related with Adverse Event
+
+      - name: ongoing
+        dataType: int
+        description: drug ongoing
+
+      - name: start_date
+        dataType: datetime
+        description: start date
+
+      - name: end_date
+        dataType: datetime
+        description: end date
+
+      - name: dose
+        dataType: decimal
+        description: drug dose
+
+      - name: um_freq
+        dataType: string
+        description: drug frequency id
+
+      - name: type_route
+        dataType: string
+        description: drug route
+
+      - name: reason_ae
+        dataType: int
+        description: Reason for discontinuation adverse event serious, severe or moderate
+
+      - name: reason_ae_mild
+        dataType: int
+        description: Reason for discontinuation adverse event mild
+
+      - name: reason_it
+        dataType: int
+        description: Reason for discontinuation intolerance
+
+      - name: reason_dc
+        dataType: int
+        description: Reason for discontinuation dose change
+
+      - name: reason_ie
+        dataType: int
+        description: Reason for discontinuation inefficacy
+
+      - name: reason_r
+        dataType: int
+        description: Reason for discontinuation remission
+
+      - name: reason_s
+        dataType: int
+        description: Reason for discontinuation surgery
+
+      - name: reason_p
+        dataType: int
+        description: Reason for discontinuation pregnancy
+
+      - name: reason_oth
+        dataType: int
+        description: Reason for discontinuation other
+
+      - name: reason_oth_sp
+        dataType: string
+        description: Reason for discontinuation other specify
+
+      - name: reason_i
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: Discontinued for improvement
+
+      - name: reason_sd
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: Discontinued for single dose
+
+  #////////////////////////////////////////////////////////////////////////////
+  # @name psm_saf_treat_drugs
+  - name: saf_treat_drugs
+    label: Safety Treatment Drugs
+    description: PerSAIDs safety treatment drugs data
+    attributes:
+
+      - name: auto_id
+        idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
+
+      - name: patient_id
+        dataType: xref
+        refEntity: psm_patients
+        nillable: false
+        description: Patient Registry code
+
+      - name: date_visit
+        dataType: datetime
+        description: Date of visit
+
+      - name: id_ae
+        dataType: int
+        description: Progressive Adverse Event counter
+
+      - name: drug_name
+        dataType: string
+        description: Drug Name related with Adverse Event
+
+  #////////////////////////////////////////////////////////////////////////////
+  # @name psm_saf_rel_drugs
+  - name: saf_rel_drugs
+    label: Safety Related Drugs
+    description: PerSAIDs safety related drugs data
+    attributes:
+
+      - name: auto_id
+        idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
+
+      - name: patient_id
+        dataType: xref
+        refEntity: psm_patients
+        nillable: false
+        description: Patient Registry code
+
+      - name: date_visit
+        dataType: datetime
+        description: Date of visit
+
+      - name: name_drugs
+        dataType: string
+        description: Therapy Drug name
+
+      - name: id_ae
+        dataType: int
+        description: Progressive Adverse Event counter
+
+      - name: drug_name
+        dataType: string
+        description: Drug Name related with Adverse Event
+
+      - name: Relatio
+        dataType: xref
+        refEntity: psm_lookups_PossibleProbableDefinite
+        description: Relationship to drug
+
+      - name: ActionDr
+        dataType: xref
+        refEntity: psm_lookups_DoseReducedDoseIncreasedDrugInterruptedDrugDi
+        description: Action taken for drug
+
+      - name: EvtAbate
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Did event abate after action taken?
+
+      - name: EvtReapp
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Did event reappear after reintroduction?
+
+      - name: Manufacturer
+        dataType: int
+        description: Manufacturer Unknown (Yes 1)
+
+      - name: ManuName
+        dataType: string
+        description: Name of manufacturer
+
+      - name: DrBatch
+        dataType: int
+        description: Batch number not available (Yes 1)
+
+      - name: DrBatcNo
+        dataType: string
+        description: Drug batch number
+
+  #////////////////////////////////////////////////////////////////////////////
+  # @name psm_saf_esi_form
+  - name: saf_esi_form
+    label: Safety Events Of Special Interest
+    description: PerSAIDs safety events of special interest data
+    attributes:
+
+      - name: auto_id
+        idAttribute: auto
+        lookupAttribute: false
+        labelAttribute: true
+        visible: true
+        nillable: false
+        dataType: string
+        description: Autoincremental ID
+
+      - name: patient_id
+        dataType: xref
+        refEntity: psm_patients
+        nillable: false
+        description: Patient Registry code
+
+      - name: date_visit
+        dataType: datetime
+        description: Date of visit
+
+      - name: id_ae
+        dataType: int
+        description: Progressive Adverse Event counter
+
+      - name: EventDet
+        dataType: text
+        description: Event details
+
+      - name: Etiology
+        dataType: string
+        description: What is etiology?
+
+      - name: HwConfrm
+        dataType: string
+        description: How was this confirmed?
+
+      - name: CytoHist
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Cytopaenic history prior to starting therapy
+
+      - name: BmarBiop
+        dataType: xref
+        refEntity: psm_lookups_NoYesUnknown
+        description: Bone marrow aspiration/biopsy performed
+
+      - name: BmBioDet
+        dataType: string
+        description: Bone marrow aspiration/biopsy performed - results
+
+      - name: CytoCmpl
+        dataType: string
+        description: Complications as a direct result of cytopaenia (e.g. infection or bleeding)
+
+      - name: HDisHist
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: History of Congenital Heart Disease
+
+      - name: EvntType
+        dataType: xref
+        refEntity: psm_lookups_NewOnsetWorseningUnknown
+        description: Event Type
+
+      - name: CardInve
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Cardiac function investigation performed
+
+      - name: CaInvDet
+        dataType: string
+        description: Cardiac function investigation details
+
+      - name: LvEjectF
+        dataType: decimal
+        description: Left Ventricular (LV) ejection fraction
+
+      - name: BnpLevel
+        dataType: decimal
+        description: Brain Natriuretic Peptide (BNP) level
+
+      - name: EchoRepo
+        dataType: string
+        description: Details of the ECHO report
+
+      - name: DiabRisk
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Diabetes risk
+
+      - name: HyprtRsk
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Hypertension risk
+
+      - name: HcholRsk
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Hypercholesterolaemia risk
+
+      - name: FamHsRsk
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Positive family history
+
+      - name: InvCtMri
+        dataType: int
+        description: Investigations CT/MRI
+
+      - name: InvEndos
+        dataType: int
+        description: Investigations Endoscopy
+
+      - name: InvOther
+        dataType: int
+        description: Investigations Other
+
+      - name: InvDtail
+        dataType: string
+        description: Investigations Details
+
+      - name: SurgProc
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Surgical procedure required
+
+      - name: SurgPDet
+        dataType: string
+        description: Surgical procedure details
+
+      - name: UppGiUlc
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Upper GI ulcer
+
+      - name: Divertcl
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Diverticulitis
+
+      - name: LowGiUlc
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Lower GI ulcer
+
+      - name: IbdHisto
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: IBD
+
+      - name: RHistDet
+        dataType: string
+        description: History details
+
+      - name: EndoDate
+        dataType: datetime
+        description: Date of endoscopy or surgery
+
+      - name: IbdInRel
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: IBD in first degree relative
+
+      - name: IbdRelDt
+        dataType: string
+        description: IBD in first degree relative details
+
+      - name: Sym4Week
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Symptoms &ge; 4 weeks
+
+      - name: S2Ep6mth
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Symptoms &ge; 2 episodes in 6 months
+
+      - name: AbdoPain
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Abdominal pain
+
+      - name: Cramps
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Cramps
+
+      - name: RecBleed
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Rectal bleeding
+
+      - name: Tenesmus
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Tenesmus
+
+      - name: Anorexia
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Anorexia
+
+      - name: Vomiting
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Vomiting
+
+      - name: WghtLoss
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Weight loss
+
+      - name: Constip
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Constipation
+
+      - name: GrowReta
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Growth retardation
+
+      - name: Diarrhea
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Diarrhea
+
+      - name: ExIntSym
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Extra-intestinal symptoms
+
+      - name: ExSymDet
+        dataType: string
+        description: Extra-intestinal symptoms details
+
+      - name: InfCause
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Infectious causes of enteritis or colitis excluded
+
+      - name: LabTests
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Lab tests performed
+
+      - name: SmallBow
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Small bowel follow through
+
+      - name: CtScan
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Ct-scan
+
+      - name: GadoMri
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Gadolinium-enhanced MRI/MRI enteroclysis/MR-enterography
+
+      - name: CapsEndo
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Capsule endoscopy
+
+      - name: UpprEndo
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Upper gastrointestinal endoscopy
+
+      - name: ColoPerf
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Colonoscopy performed
+
+      - name: IbdFDiag
+        dataType: int
+        description: Type of IBD (Crohn's disease 1; Ulcerative colitis 2; IBD colitis, type unclassified 3)
+
+      - name: PhyFName
+        dataType: string
+        description: Physician First Name
+
+      - name: PhyLName
+        dataType: string
+        description: Physician Last Name
+
+      - name: PhyEmail
+        dataType: string
+        description: Physician email
+
+      - name: PhyHosp
+        dataType: string
+        description: Hospital
+
+      - name: PhyCity
+        dataType: string
+        description: City
+
+      - name: PhCountr
+        dataType: string
+        description: Country
+
+      - name: InfSite
+        dataType: string
+        description: Site/s of infection
+
+      - name: XRayScan
+        dataType: int
+        description: X-ray/CT Scan
+
+      - name: XScanRes
+        dataType: string
+        description: X-ray/CT Scan result
+
+      - name: TbBloodT
+        dataType: int
+        description: TB specific blood test
+
+      - name: TbBloRes
+        dataType: string
+        description: TB specific blood test result
+
+      - name: AcidFast
+        dataType: int
+        description: Acid fast bacilli
+
+      - name: AcidSamp
+        dataType: string
+        description: Acid fast bacilli sample
+
+      - name: Histolog
+        dataType: int
+        description: Histology
+
+      - name: HistSamp
+        dataType: string
+        description: Histology sample
+
+      - name: DiagConf
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: DIAGNOSIS CONFIRMED BY CULTURE
+
+      - name: DiagSamp
+        dataType: string
+        description: DIAGNOSIS CONFIRMED BY CULTURE sample
+
+      - name: Vaccinat
+        dataType: int
+        description: Vaccination
+
+      - name: PpdResul
+        dataType: int
+        description: PPD result
+
+      - name: PpdResMm
+        dataType: decimal
+        description: PPD result
+
+      - name: Igra
+        dataType: int
+        description: IGRA result (Quantiferon)
+
+      - name: IgraRes
+        dataType: int
+        description: IGRA result (Quantiferon) (Positive 1; Indeterminate 2; Negative 3)
+
+      - name: ChestXra
+        dataType: int
+        description: Chest x-ray
+
+      - name: XrayLaTb
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: Did X-ray indicate latent TB? XrayLaTb
+
+      - name: TbFamHis
+        dataType: string
+        description: RELEVANT FAMILY HISTORY AND RISK FACTORS FOR TB
+
+      - name: CurrYrsN
+        dataType: decimal
+        description: Number of years lived in the country of current residency
+
+      - name: TbProRec
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: TB prophylaxis received
+
+      - name: TbProFro
+        dataType: datetime
+        description: TB prophylaxis date from
+
+      - name: TbProTo
+        dataType: datetime
+        description: TB prophylaxis date to
+
+      - name: TbProMed
+        dataType: string
+        description: TB prophylaxis medication
+
+      - name: ActTbMed
+        dataType: string
+        description: Medication prescribed to treat active TB
+
+      - name: Hospited
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Hospitalized
+
+      - name: HospLong
+        dataType: string
+        description: Hospitalized details
+
+      - name: EpsBaVir
+        dataType: int
+        description: Epstein-Barr virus
+
+      - name: PapilVir
+        dataType: int
+        description: Papilloma virus
+
+      - name: HerpZost
+        dataType: int
+        description: Herpes Zoster (primary and reactivation)
+
+      - name: Cytomega
+        dataType: int
+        description: Cytomegalovirus
+
+      - name: OpporInf
+        dataType: int
+        description: Opportunistic infection
+
+      - name: OpInfDet
+        dataType: string
+        description: Opportunistic infection details
+
+      - name: BactInf
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Bacterial infection
+
+      - name: BBacter
+        dataType: int
+        description: Bacteremia
+
+      - name: BMening
+        dataType: int
+        description: Meningitis
+
+      - name: BPneumon
+        dataType: int
+        description: Pneumonitis
+
+      - name: BSoftTis
+        dataType: int
+        description: Soft tissue
+
+      - name: BArthOst
+        dataType: int
+        description: Arthritis/osteomyelitis
+
+      - name: BPyelone
+        dataType: int
+        description: Pyelonephritis
+
+      - name: FungInf
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Invasive fungal infections
+
+      - name: Fungemia
+        dataType: int
+        description: Fungemia
+
+      - name: FMening
+        dataType: int
+        description: Meningitis
+
+      - name: FPneumon
+        dataType: int
+        description: Pneumonitis
+
+      - name: FSoftTis
+        dataType: int
+        description: Soft tissue
+
+      - name: FArthOst
+        dataType: int
+        description: Arthritis/osteomyelitis
+
+      - name: FUrinTra
+        dataType: int
+        description: Urinary tract infections
+
+      - name: MBlood
+        dataType: int
+        description: Blood
+
+      - name: MUrine
+        dataType: int
+        description: Urine
+
+      - name: MSyFluid
+        dataType: int
+        description: Synovial fluid
+
+      - name: MBronchL
+        dataType: int
+        description: Bronchoalveolar lavage (BAL)
+
+      - name: MSputum
+        dataType: int
+        description: Sputum
+
+      - name: MPharyng
+        dataType: int
+        description: Pharyngeal or nasal swab
+
+      - name: MSeroRes
+        dataType: int
+        description: Serological results
+
+      - name: MSResDet
+        dataType: string
+        description: Serological results details
+
+      - name: MOther
+        dataType: int
+        description: Other
+
+      - name: MOtheDet
+        dataType: string
+        description: Other details
+
+      - name: PathIsol
+        dataType: string
+        description: Pathogen isolated
+
+      - name: MedInfTr
+        dataType: string
+        description: Medication for the treatment of infection
+
+      - name: AtPtIntu
+        dataType: int
+        description: At the time of infection, was the subject intubated (Yes 1; No 0; Unknown 99)
+
+      - name: AtPtCath
+        dataType: int
+        description: At the time of infection, did the subject have an indwelling catheter (Yes 1; No 0; Unknown 99)
+
+      - name: AtPtCAcc
+        dataType: int
+        description: At the time of infection, did the subject have central intravenous access (Yes 1; No 0; Unknow 99)
+
+      - name: InfuLong
+        dataType: xref
+        refEntity: psm_lookups_Within24HoursLonger
+        description: Length of time after the infusion/injection that the event occurred
+
+      - name: InfLDays
+        dataType: decimal
+        description: Specify length of time in days
+
+      - name: InfuStop
+        dataType: xref
+        refEntity: psm_lookups_YesNoNotApplicable
+        description: Infusion stopped prematurely
+
+      - name: AdMedBef
+        dataType: string
+        description: Details of additional medication administered as premedication before/during infusion/injection
+
+      - name: AdMedAft
+        dataType: string
+        description: Details of additional medication administered during/after event
+
+      - name: AdMedOth
+        dataType: string
+        description: Details of Other additional medication administered
+
+      - name: FurTreat
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: Further treatment with the biologic agent contraindicated
+
+      - name: Acr1
+        dataType: int
+        description: ACR classification Criterion 1 Malar Rash
+
+      - name: Acr2
+        dataType: int
+        description: ACR classification Criterion 2 Discoid Rash
+
+      - name: Acr3
+        dataType: int
+        description: ACR classification Criterion 3 Photosensitivity
+
+      - name: Acr4
+        dataType: int
+        description: ACR classification criterion 4 oral ulcers
+
+      - name: Acr5
+        dataType: int
+        description: ACR classification Criterion 5 Nonerosive arthritis
+
+      - name: Acr6
+        dataType: int
+        description: ACR classification Criterion 6  Pleuritis or Pericarditis
+
+      - name: Acr6a
+        dataType: int
+        description: ACR classification Criterion 6a  Pleuritis
+
+      - name: Acr6b
+        dataType: int
+        description: ACR classification Criterion 6b Pericarditis
+
+      - name: Acr7
+        dataType: int
+        description: ACR classification Criterion 7 renal failure
+
+      - name: Acr7a
+        dataType: int
+        description: ACR classification Criterion 7a persistent proteinuria
+
+      - name: Acr7b
+        dataType: int
+        description: ACR classification Criterion 7b cellular casts
+
+      - name: Acr8
+        dataType: int
+        description: ACR classification Criterion 8 neurologic disorder
+
+      - name: Acr8a
+        dataType: int
+        description: ACR classification Criterion 8a  seizures
+
+      - name: Acr8b
+        dataType: int
+        description: ACR classification Criterion 8b  psychosis
+
+      - name: Acr9
+        dataType: int
+        description: ACR classification Criterion 9 hematologic disorder
+
+      - name: Acr9a
+        dataType: int
+        description: ACR classification Criterion 9a hemolytic anemia with reticulocytosis
+
+      - name: Acr9b
+        dataType: int
+        description: ACR classification Criterion 9b  leukopenia less that 4,000 cubic mm on 2 or more occasions
+
+      - name: Acr9c
+        dataType: int
+        description: ACR classification Criterion 9c  lymphopenia less that 1,500 cubic mm on 2 or more occasions
+
+      - name: Acr9d
+        dataType: int
+        description: ACR classification Criterion 9d thrombocytopenia less than 1000,00 cubic mm in the absence of offending drugs
+
+      - name: Acr10
+        dataType: int
+        description: ACR classification Criterion 10 immunologic disorder
+
+      - name: Acr10a
+        dataType: int
+        description: ACR classification Criterion 10a Anti-DNA antibody to native DNA in abnormal titer
+
+      - name: Acr10b
+        dataType: int
+        description: ACR classification Criterion 10b Anti Sm-presence of antibody in Sm nuclear antigen
+
+      - name: Acr10c
+        dataType: int
+        description: ACR classification Criterion 10c positive finding of antiphospholipid antibodies 
+
+      - name: Acr10c1
+        dataType: int
+        description: ACR classification Criterion 10c1 an abnormal serum level of IgG or IgM anticardiolipin antibodies
+
+      - name: Acr10c2
+        dataType: int
+        description: ACR classification Criterion 10c2 a positive test result for lupus anticoagulant using a standard method
+
+      - name: Acr10c3
+        dataType: int
+        description: ACR classification Criterion 10c3 a false-positive test result for at least 6 months confirmed by treponema pallidum immobilization or fluorescent treponemal antibody absorption test
+
+      - name: Acr11
+        dataType: int
+        description: ACR classification Criterion 11 Positive antinuclear antibody
+
+      - name: LympDiag
+        dataType: string
+        description: Details of diagnosis
+
+      - name: HistClas
+        dataType: string
+        description: Histopathological classification and staging/radiology
+
+      - name: TrRegSur
+        dataType: int
+        description: Treatment regime surgery
+
+      - name: TrRegChe
+        dataType: int
+        description: Treatment regime chemotherapy
+
+      - name: TrRegRad
+        dataType: int
+        description: Treatment regime radiotherapy
+
+      - name: TrRegDet
+        dataType: string
+        description: Details of treatment regime
+
+      - name: CanFHist
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Family history positive for cancer
+
+      - name: CFHisDet
+        dataType: string
+        description: Details of positive cancer family history 
+
+      - name: DiagDate
+        dataType: datetime
+        description: Date of Diagnosis of ESI
+
+      - name: PtDgAtPh
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: Diagnosed as having MAS by the attending physician
+
+      - name: PtRecTre
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: Received treatment specific for MAS
+
+      - name: TrgDisFl
+        dataType: int
+        description: Trigger event disease flare
+
+      - name: TrgInfec
+        dataType: int
+        description: Trigger event  Infection
+
+      - name: TrgChang
+        dataType: int
+        description: Trigger event  Changes of treatment
+
+      - name: TrgOther
+        dataType: int
+        description: Trigger event  Other
+
+      - name: TrgOtDet
+        dataType: string
+        description: Specify Other Trigger event
+
+      - name: AdmToIcu
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Admitted to ICU
+
+      - name: CfCFev38
+        dataType: int
+        description: Clinical features of MAS continuous fever &ge;38&deg;Celsius (1 yes, 0 no, 99 unknown)
+
+      - name: CfLivEnl
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Clinical features of MAS liver enlargement
+
+      - name: CfIFev38
+        dataType: int
+        description: Clinical features of MAS intermittent fever &ge;38&deg;Celsius (1 yes, 0 no, 99 unknown)
+
+      - name: CfSplEnl
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Clinical features of MAS spleen enlargement
+
+      - name: CfEvErRa
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Clinical features of MAS Evanescent erythematous rash
+
+      - name: CfOthRas
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Clinical features of MAS  other skin rash
+
+      - name: CfHemMan
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Clinical features of MAS hemorrhagic manifestations
+
+      - name: CfHMaDet
+        dataType: string
+        description: Specify hemorrhagic manifestation
+
+      - name: CfCnsMan
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Clinical features of MAS CNS manifestations
+
+      - name: CfCnsDet
+        dataType: string
+        description: Specify CNS manifestations
+
+      - name: CfGenLym
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Clinical features of MAS generalized lymphadenopathy
+
+      - name: BonMarAs
+        dataType: xref
+        refEntity: psm_lookups_DoneNotDoneUnknown
+        description: Test performed bone marrow aspirate
+
+      - name: HemopPre
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Tests performed  hemophagocytosis present
+
+      - name: OthFinds
+        dataType: string
+        description: Test performed Other findings specify
+
+      - name: TrIvCort
+        dataType: int
+        description: Treatment of MAS IV corticosteroids
+
+      - name: OralCort
+        dataType: int
+        description: Treatment of MAS oral corticosteroids
+
+      - name: Cyclospo
+        dataType: int
+        description: Treatment of MAS cyclosporin
+
+      - name: OthImmTh
+        dataType: int
+        description: Treatment of MAS other immune therapies
+
+      - name: OthITDet
+        dataType: string
+        description: Specify other immune therapies
+
+      - name: IvGamGlo
+        dataType: int
+        description: Treatment of MAS  IV Gamma Globulin
+
+      - name: Plasmaph
+        dataType: int
+        description: Treatment of MAS  Plasmapheresis
+
+      - name: Etoposid
+        dataType: int
+        description:  Treatment of MAS  Etoposide
+
+      - name: BiolMeds
+        dataType: int
+        description: Treatment of MAS Biological medications
+
+      - name: BioMeDet
+        dataType: string
+        description: Specify Biological medications
+
+      - name: MaligDet
+        dataType: string
+        description: Details of malignancy
+
+      - name: Metastas
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Metastases
+
+      - name: MetaSite
+        dataType: string
+        description: Site of metastases
+
+      - name: TrRegUnk
+        dataType: int
+        description: Treatment regime unknown
+
+      - name: PatEyeIn
+        dataType: int
+        description: Pattern of eye disease eye involvement
+
+      - name: PatSpiIn
+        dataType: int
+        description: Pattern of eye disease spinal involvement
+
+      - name: PatCnsIn
+        dataType: int
+        description: Pattern of eye disease CNS involvement
+
+      - name: ThiEvnIs
+        dataType: int
+        description: This event is 1  new onset, 2 relapse
+
+      - name: ConByNeu
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Event confirmed by neurologist or ophthalmologist
+
+      - name: MriCond
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: MRI conducted
+
+      - name: MriDet
+        dataType: string
+        description: Details of MRI conducted
+
+      - name: CsfExamd
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Cerebrospinal fluid examined
+
+      - name: OligPres
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Oligoclonal bands present
+
+      - name: VisEvPot
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Visual evoked potential
+
+      - name: NeDiHist
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: History of neurological disorders since baseline
+
+      - name: NDHisDet
+        dataType: string
+        description: Type of neurological disorders since baseline
+
+      - name: FmDiHist
+        dataType: xref
+        refEntity: psm_lookups_YesNoUnknown
+        description: Positive family history of neurological disorders
+
+      - name: FDHisDet
+        dataType: string
+        description: Type of family history of neurological disorders
