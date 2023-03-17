@@ -30,6 +30,7 @@ def main(argv):
     data_omics = []
     for entity in omics["entities"]:
         data_omics.append(entity['label'])
+        print(entity)
 
     data_ef = []
     with open(file_diagram) as file:
@@ -42,25 +43,23 @@ def main(argv):
     ef1 = []
     ef2 = []
     omics = []
-    with Diagram(study, show=False, direction="TB"):
-        with Cluster("Eurofever data") as cls_ef:
-            patients = RDS("Patients")
-            with Cluster("", direction="LR") as cls1:
-                for index, dt in enumerate(data_ef):
-                    if dt != "Patients":
-                        if index < round(len(dt) / 2):
-                            ef1.append(DynamodbTable(dt))
-            with Cluster("", direction="RL") as cls2:
-                for index, dt in enumerate(data_ef):
-                    if dt != "Patients":
-                        if index >= round(len(dt) / 2):
-                            ef2.append(DynamodbTable(dt))
-        cls1 >> patients << cls2
-        
-        with Cluster("Omics data", direction="TB") as cls_omics:
+    with Diagram(study, show=False):
+        patients = RDS("Patients")
+        with Cluster("Eurofever P1") as cls1:
+            for index, dt in enumerate(data_ef):
+                if dt != "Patients":
+                    if index < round(len(dt) / 2):
+                        ef1.append(DynamodbTable(dt))
+        with Cluster("Eurofever P2") as cls2:
+            for index, dt in enumerate(data_ef):
+                if dt != "Patients":
+                    if index >= round(len(dt) / 2):
+                        ef2.append(DynamodbTable(dt))
+        with Cluster("Omics data") as cls_omics:
             for dt in data_omics:
                 omics.append(DynamodbTable(dt))
-        cls_ef << cls_omics
+        ef1 >> patients << ef2
+        patients << omics
         #patients << ef2
         #ef1 >> patients << ef2
         #patients >> omics
