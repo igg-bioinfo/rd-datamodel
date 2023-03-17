@@ -5,7 +5,7 @@ import argparse
 import os
 from classes.model import Model
 from classes.lookup import Lookup
-from classes.utils import prefix, DTSs, study
+from classes.utils import prefix, DTSs, study, file_diagram
 
 
 #RETRIEVE THE ARGUMENTS FOR THE PYTHON APPLICATION
@@ -25,6 +25,8 @@ def main(argv):
     if os.path.exists(args.dts_path) == False or os.path.exists(model_path) == False or os.path.exists(lookup_path) == False:
         print("ERROR - Some main folder does not exist")
         return
+    if os.path.exists(file_diagram):
+        os.remove(file_diagram)
     model_file = os.path.join(model_path, prefix + "_base.yaml")
     lookup_file = os.path.join(model_path, prefix + "_base_lookups.yaml")
     if os.path.exists(model_file) == False or os.path.exists(lookup_file) == False:

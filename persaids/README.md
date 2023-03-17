@@ -59,10 +59,11 @@ Import samples launching from **/persaids** folder:
 python3 6_SAMPLES_IMPORT.py --samples_xlsx ./data/SAMPLES.xlsx
 ```
 
-**STEP 6 - IMPORT FILES RELATED TO SAMPLES**
-To import files related to samples, launch from **/persaids** folder:
+**STEP 7 - IMPORT FILES**
+Protocols for files are created according to folder (ex. /pt_OLINK_V1).
+To import files related to samples and protocols, launch from **/persaids** folder:
 ```
-python3 7_SAMPLES_FILE_IMPORT.py --files_path ./files
+python3 7_FILES_IMPORT.py --files_path ./files
 ```
 
 # Biobank management

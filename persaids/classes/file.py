@@ -38,7 +38,7 @@ class File:
                                 values.append(array[len(array) - 1]) 
                             setattr(self, field, values)
                         else:
-                            setattr(self, field, None)
+                            setattr(self, field, res["samplingProtocol"])
                     else:
                         setattr(self, field, None)
                 else:
@@ -110,10 +110,10 @@ class File:
                 for sample_id in self.samples:
                     sample = Sample(request, sample_id)
                     if sample.exists:
+                        sample_added += 1
                         if sample.add_file(getattr(self, self.field_key)):
                             sample.save(request)
-                            sample_added += 1
-                print("File " + self.file + " has been added to " + str(sample_added) + " samples")
+                print("File " + self.file + " is related to " + str(sample_added) + " samples")
         except Exception as e: 
             print("File " + self.file + " not updated: " + str(e))
     

@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python
-import json
 from classes.utils import save_entity, get_entity, set_data
 
 class Protocol:
