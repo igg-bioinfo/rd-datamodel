@@ -6,6 +6,7 @@
   "author": "dcruvolo",
   "license": "MIT",
   "scripts": {
+    "m:delete-persaids": "mcmd delete -p psm",
     "emx:build-persaids": "python3 index.py profiles/persaids.yaml",
     "m:refresh-setup-psm": "python3 rd_datamodel/refresh-setup-sh-psm.py",
     "emx:build-cosas": "python3 index.py profiles/cosas.yaml",

@@ -5,33 +5,64 @@ First of all, you need to install [mcmd](https://github.com/molgenis/molgenis-to
 After that you'll be able to connect to your Molgenis instance.
 
 
-To create the files (yamls, lookup csv and setup bash file) for generating the model data structure, launch from **/persaids** folder:
+For changing model structure outside Eurofever, remember to change for entities: 
+**psm_base.yaml**
+and for lookups:
+**psm_base_lookups.yaml**
+
+
+**STEP 1 - CREATE FILES FOR MODEL STRUCTURE**
+To re\create the files (yamls, lookup csv and setup bash file) for generating the model data structure, launch from **/persaids** folder:
 ```
-python3 create_model_files.py --dts_path ./dts --yaml_path ../
+python3 1_MODEL_FILES.py --dts_path ./dts --yaml_path ../
 ```
-To create the emx excel file for importing the model in Molgenis instance, launch the following command on the **root** project:
+
+**STEP 2 - ELABORATE FILES FOR MODEL STRUCTURE**
+To create the emx excel file for importing the model in Molgenis instance, launch the following command:
 ```
 yarn emx:build-persaids
 ```
+
+**STEP 3 - IMPORT MODEL STRUCTURE**
+You can delete manually to delete previous model structure of PerSAIDs (psm) even if **3_MODEL_IMPORT** does it already: yarn m:delete-persaids
 To import effectively the model in Molgenis instance, launch the following command on the **root** project:
 ```
-bash setup_psm.sh
+bash 3_MODEL_IMPORT.sh
 ```
+
+**---- EUROFEVER DATA IMPORT ----**
+**STEP 4 - CREATE FILES FOR EUROFEVER DATA IMPORT**
 To normalize excel files and to create the bash file for importing them, launch from **/persaids** folder:
 ```
-python3 create_import_data_files.py --data_path ./data
+python3 4_EF_IMPORT_FILES.py --data_path ./data
 ```
+
+**STEP 5 - IMPORT EUROFEVER DATA**
 Finally you can import data launching from **/persaids** folder:
 ```
-bash import_data_psm.sh
+bash 5_EF_IMPORT.sh
 ```
-To import file we need a **/persaids/files/credentials.py** with this content:
+
+**---- OMIC DATA IMPORT ----**
+To import all other data outside Eurofever, we need a **/persaids/files/credentials.py** with this content:
 ```
 host = ""
 
 username = ""
 
 password = ""
+```
+
+**STEP 6 - IMPORT SAMPLES**
+Import samples launching from **/persaids** folder:
+```
+python3 6_SAMPLES_IMPORT.py --samples_xlsx ./data/SAMPLES.xlsx
+```
+
+**STEP 6 - IMPORT FILES RELATED TO SAMPLES**
+To import files related to samples, launch from **/persaids** folder:
+```
+python3 7_SAMPLES_FILE_IMPORT.py --files_path ./files
 ```
 
 # Biobank management
