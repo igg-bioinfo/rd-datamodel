@@ -1,16 +1,16 @@
-Eurofever	Patients
-Eurofever	Patient Additional Information
-Eurofever	Patient Proband
-Eurofever	Diagnosis Autoinflammatory And Family History
-Eurofever	Concomitant Diseases
-Eurofever	Lab Exam
-Eurofever	Molecular Analysis
-Eurofever	Visits
-Eurofever	Signs And Symptoms
-Eurofever	Drug Therapy
-Eurofever	Drug Therapy Height And Weight
-Eurofever	Safety Report 
-Eurofever	Safety Drugs
-Eurofever	Safety Treatment Drugs
-Eurofever	Safety Related Drugs
-Eurofever	Safety Events Of Special Interest
+patients
+pt_info
+p_proband
+diagnosis_autoinf
+concomitant
+lab_exam
+molecular_analysis
+visits
+sgns_symptms
+therapy_sum
+therapy_height_wieght
+saf_report
+saf_drugs
+saf_treat_drugs
+saf_rel_drugs
+saf_esi_form

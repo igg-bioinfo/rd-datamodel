@@ -3,7 +3,7 @@
 from pandas import read_excel, concat, DataFrame
 import os
 from math import nan
-from classes.utils import prefix, study, excluded_fields, save_entity_for_diagrams
+from classes.utils import prefix, study, excluded_fields, save_EF_entities
 
 
 class DTS:
@@ -75,7 +75,7 @@ class DTS:
         if len(self.entity) > self.entity_max:
             self.entity = self.entity[0:self.entity_max]
         label = self.group.title()
-        save_entity_for_diagrams("Eurofever", label)
+        save_EF_entities(self.entity)
         yaml = "\n"
         yaml += "  #////////////////////////////////////////////////////////////////////////////\n"
         yaml += "  # @name " + prefix + "_" + self.entity + "\n"

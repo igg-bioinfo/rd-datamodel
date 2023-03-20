@@ -65,9 +65,9 @@ def set_data(obj, fields):
         json_obj[field] = value
     return json.dumps(json_obj)
 
-def save_entity_for_diagrams(type: str, entity: str):
+def save_EF_entities(entity: str):
     if os.path.exists(file_diagram) == False:
         os.mknod(file_diagram)
     with open(file_diagram, 'a') as tsvfile:
-        tsvfile.write(type + "\t" + entity + "\n")
+        tsvfile.write(entity + "\n")
         
