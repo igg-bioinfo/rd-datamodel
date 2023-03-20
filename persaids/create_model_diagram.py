@@ -26,7 +26,6 @@ def get_ef_entities():
 
 def get_nodes(file):
     ef_entities = get_ef_entities()
-    print(ef_entities)
     objs = []
     nodes = []
     ef_nodes = []
@@ -49,14 +48,17 @@ def get_node(obj):
     node['label'] = obj['label']
     node['from'] = []
     node['to'] = []
+    node['tie'] = []
     for attr in obj['attributes']:
         if 'refEntity' in attr:
             tie = str(attr['refEntity']).replace(prefix + "_", "")
             if tie.startswith('lookups_') == False:
-                if str(attr['name']).startswith('belongs'):
-                    node['from'].append(tie)
-                else:
-                    node['to'].append(tie)
+                node['tie'].append(attr['name'])
+                # if str(attr['name']).startswith('belongs'):
+                #     node['from'].append(tie)
+                # else:
+                node['to'].append(tie)
+    print(node)
     return node
 
 #MAIN THREAD
@@ -64,10 +66,28 @@ def main(argv):
     args = get_args(argv)
     [nodes, ef_nodes, omic_nodes] = get_nodes(args.yaml_file)
     # circo dot fdp neato nop nop1 nop2 osage patchwork sfdp twopi
-    graph_attr = {
-    "layout":"circo",
-    "compound":"true",
-    "splines":"spline",
+    #circo osage sfdp
+    circo_attr = {
+        "layout":"circo",
+        "splines":"spline",
+        "mindist": "2"
+    }
+    neato_attr = {
+        "layout":"osage",
+        "packMode": "clust",
+        "pack": "150",
+        "fontsize": "40"
+    }
+
+    ef_attr = {
+        "bgcolor":"#fcebe8",
+        "fontsize": "30"
+        #"compound":"true",
+    }
+    om_attr = {
+        "bgcolor":"#edf7d0",
+        "fontsize": "30"
+        #"compound":"true",
     }
 
     node_attr = {
@@ -82,20 +102,20 @@ def main(argv):
     pt_name = "patients"
     global patients
     patients = None
-    with Diagram(study, show=False, direction= "TB", curvestyle="curved", graph_attr=graph_attr):
-        patients = DynamodbTable(pt_name)
+    with Diagram(study, show=False, direction= "TB", graph_attr=neato_attr): #, curvestyle="curved"
 
-        with Cluster("Omics data"):
+        with Cluster("Omics data", graph_attr=om_attr) as cl_omic:
             for n in omic_nodes:
                 var = n['name']
-                globals()[f"{var}"] = DynamodbTable(var)
+                globals()[f"{var}"] = DynamodbTable(nodeid=var, label=n['label']) #
                 omics.append(globals()[var])
 
-        with Cluster("Eurofever data"):
+        with Cluster("Eurofever data", graph_attr=ef_attr) as cl_ef:
+            #patients = DynamodbTable(nodeid=pt_name, label=n['label'])
             for index, n in enumerate(ef_nodes):
-                if n['name'] != pt_name:
+                #if n['name'] != pt_name:
                     var = n['name']
-                    globals()[f"{var}"] = DynamodbTable(var)
+                    globals()[f"{var}"] = DynamodbTable(nodeid=var, label=n['label'])
                     ef.append(globals()[var])
 
         # with Cluster("Eurofever P2"):
