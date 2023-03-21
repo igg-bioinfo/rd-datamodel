@@ -12,6 +12,7 @@ and for lookups:
 
 
 **STEP 1 - CREATE FILES FOR MODEL STRUCTURE**
+
 To re\create the files (yamls, lookup csv and setup bash file) for generating the model data structure, launch from **/persaids** folder:
 ```
 python3 1_MODEL_FILES.py --dts_path ./dts --yaml_path ../
@@ -19,12 +20,14 @@ python3 1_MODEL_FILES.py --dts_path ./dts --yaml_path ../
 After that, you can generate a diagram for the model data structure too, launching: *python3 1a_MODEL_DIAGRAM.py --yaml_file ../model/psm.yaml*
 
 **STEP 2 - ELABORATE FILES FOR MODEL STRUCTURE**
+
 To create the emx excel file for importing the model in Molgenis instance, launch the following command:
 ```
 yarn emx:build-persaids
 ```
 
 **STEP 3 - IMPORT MODEL STRUCTURE**
+
 You can delete manually to delete previous model structure of PerSAIDs (psm) even if **3_MODEL_IMPORT** does it already: *yarn m:delete-persaids*
 To import effectively the model in Molgenis instance, launch the following command on the **root** project:
 ```
@@ -32,19 +35,23 @@ bash 3_MODEL_IMPORT.sh
 ```
 
 **---- EUROFEVER DATA IMPORT ----**
+
 **STEP 4 - CREATE FILES FOR EUROFEVER DATA IMPORT**
+
 To normalize excel files and to create the bash file for importing them, launch from **/persaids** folder:
 ```
 python3 4_EF_IMPORT_FILES.py --data_path ./data
 ```
 
 **STEP 5 - IMPORT EUROFEVER DATA**
+
 Finally you can import data launching from **/persaids** folder:
 ```
 bash 5_EF_IMPORT.sh
 ```
 
 **---- OMIC DATA IMPORT ----**
+
 To import all other data outside Eurofever, we need a **/persaids/files/credentials.py** with this content:
 ```
 host = ""
@@ -55,12 +62,14 @@ password = ""
 ```
 
 **STEP 6 - IMPORT SAMPLES**
+
 Import samples launching from **/persaids** folder:
 ```
 python3 6_SAMPLES_IMPORT.py --samples_xlsx ./data/SAMPLES.xlsx
 ```
 
 **STEP 7 - IMPORT FILES**
+
 Protocols for files are created according to folder (ex. /pt_OLINK_V1).
 To import files related to samples and protocols, launch from **/persaids** folder:
 ```
