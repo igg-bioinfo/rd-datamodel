@@ -16,6 +16,7 @@ To re\create the files (yamls, lookup csv and setup bash file) for generating th
 ```
 python3 1_MODEL_FILES.py --dts_path ./dts --yaml_path ../
 ```
+After that, you can generate a diagram for the model data structure too, launching: *python3 1a_MODEL_DIAGRAM.py --yaml_file ../model/psm.yaml*
 
 **STEP 2 - ELABORATE FILES FOR MODEL STRUCTURE**
 To create the emx excel file for importing the model in Molgenis instance, launch the following command:
@@ -24,7 +25,7 @@ yarn emx:build-persaids
 ```
 
 **STEP 3 - IMPORT MODEL STRUCTURE**
-You can delete manually to delete previous model structure of PerSAIDs (psm) even if **3_MODEL_IMPORT** does it already: yarn m:delete-persaids
+You can delete manually to delete previous model structure of PerSAIDs (psm) even if **3_MODEL_IMPORT** does it already: *yarn m:delete-persaids*
 To import effectively the model in Molgenis instance, launch the following command on the **root** project:
 ```
 bash 3_MODEL_IMPORT.sh

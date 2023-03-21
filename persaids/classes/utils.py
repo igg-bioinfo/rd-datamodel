@@ -8,7 +8,6 @@ prefix = "psm"
 study = "PerSAIDs"
 file_entities = "./data_entities.tsv"
 file_files = "./data_files.tsv"
-file_diagram = "./data_diagram.tsv"
 
 DTSs = [
     "PATIENTS",
@@ -64,10 +63,4 @@ def set_data(obj, fields):
         value = getattr(obj, field)
         json_obj[field] = value
     return json.dumps(json_obj)
-
-def save_EF_entities(entity: str):
-    if os.path.exists(file_diagram) == False:
-        os.mknod(file_diagram)
-    with open(file_diagram, 'a') as tsvfile:
-        tsvfile.write(entity + "\n")
         
