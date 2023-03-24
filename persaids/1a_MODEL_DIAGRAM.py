@@ -27,7 +27,6 @@ def get_nodes(file):
     nodes = []
     ef_nodes = []
     omic_nodes = []
-    saf_nodes = []
     with open(file, 'r') as f:
         objs = yaml.safe_load(f)
     for obj in objs["entities"]:
@@ -36,10 +35,8 @@ def get_nodes(file):
             ef_nodes.append(node)
         else:
             omic_nodes.append(node)
-        if "id_ae" in node["tie"] or obj["name"] == 'saf_report':
-            saf_nodes.append(node)
         nodes.append(node)
-    return [nodes, ef_nodes, omic_nodes, saf_nodes]
+    return [nodes, ef_nodes, omic_nodes]
 
 
 def get_node(obj):
@@ -66,7 +63,7 @@ def get_node(obj):
 #MAIN THREAD
 def main(argv):
     args = get_args(argv)
-    [nodes, ef_nodes, omic_nodes, saf_nodes] = get_nodes(args.yaml_file)
+    [nodes, ef_nodes, omic_nodes] = get_nodes(args.yaml_file)
 
     # ---- GRAPH ATTRIBUTES
     #LAYOUT:            circo dot fdp neato nop nop1 nop2 osage patchwork sfdp twopi
@@ -94,18 +91,6 @@ def main(argv):
         "fontsize": "30",
         #"compound":"true",
     }
-    saf_attr = {
-        "bgcolor":"#e6edf7",
-        "fontsize": "30",
-        #"compound":"true",
-    }
-
-    # ---- NODES ATTRIBUTES
-    node_attr = {
-        "shape":"ellipse", 
-        "height":"0.8",
-        "labelloc":"c",
-    }
 
     # ---- DIAGRAM
     with Diagram(study, show=False, direction="TB", graph_attr=neato_attr): #, curvestyle="curved"
@@ -117,12 +102,6 @@ def main(argv):
                 var = n['name']
                 globals()[f"{var}"] = DynamodbTable(nodeid=var, label=n['label'])
                 ef.append(globals()[var])
-                # safs = []
-                # with Cluster("Safety data", graph_attr=saf_attr):
-                #     for n in saf_nodes:
-                #         var = n['name']
-                #         globals()[f"{var}"] = DynamodbTable(nodeid=var, label=n['label']) #
-                #         safs.append(globals()[var])
 
         omics = []
         with Cluster("Omics data", graph_attr=om_attr):
@@ -130,25 +109,6 @@ def main(argv):
                 var = n['name']
                 globals()[f"{var}"] = DynamodbTable(nodeid=var, label=n['label']) #
                 omics.append(globals()[var])
-        
-
-        # patients = DynamodbTable(nodeid=pt_name, label=n['label'])
-        # pt_name = "patients"
-        # ef1 = []
-        # with Cluster("Eurofever P2", graph_attr=ef_attr):
-        #     for n in ef_nodes:
-        #         if n['name'] != pt_name and index >= round(len(ef_nodes) / 2):
-        #             var = n['name']
-        #             globals()[f"{var}"] = DynamodbTable(var)
-        #             ef2.append(globals()[var])
-
-        # ef2 = []
-        # with Cluster("Eurofever P1", graph_attr=ef_attr):
-        #     for n in ef_nodes:
-        #         if n['name'] != pt_name and index < round(len(ef_nodes) / 2):
-        #             var = n['name']
-        #             globals()[f"{var}"] = DynamodbTable(var)
-        #             ef1.append(globals()[var])
 
         # CONNECTION ARROWS
         for n in nodes:

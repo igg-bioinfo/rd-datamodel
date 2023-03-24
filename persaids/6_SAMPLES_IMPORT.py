@@ -19,10 +19,11 @@ def main(argv):
     args = get_args(argv)
     df = read_excel(args.samples_xlsx, sheet_name=0, header=1, dtype=str)
     samples_tot = 0
+    samples_not = 0
     for index, row in df.iterrows():
         patient_id = str(row['Eurofever ID'])
         sample_id = str(row['AIT Code'])
-        if sample_id != 'nan' and sample_id != '' and (patient_id.startswith("IT") or patient_id.startswith("TR")):
+        if sample_id != 'nan' and sample_id != '' and patient_id.lower().startswith("n") == False and patient_id.strip() != "":
             sample = Sample(request, sample_id)
             sample.belongsToPatient = patient_id
             sample.localID = set_value(row['local ID patient*   '])
@@ -32,7 +33,12 @@ def main(argv):
             sample.set_treated(row['patient Treated or unTreated       (T/unT)'])
             sample.save(request)
             samples_tot += 1
-    print("Total samples: " + str(samples_tot))
+        else:
+            samples_not += 1
+            if patient_id != "" and patient_id != "nan":
+                print("Samples for patient_id '" + patient_id + "' not imported")
+    print("Total imported samples: " + str(samples_tot))
+    print("Total NOT imported samples: " + str(samples_not))
         
 
 if __name__ == '__main__':
