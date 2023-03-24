@@ -44,7 +44,7 @@ class DTS:
         return dataType
     
 
-    def set_attr(self, field, description, dataType, lookup_table, is_key, group, visible = True):
+    def set_attr(self, field, description, dataType, lookup_table, is_key, entity, visible = True):
         dataType = self.set_dataType(dataType, field)
         yaml = "\n"
         yaml += "      - name: " + field + "\n"
@@ -54,7 +54,11 @@ class DTS:
             yaml += "        labelAttribute: " + ("true" if field == "auto_id" else "true") + "\n"
             yaml += "        visible: " + ("true" if field == "auto_id" else "true") + "\n"
             yaml += "        nillable: false\n"
-        if (str(field).endswith("patient_id") and group != "patients") or field == "id_proband":
+        if field == "id_ae" and entity != "saf_report":
+            yaml += "        dataType: xref\n"
+            yaml += "        refEntity: " + prefix + "_saf_report\n"
+            yaml += "        nillable: false\n"
+        elif (str(field).endswith("patient_id") and entity != "patients") or field == "id_proband":
             yaml += "        dataType: xref\n"
             yaml += "        refEntity: " + prefix + "_patients\n"
             yaml += "        nillable: false\n"

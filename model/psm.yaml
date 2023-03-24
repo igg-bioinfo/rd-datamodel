@@ -2095,15 +2095,6 @@ entities:
     description: PerSAIDs safety report  data
     attributes:
 
-      - name: auto_id
-        idAttribute: auto
-        lookupAttribute: false
-        labelAttribute: true
-        visible: true
-        nillable: false
-        dataType: string
-        description: Autoincremental ID
-
       - name: patient_id
         dataType: xref
         refEntity: psm_patients
@@ -2115,6 +2106,11 @@ entities:
         description: Date of visit
 
       - name: id_ae
+        idAttribute: true
+        lookupAttribute: true
+        labelAttribute: true
+        visible: true
+        nillable: false
         dataType: int
         description: Progressive Adverse Event counter
 
@@ -2216,7 +2212,9 @@ entities:
         description: Date of visit
 
       - name: id_ae
-        dataType: int
+        dataType: xref
+        refEntity: psm_saf_report
+        nillable: false
         description: Progressive Adverse Event counter
 
       - name: drug_name
@@ -2324,7 +2322,9 @@ entities:
         description: Date of visit
 
       - name: id_ae
-        dataType: int
+        dataType: xref
+        refEntity: psm_saf_report
+        nillable: false
         description: Progressive Adverse Event counter
 
       - name: drug_name
@@ -2362,7 +2362,9 @@ entities:
         description: Therapy Drug name
 
       - name: id_ae
-        dataType: int
+        dataType: xref
+        refEntity: psm_saf_report
+        nillable: false
         description: Progressive Adverse Event counter
 
       - name: drug_name
@@ -2432,7 +2434,9 @@ entities:
         description: Date of visit
 
       - name: id_ae
-        dataType: int
+        dataType: xref
+        refEntity: psm_saf_report
+        nillable: false
         description: Progressive Adverse Event counter
 
       - name: EventDet

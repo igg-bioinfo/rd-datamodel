@@ -129,8 +129,8 @@ class Model:
         self.yaml += self.dts.set_header()
         self.data_entities.append([self.dts.filename.replace("DTS_", "DT_"), prefix + "_" + self.dts.entity])
         names = []
-        if self.dts.group != "patients":
-            self.yaml += self.dts.set_attr("auto_id", "Autoincremental ID", "string", None, True, self.dts.group, False)
+        if self.dts.entity not in ["patients", "saf_report"]:
+            self.yaml += self.dts.set_attr("auto_id", "Autoincremental ID", "string", None, True, self.dts.entity, False)
             names.append("auto_id")
         for index, row in self.dts.df.iterrows():
             field = row["field_name"]
@@ -158,8 +158,8 @@ class Model:
             description = str(row["field_description"])
             dataType = row["DATA_TYPE"]
             [lookup_table, description, opts] = self.check_lookup(field, description)
-            isKey = field == "patient_id" and self.dts.group == "patients"
-            self.yaml += self.dts.set_attr(field, description, dataType, lookup_table, isKey, self.dts.group)
+            isKey = (field == "patient_id" and self.dts.entity == "patients") or (field == "id_ae" and self.dts.entity == "saf_report")
+            self.yaml += self.dts.set_attr(field, description, dataType, lookup_table, isKey, self.dts.entity)
             #if lookup_table == "a":
             #    print(description)
             #    print(lookup_table)
