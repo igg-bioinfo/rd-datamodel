@@ -105,7 +105,7 @@ class File:
             return
         try:
             if self.file_id != "":
-                save_entity(request, self.entity, getattr(self, self.field_key) if self.exists else None, set_data(self, self.fields))
+                res = save_entity(request, self.entity, getattr(self, self.field_key) if self.exists else None, set_data(self, self.fields))
                 sample_added = 0
                 for sample_id in self.samples:
                     sample = Sample(request, sample_id)

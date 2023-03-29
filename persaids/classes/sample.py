@@ -63,4 +63,4 @@ class Sample:
             self.treatedStatus = "Untreated"
     
     def save(self, request):
-        save_entity(request, self.entity, getattr(self, self.field_key) if self.exists else None, set_data(self, self.fields))
+        return save_entity(request, self.entity, getattr(self, self.field_key) if self.exists else None, set_data(self, self.fields))

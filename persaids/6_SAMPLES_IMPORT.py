@@ -31,12 +31,14 @@ def main(argv):
             #sample.samplingDate = set_value(row['DATE'])
             sample.set_disease(row['Active or Inactive disease (A/I)'])
             sample.set_treated(row['patient Treated or unTreated       (T/unT)'])
-            sample.save(request)
-            samples_tot += 1
+            if sample.save(request) == True:
+                samples_tot += 1
+            else: 
+                samples_not += 1
         else:
             samples_not += 1
-            if patient_id != "" and patient_id != "nan":
-                print("Samples for patient_id '" + patient_id + "' not imported")
+            if patient_id != "" and patient_id != "nan" and sample_id != "nan":
+                print("Sample " + sample_id + " for patient_id '" + patient_id + "' not imported")
     print("Total imported samples: " + str(samples_tot))
     print("Total NOT imported samples: " + str(samples_not))
         

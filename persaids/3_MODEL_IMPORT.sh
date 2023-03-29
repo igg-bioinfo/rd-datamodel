@@ -52,6 +52,4 @@ mcmd import -p ../lookups/psm_lookups_NewOnsetWorseningUnknown.csv
 mcmd import -p ../lookups/psm_lookups_Within24HoursLonger.csv
 mcmd import -p ../lookups/psm_lookups_YesNoNotApplicable.csv
 mcmd import -p ../lookups/psm_lookups_DoneNotDoneUnknown.csv
-mcmd import -p ../lookups/psm_lookups_diseases.csv
-mcmd import -p ../lookups/psm_lookups_phenotype.csv
 # <!--- end: listEmxFiles --->

@@ -96,13 +96,13 @@ entities:
         description: A unique symbol that establishes identity of the resource.
   
     
-  - name: diseases
-    description: Diseases (FAIR Genomes, v1.1)
-    tags: NCIT_C15607 http://purl.obolibrary.org/obo/NCIT_C15607
-    extends: psm_lookups_attributeTemplateDefault
+#  - name: diseases
+#    description: Diseases (FAIR Genomes, v1.1)
+#    tags: NCIT_C15607 http://purl.obolibrary.org/obo/NCIT_C15607
+#    extends: psm_lookups_attributeTemplateDefault
   
-  - name: phenotype
-    description: Human Phenotype Ontology (HPO, v2021-08-02)
-    tags: NCIT_C16977 http://purl.obolibrary.org/obo/NCIT_C16977
-    extends: psm_lookups_attributeTemplateCode
+#  - name: phenotype
+#    description: Human Phenotype Ontology (HPO, v2021-08-02)
+#    tags: NCIT_C16977 http://purl.obolibrary.org/obo/NCIT_C16977
+#    extends: psm_lookups_attributeTemplateCode
   

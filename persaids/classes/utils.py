@@ -45,13 +45,16 @@ def get_entity(request: any, entity: str, value: str):
 
 
 def save_entity(request: any, entity: str, id_value: str, data: any):
+    res = "OK"
     try:
         if id_value == None:
-            request.post("v1/psm_" + entity, 'application/json', data)
+            res = request.post("v1/psm_" + entity, 'application/json', data)
         else: 
-            request.put("v1/psm_" + entity + "/" + id_value, 'application/json', data)
+            res = request.put("v1/psm_" + entity + "/" + id_value, 'application/json', data)
     except Exception as e: 
         print("Entity '" + entity + "' " + id_value + " not saved: " + str(e))
+        return False
+    return res != None
 
 def set_value(value: any):
     value = str(value)

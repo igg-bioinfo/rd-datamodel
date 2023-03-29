@@ -308,7 +308,7 @@ entities:
         description: Patient Registry code
 
       - name: date_visit
-        dataType: datetime
+        dataType: date
         description: Date of visit
 
       - name: lab_date
@@ -460,7 +460,7 @@ entities:
         description: Patient Registry code
 
       - name: date_visit
-        dataType: datetime
+        dataType: date
         description: Date of visit
 
       - name: is_lock
@@ -1947,7 +1947,7 @@ entities:
         description: Type of Drug
 
       - name: date_visit
-        dataType: datetime
+        dataType: date
         description: Date of visit
 
       - name: drug_name
@@ -2065,7 +2065,7 @@ entities:
         description: Patient Registry code
 
       - name: date_visit
-        dataType: datetime
+        dataType: date
         description: Date of visit
 
       - name: Height
@@ -2102,7 +2102,7 @@ entities:
         description: Patient Registry code
 
       - name: date_visit
-        dataType: datetime
+        dataType: date
         description: Date of visit
 
       - name: id_ae
@@ -2208,7 +2208,7 @@ entities:
         description: Patient Registry code
 
       - name: date_visit
-        dataType: datetime
+        dataType: date
         description: Date of visit
 
       - name: id_ae
@@ -2318,7 +2318,7 @@ entities:
         description: Patient Registry code
 
       - name: date_visit
-        dataType: datetime
+        dataType: date
         description: Date of visit
 
       - name: id_ae
@@ -2354,7 +2354,7 @@ entities:
         description: Patient Registry code
 
       - name: date_visit
-        dataType: datetime
+        dataType: date
         description: Date of visit
 
       - name: name_drugs
@@ -2430,7 +2430,7 @@ entities:
         description: Patient Registry code
 
       - name: date_visit
-        dataType: datetime
+        dataType: date
         description: Date of visit
 
       - name: id_ae

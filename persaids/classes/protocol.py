@@ -22,4 +22,4 @@ class Protocol:
         setattr(self, self.field_key, id)
     
     def save(self, request):
-        save_entity(request, self.entity, getattr(self, self.field_key) if self.exists else None, set_data(self, self.fields))
+        return save_entity(request, self.entity, getattr(self, self.field_key) if self.exists else None, set_data(self, self.fields))
