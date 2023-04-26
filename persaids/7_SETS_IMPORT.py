@@ -3,7 +3,7 @@
 import sys
 import argparse
 import os
-from classes.file import File
+from classes.experiment_set import File
 from classes.protocol import Protocol
 from classes.request import Request
 import glob
@@ -29,6 +29,8 @@ def main(argv):
         for file in glob.glob(os.path.join(pt_path, "*.csv")):
             oFile = File(request, file)
             oFile.fileURI = "/api/files/" + oFile.file_id + "?alt=media"
+            if oFile.metadata_id != None and oFile.metadata_id != "":
+                oFile.metadataURI = "/api/files/" + oFile.metadata_id + "?alt=media"
             oFile.samplingProtocol = pt_id
             oFile.save(request)
         

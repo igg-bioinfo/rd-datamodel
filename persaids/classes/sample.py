@@ -6,7 +6,7 @@ class Sample:
     exists: bool = False
     entity: str = "samples"
     field_key: str = "sampleID"
-    fields: list = ["sampleID", "localID", "institute", "belongsToPatient", "hasFile", "samplingDate", "diseaseStatus", "treatedStatus"]
+    fields: list = ["sampleID", "localID", "institute", "belongsToPatient", "experimentSets", "samplingDate", "diseaseStatus", "treatedStatus"]
 
 
     def __init__(self, request, id):
@@ -38,12 +38,12 @@ class Sample:
 
     def add_file(self, file):
         found = False
-        for f in self.hasFile:
+        for f in self.experimentSets:
             if f == file:
                 found = True
                 break
         if found == False:
-            self.hasFile.append(file)
+            self.experimentSets.append(file)
         return found == False
 
     def set_disease(self, value: any):

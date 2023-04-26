@@ -3400,10 +3400,10 @@ entities:
         description: An individual who is the subject of personal data, persons to whom data refers, and from whom data are collected, processed, and stored.
         tags: NCIT_C142495 http://purl.obolibrary.org/obo/NCIT_C142495
 
-      - name: hasFile
+      - name: experimentSets
         dataType: mref
-        refEntity: psm_files
-        description: Files related to sample.
+        refEntity: psm_experimentSets
+        description: Experiment sets related to sample.
 
       - name: samplingDate
         dataType: date
@@ -3421,9 +3421,9 @@ entities:
 
   #////////////////////////////////////////////////////////////////////////////
   
-  # @name psm_files
-  - name: files
-    label: Files
+  # @name psm_experimentSets
+  - name: experimentSets
+    label: Experiment Sets
     description: A set of related records (either written or electronic) kept together.
     tags: NCIT_C42883 http://purl.obolibrary.org/obo/NCIT_C42883
     attributes:
@@ -3445,6 +3445,11 @@ entities:
         tags: NCIT_C171191 http://purl.obolibrary.org/obo/NCIT_C171191 
         
       - name: fileURI
+        dataType: hyperlink
+        description: A unique symbol that establishes identity of the resource.
+        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
+        
+      - name: metadataURI
         dataType: hyperlink
         description: A unique symbol that establishes identity of the resource.
         tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  

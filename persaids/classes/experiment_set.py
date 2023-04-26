@@ -7,19 +7,23 @@ import csv
 
 class File:
     exists: bool = False
-    entity: str = "files"
+    entity: str = "experimentSets"
     field_key: str = "fileID"
-    fields: list = ["fileID", "samplingProtocol", "fileName", "filePath", "fileURI"]
+    fields: list = ["fileID", "samplingProtocol", "fileName", "filePath", "fileURI", "metadataURI"]
 
     file_id: str
     file: str
     file_name: str
+    metadata: str
+    metadata_name: str
     samples: list = []
     error: bool = False
 
     def __init__(self, request, filename):
         self.file_name = filename
+        self.metadata_name = self.file_name.replace(".csv", ".metadata")
         self.file = os.path.basename(self.file_name)
+        self.metadata = os.path.basename(self.metadata_name)
         id = self.file
         obj = get_entity(request, self.entity, id)
         obj = None if obj == None else obj.json()
@@ -49,6 +53,7 @@ class File:
         setattr(self, "fileName", id)
         self.get_samples()
         self.file_id = self.upload_file(request)
+        self.metadata_id = self.upload_metadata(request)
 
 
     def get_samples(self):
@@ -73,6 +78,31 @@ class File:
         if len(self.samples) == 0:
             print("File " + filecfg + " has no samples to link!")
             self.error = True
+
+
+    def upload_metadata(self, request):
+        if os.path.exists(file_files) == False:
+            os.mknod(file_files)
+
+        data_files = []
+        with open(file_files) as file:
+            tsv_file = csv.reader(file, delimiter="\t")
+            for line in tsv_file:
+                data_files.append(line)
+        
+        for f in data_files:
+            if f[0] == self.metadata:
+                print("File " + self.metadata + " is already uploaded as " + f[1])
+                return f[1]
+        
+        res = request.post("files", 'application/json', open(self.metadata_name,'rb'), self.metadata)
+        if res == None:
+            print("File " + self.metadata + " cannot be uploaded!")
+            return ""
+        fileid = res.json()['id']
+        with open(file_files, 'a') as tsvfile:
+            tsvfile.write(self.file + "\t" + fileid + "\n")
+        return fileid
 
 
     def upload_file(self, request):

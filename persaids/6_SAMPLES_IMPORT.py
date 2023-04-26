@@ -4,7 +4,7 @@ import sys
 import argparse
 from classes.request import Request
 from classes.sample import Sample
-from classes.utils import set_value
+from classes.utils import set_value, set_date
 from pandas import read_excel
 
 #RETRIEVE THE ARGUMENTS FOR THE PYTHON APPLICATION
@@ -22,15 +22,15 @@ def main(argv):
     samples_not = 0
     for index, row in df.iterrows():
         patient_id = str(row['Eurofever ID'])
-        sample_id = str(row['AIT Code'])
+        sample_id = str(row['ID sample'])
         if sample_id != 'nan' and sample_id != '' and patient_id.lower().startswith("n") == False and patient_id.strip() != "":
             sample = Sample(request, sample_id)
             sample.belongsToPatient = patient_id
-            sample.localID = set_value(row['local ID patient*   '])
+            sample.localID = set_value(row['local ID patient   '])
             sample.institute = set_value(row['Institute'])
-            #sample.samplingDate = set_value(row['DATE'])
-            sample.set_disease(row['Active or Inactive disease (A/I)'])
-            sample.set_treated(row['patient Treated or unTreated       (T/unT)'])
+            sample.samplingDate = set_date(row['Date of sampling'])
+            sample.set_disease(row['Active or Inactive disease (A/I)\nDrop-down Menu'])
+            sample.set_treated(row['patient Treated or unTreated       (T/unT)\nDrop-down Menu'])
             if sample.save(request) == True:
                 samples_tot += 1
             else: 

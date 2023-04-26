@@ -3,6 +3,7 @@
 
 import json
 import os
+from datetime import datetime
 
 prefix = "psm"
 study = "PerSAIDs"
@@ -66,4 +67,14 @@ def set_data(obj, fields):
         value = getattr(obj, field)
         json_obj[field] = value
     return json.dumps(json_obj)
+
+def set_date(value: any):
+    value = str(value)
+    if value == 'nan' or "-" not in value or ":" not in value:
+        return None
+    try: 
+        value = value.replace(" 00:00:00", "")
+    except Exception as e: 
+        return None
+    return value
         
