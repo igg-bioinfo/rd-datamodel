@@ -49,6 +49,10 @@ class DTS:
     def set_attr(self, field, description, dataType, lookup_table, is_key, entity, visible = True):
         dataType = self.set_dataType(dataType, field)
         yaml = "\n"
+        if field == "Country":
+            field = "country"
+        elif field == "patient_code":
+            field = "project_patient_code"
         yaml += "      - name: " + field + "\n"
         if is_key:
             yaml += "        idAttribute: " + ("auto" if field == "auto_id" else "true") + "\n"

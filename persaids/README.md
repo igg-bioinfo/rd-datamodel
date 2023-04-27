@@ -1,5 +1,9 @@
 # PerSAIDs Unified Molgenis Data Model & Import Data from Eurofever
 
+PerSAIDs data model is created starting from a fork of the Unified Molgenis Data Model.
+The first steps are about to recreate clinical data structure from Eurofever export files in the yaml files where previously omics related tables were manually added, and subsequently to import these data in the new structure with Molgenis mcmd software.
+All omics data are imported as files (experiment sets) and connected to the correct samples through ad hoc scripts.
+
 ## Instructions
 First of all, you need to install [mcmd](https://github.com/molgenis/molgenis-tools-commander/wiki/Installation-guide) and configure it: set your Molgenis server and admin credentials.
 After that you'll be able to connect to your Molgenis instance.
