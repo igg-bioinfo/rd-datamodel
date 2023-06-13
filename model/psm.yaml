@@ -75,7 +75,7 @@ entities:
     description: PerSAIDs patients data
     attributes:
 
-      - name: Country
+      - name: country
         dataType: string
         description: Country of the center
 
@@ -88,7 +88,7 @@ entities:
         dataType: string
         description: Patient Id
 
-      - name: patient_code
+      - name: project_patient_code
         dataType: string
         description: Patient Code
 
@@ -3444,15 +3444,40 @@ entities:
         description: The literal identifier for an electronic file.
         tags: NCIT_C171191 http://purl.obolibrary.org/obo/NCIT_C171191 
         
+      - name: metadataURI
+        dataType: hyperlink
+        description: A unique symbol that establishes identity of the resource.
+        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071 
+        
       - name: fileURI
         dataType: hyperlink
         description: A unique symbol that establishes identity of the resource.
         tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
         
-      - name: metadataURI
+      - name: filePart1URI
         dataType: hyperlink
         description: A unique symbol that establishes identity of the resource.
         tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
+        
+      - name: filePart2URI
+        dataType: hyperlink
+        description: A unique symbol that establishes identity of the resource.
+        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
+        
+      - name: filePart3URI
+        dataType: hyperlink
+        description: A unique symbol that establishes identity of the resource.
+        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
+        
+      - name: filePart4URI
+        dataType: hyperlink
+        description: A unique symbol that establishes identity of the resource.
+        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
+        
+      - name: filePart5URI
+        dataType: hyperlink
+        description: A unique symbol that establishes identity of the resource.
+        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071 
   
   #////////////////////////////////////////////////////////////////////////////
   

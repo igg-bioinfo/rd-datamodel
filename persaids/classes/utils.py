@@ -4,6 +4,7 @@
 import json
 import os
 from datetime import datetime
+import csv
 
 prefix = "psm"
 study = "PerSAIDs"
@@ -77,4 +78,35 @@ def set_date(value: any):
     except Exception as e: 
         return None
     return value
+
+
+
+def upload_file(request, file_full, file_name = ""):
+    if file_name == "":
+        file_name = os.path.basename(file_full)
+    if os.path.exists(file_full) == False:
+        print("File " + file_full + " does not exists!")
+        return None
+    
+    data_files = []
+    if os.path.exists(file_files) == False:
+        os.mknod(file_files)
+    with open(file_files) as file:
+        tsv_file = csv.reader(file, delimiter="\t")
+        for line in tsv_file:
+            data_files.append(line)
+    
+    for f in data_files:
+        if f[0] == file_name:
+            print("File " + file_name + " is already uploaded as " + f[1])
+            return f[1]
+    
+    res = request.post("files", 'application/json', open(file_full,'rb'), file_name)
+    if res == None:
+        print("File " + file_name + " cannot be uploaded!")
+        return ""
+    fileid = res.json()['id']
+    with open(file_files, 'a') as tsvfile:
+        tsvfile.write(file_name + "\t" + fileid + "\n")
+    return fileid
         

@@ -3,9 +3,10 @@
 import sys
 import argparse
 import os
-from classes.experiment_set import File
+from classes.experiment_set import ExperimentSet
 from classes.protocol import Protocol
 from classes.request import Request
+from classes.utils import upload_file
 import glob
 
 
@@ -25,14 +26,17 @@ def main(argv):
         pt_array = pt_id.split("_")
         oProtocol.name = pt_array[0]
         oProtocol.version = pt_array[1]
-        oProtocol.save(request)       
-        for file in glob.glob(os.path.join(pt_path, "*.csv")):
-            oFile = File(request, file)
-            oFile.fileURI = "/api/files/" + oFile.file_id + "?alt=media"
-            if oFile.metadata_id != None and oFile.metadata_id != "":
-                oFile.metadataURI = "/api/files/" + oFile.metadata_id + "?alt=media"
-            oFile.samplingProtocol = pt_id
-            oFile.save(request)
+        docx_files = glob.glob(os.path.join(pt_path, "*.docx"))  
+        if len(docx_files) != 1:
+            print("Protocol " + oProtocol.name + " does not have docx file!")
+            continue
+        docx_id = upload_file(request, docx_files[0])
+        oProtocol.uri = "/api/files/" + docx_id + "?alt=media"
+        oProtocol.save(request)   
+        for file in glob.glob(os.path.join(pt_path, "*.csv")) + glob.glob(os.path.join(pt_path, "*.part00")):
+            oExperimentSet = ExperimentSet(request, file)
+            oExperimentSet.samplingProtocol = pt_id
+            oExperimentSet.save(request)
         
 
 if __name__ == '__main__':

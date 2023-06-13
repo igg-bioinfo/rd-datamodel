@@ -33,7 +33,7 @@ yarn emx:build-persaids
 **STEP 3 - IMPORT MODEL STRUCTURE**
 
 You can delete manually to delete previous model structure of PerSAIDs (psm) even if **3_MODEL_IMPORT** does it already: ```yarn m:delete-persaids```
-To import effectively the model in Molgenis instance, launch the following command on the **root** project:
+To import effectively the model in Molgenis instance, launch the following command from **/persaids** folder:
 ```
 bash 3_MODEL_IMPORT.sh
 ```

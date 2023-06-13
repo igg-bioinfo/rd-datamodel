@@ -57,8 +57,14 @@ class Request:
         try:
             res = requests.post(host + api_params, data = data, headers = headers)
             if res.status_code not in [200,201]:
-                print("POST for '" + api_params + "' error result:")
-                print(res.json()["errors"][0]['message'])
+                print("POST for '" + api_params + "' returns an error with code: " + str(res.status_code) + "!")
+                if "errors" in res.json():
+                    if len(res.json()["errors"]) > 0 and 'message' in res.json()["errors"][0]:
+                        print(res.json()["errors"][0]['message'])
+                    else:
+                        print(res.json()["errors"])
+                else:
+                    print(res.json())
                 return None
         except Exception as e:
             print("POST for '" + api_params + "' failed: " + str(e))
@@ -80,8 +86,14 @@ class Request:
         try:
             res = requests.put(host + api_params, data = data, headers = headers)
             if res.status_code not in [200,201]:
-                print("PUT for '" + api_params + "' error result:")
-                print(res.json()["errors"][0]['message'])
+                print("PUT for '" + api_params + "' returns an error with code: " + str(res.status_code) + "!")
+                if "errors" in res.json():
+                    if len(res.json()["errors"]) > 0 and 'message' in res.json()["errors"][0]:
+                        print(res.json()["errors"][0]['message'])
+                    else:
+                        print(res.json()["errors"])
+                else:
+                    print(res.json())
                 return None
         except Exception as e:
             print("PUT for " + api_params + " failed: " + str(e))
