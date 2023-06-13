@@ -4,7 +4,9 @@ import sys
 import argparse
 import os
 import glob
-from pandas import read_excel, concat, unique, DataFrame, read_csv
+from pandas import read_excel, concat, unique, DataFrame, read_csv, merge, notna
+from upsetplot import plot, from_indicators
+import numpy as np
 
 msg = ""
 
@@ -75,13 +77,24 @@ def check_duplicates_for_cols(cols, df):
     return df_dups
 
 def check_duplicates_one_col(col, df):
-    #set_msg("Field " + col + " duplicates", 3)
     df_dups = df.loc[df.duplicated(subset=[col], keep=False)]
     df_dups.sort_values(by=[col])
     set_msg("The field '" + col + "' has duplicated " + str(len(df_dups[col].unique())) + " unique values.")
     set_msg_df(col, df_dups, df)
     return df.drop_duplicates(subset=[col])
 
+def df_merge(df1, df2, keys, how='outer'):
+    df = merge(df1, df2, how=how, on=keys, indicator=True)
+    keys.append("_merge")
+    missing_values = df[keys][df['_merge'] != 'both']
+    for _, value in missing_values.iterrows():
+        txt = ""
+        for k in keys:
+            txt += k + ": " + str(value[k]) + ", "
+        #print(txt)
+    df.drop("_merge",axis=1,inplace=True)
+    #print("Done\n")
+    return df
 
 
 #------------------------------------------MAIN THREAD------------------------------------------
@@ -156,6 +169,7 @@ def main(argv):
     #------------------OMICS FILES
     prot_name_old = ""
     set_count = 0
+    prots = []
     for set_file in glob.glob(os.path.join(args.omics_path, "pt*/*.csv")) + glob.glob(os.path.join(args.omics_path, "pt*/*.tsv")):
         prot_name = str(set_file.split("/")[1]).replace("pt_", "").replace("_", " ")
         df_prot_name = prot_name.replace(" ", "_")
@@ -165,20 +179,24 @@ def main(argv):
                 df_prot_name_old = prot_name_old.replace(" ", "_")
                 for i in range(1, set_count):
                     globals()[f"df_{df_prot_name_old}_0"] = concat([globals()[f"df_{df_prot_name_old}_0"], 
-                                                                globals()[f"df_{df_prot_name_old}_{str(i)}"]], axis=1)
+                                                                globals()[f"df_{df_prot_name_old}_{str(i)}"]], axis=0)
                 df_final = globals()[f"df_{df_prot_name_old}_0"]
                 set_msg("Overall " + prot_name_old.title() + " has " + str(len(df_final)) + " samples.")
                 set_msg("Overall " + prot_name_old.title() + " has " + str(len(df_final.columns)) + " features.")
-                
+                check_duplicates_one_col(c_sample, df_final)
+            
+            prots.append(df_prot_name)
             set_msg(prot_name, True)
             set_count = 0
 
-        
+        no_features = False
         if set_file.endswith(".tsv"):
+            no_features = True
             set_file = set_file.replace(".tsv", ".samples")
             set_title = os.path.basename(set_file).replace(".csv", "").replace(".tsv", "")
             df_set = read_csv(set_file, header=None, sep="\t")
             df_set.columns = [c_sample]
+            df_set.insert(1, 'Has ' + prot_name, 1)
             globals()[f"df_{df_prot_name}_{str(set_count)}"] = df_set.copy()
         else:
             set_title = os.path.basename(set_file).replace(".csv", "").replace(".tsv", "")
@@ -189,8 +207,10 @@ def main(argv):
 
 
         set_msg(set_title, 2)
+        if no_features:
+            set_msg("THERE ARE TOO MUCH FEATURES, WE ONLY CONSIDER IF SAMPLE HAS THIS OMICS")
         set_msg(set_title.title() + " has " + str(len(df_set)) + " samples.")
-        set_msg(set_title.title() + " has " + str(len(globals()[f"df_{df_prot_name}_{str(set_count)}"].columns)) + " features.")
+        set_msg(set_title.title() + " has " + str(len(globals()[f"df_{df_prot_name}_{str(set_count)}"].columns) - 1) + " features.")
         
         check_duplicates_one_col(c_sample, df_set)
 
@@ -209,12 +229,37 @@ def main(argv):
         set_count += 1
         prot_name_old = prot_name
 
+    #------------------OVERALL OMICS
+    set_msg("Overall omics", True)
+    df_omics = df_nodups.copy()
+    for prot in prots:
+        df_omics = df_merge(df_omics, globals()[f"df_{prot}_0"], [c_sample], 'left')
+    set_msg("Overall omics has " + str(len(df_omics)) + " samples.")
+    set_msg("Overall omics has " + str(len(df_omics.columns)) + " features.")
+    df_omics_nodups = check_duplicates_one_col(c_sample, df_omics)
+    set_msg("Overall omics has " + str(len(df_omics_nodups)) + " unique samples.")
+
+    #------------------UPSET PLOT FOR NOT NULL VALUES
+    df_upset = DataFrame(data = df_omics_nodups[c_sample])
+    for prot in prots:
+        df_upset[prot] = df_omics_nodups[c_sample].isin(globals()[f"df_{prot}_0"][c_sample].unique())
+    df_upset[c_patient] = df_omics_nodups[c_sample].isin(df_patient[c_sample].unique())
+    df_upset[c_sample_date] = df_omics_nodups[c_sample].isin(df_sample_date[c_sample].unique())
+    df_upset = df_upset.replace({False:np.nan,True:1}) #set False to null and True to 1
+    df_upset = df_upset[df_upset.iloc[:,1:].sum(axis=1) > 0] #samples with at least 1 omic
+    plot(from_indicators(indicators=notna, data=df_upset.iloc[:,1:]), show_counts=True)
+    from matplotlib import pyplot
+    pyplot.savefig(os.path.join(args.omics_path, 'overall_omics.png'))  
+
+    #------------------SAVE DFS
+    #df_omics[c_sample].to_csv(os.path.join(args.omics_path, 'overall_omics.csv'), sep="\t")
+
     #------------------REPORT
     #print(msg)
     with open(os.path.join(args.omics_path, 'statistics.txt'), "w+") as f:
         f.write(msg)
 
-
+      
 
 if __name__ == '__main__':
     main(sys.argv[1:])
