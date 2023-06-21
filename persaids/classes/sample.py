@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python
 from classes.utils import save_entity, set_data, get_entity
+import re
 
 class Sample:
     exists: bool = False
     entity: str = "samples"
     field_key: str = "sampleID"
-    fields: list = ["sampleID", "localID", "institute", "belongsToPatient", "experimentSets", "samplingDate", "diseaseStatus", "treatedStatus"]
+    fields: list = ["sampleID", "localID", "institute", "belongsToPatient", "experimentSets", "samplingDate", "diseaseStatus", "treatedStatus", "disease"]
 
 
     def __init__(self, request, id):
@@ -61,6 +62,13 @@ class Sample:
             self.treatedStatus = "Treated"
         elif value == "untreated":
             self.treatedStatus = "Untreated"
+
+    def set_patient(self, value: str):
+        self.belongsToPatient = value if re.search("^[a-zA-Z]{2}[0-9]{7}$", value.strip()) == True else None
     
+    def set_no_sample_value(self, value: any):
+        tmp = str(value).lower().strip()
+        return 1 if tmp != "" and tmp != "nan" and tmp != "no" and "sample" not in tmp else 0
+
     def save(self, request):
         return save_entity(request, self.entity, getattr(self, self.field_key) if self.exists else None, set_data(self, self.fields))

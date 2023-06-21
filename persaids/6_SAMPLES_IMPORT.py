@@ -23,22 +23,30 @@ def main(argv):
     for index, row in df.iterrows():
         patient_id = str(row['Eurofever ID'])
         sample_id = str(row['ID sample'])
-        if sample_id != 'nan' and sample_id != '' and patient_id.lower().startswith("n") == False and patient_id.strip() != "":
+        #if sample_id != 'nan' and sample_id != '' and patient_id.lower().startswith("n") == False and patient_id.strip() != "":
+        if sample_id != 'nan' and sample_id != "" and ";" not in sample_id and "," not in sample_id:
             sample = Sample(request, sample_id)
-            sample.belongsToPatient = patient_id
+            sample.set_patient(patient_id)
             sample.localID = set_value(row['local ID patient   '])
             sample.institute = set_value(row['Institute'])
             sample.samplingDate = set_date(row['Date of sampling'])
+            sample.disease = set_value(row['Disease\nDrop-down Menu'])
             sample.set_disease(row['Active or Inactive disease (A/I)\nDrop-down Menu'])
             sample.set_treated(row['patient Treated or unTreated       (T/unT)\nDrop-down Menu'])
+            sample.DNA = sample.set_no_sample_value(row['DNA/PBMCs'])
+            sample.serum = sample.set_no_sample_value(row['serum '])
+            sample.RNA = sample.set_no_sample_value(row['RNA'])
+            sample.plasma = sample.set_no_sample_value(row['Plasma/Serum'])
+            sample.blood = sample.set_no_sample_value(row['Whole blood'])
             if sample.save(request) == True:
                 samples_tot += 1
             else: 
                 samples_not += 1
+                print("Sample " + sample_id + " for patient_id '" + patient_id + "' not imported")
+            print(str(index) + "/" + str(len(df)))
         else:
             samples_not += 1
-            if patient_id != "" and patient_id != "nan" and sample_id != "nan":
-                print("Sample " + sample_id + " for patient_id '" + patient_id + "' not imported")
+            print("Sample " + sample_id + " for patient_id '" + patient_id + "' not imported")
     print("Total imported samples: " + str(samples_tot))
     print("Total NOT imported samples: " + str(samples_not))
         

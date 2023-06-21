@@ -21,7 +21,7 @@ To re\create the files (yamls, lookup csv and setup bash file) for generating th
 ```
 python3 1_MODEL_FILES.py --dts_path ./dts --yaml_path ../
 ```
-After that, you can generate a diagram for the model data structure too, launching: ```python3 1a_MODEL_DIAGRAM.py --yaml_file ../model/psm.yaml```
+After that, you can generate a diagram for the model data structure too, launching: ```python3 MODEL_DIAGRAM.py --yaml_file ../model/psm.yaml```
 
 **STEP 2 - ELABORATE FILES FOR MODEL STRUCTURE**
 

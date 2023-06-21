@@ -109,6 +109,10 @@ entities:
         description: The date that a sample was collected or obtained.
         tags: NCIT_C164024 http://purl.obolibrary.org/obo/NCIT_C164024
 
+      - name: disease
+        dataType: string
+        description: At sampling time, the disease the subject is affected by.
+
       - name: diseaseStatus
         dataType: string
         description: Individuals in a pedigree who exhibit the specific phenotype under study.
@@ -117,6 +121,31 @@ entities:
       - name: treatedStatus
         dataType: string
         description: At sampling time, if patient has been treated or not.
+
+      - name: DNA
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: DNA/PBMCs
+
+      - name: serum
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: Serum
+
+      - name: RNA
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: RNA
+
+      - name: plasma
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: Plasma/Serum
+
+      - name: blood
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: Whole blood
 
   #////////////////////////////////////////////////////////////////////////////
   
