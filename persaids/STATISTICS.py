@@ -4,7 +4,7 @@ import sys
 import argparse
 import os
 import glob
-from pandas import read_excel, concat, unique, DataFrame, read_csv, merge, notna, Series
+from pandas import read_excel, concat, DataFrame, read_csv, merge, notna, Series
 from upsetplot import plot, from_indicators
 import numpy as np
 
@@ -203,6 +203,7 @@ def main(argv):
     df_diagnosis = df_master[df_master[c_diagnosis].isna() == False]
     check_col(c_diagnosis, df_diagnosis, df_master)
     set_msg_array("Unique values for field '" + c_diagnosis + "' are", df_diagnosis[c_diagnosis].str.strip().unique())
+    df_save(DataFrame(df_diagnosis[c_diagnosis].str.strip().unique().tolist()), "diagnosis_unique")
 
     #--COLUMN DNA
     df_dna = df_master[(df_master[c_dna].isna() == False) & (df_master[c_dna].str.strip().str.lower() != "no") 
@@ -357,6 +358,7 @@ def main(argv):
     df_omics_clinical_tsv = df_omics_clinical_tsv[df_omics_clinical_tsv.iloc[:,1:].sum(axis=1) > 0] #samples with at least 1 omic
     df_omics_clinical_tsv['Overall total'] = df_omics_clinical_tsv.select_dtypes(include='number').sum(axis=1)
     df_omics_clinical_tsv['Omics total'] = df_omics_clinical_tsv[prots].sum(axis=1)
+    
     df_save(df_omics_clinical_tsv, "omics_clinical")
 
     #UPSET CLINCAL 

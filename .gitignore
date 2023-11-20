@@ -13,6 +13,7 @@ src/molgenis/convert/__pycache__/
 persaids/data/*
 persaids/files/*
 persaids/dts/*
+persaids/ef_data/*
 
 # Distribution / packaging
 .Python
