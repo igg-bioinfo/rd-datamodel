@@ -181,31 +181,6 @@ entities:
         dataType: hyperlink
         description: A unique symbol that establishes identity of the resource.
         tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
-        
-      - name: filePart1URI
-        dataType: hyperlink
-        description: A unique symbol that establishes identity of the resource.
-        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
-        
-      - name: filePart2URI
-        dataType: hyperlink
-        description: A unique symbol that establishes identity of the resource.
-        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
-        
-      - name: filePart3URI
-        dataType: hyperlink
-        description: A unique symbol that establishes identity of the resource.
-        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
-        
-      - name: filePart4URI
-        dataType: hyperlink
-        description: A unique symbol that establishes identity of the resource.
-        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
-        
-      - name: filePart5URI
-        dataType: hyperlink
-        description: A unique symbol that establishes identity of the resource.
-        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071 
   
   #////////////////////////////////////////////////////////////////////////////
   

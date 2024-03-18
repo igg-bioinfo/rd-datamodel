@@ -13,7 +13,7 @@ class Model:
     dts = None
     yaml = ""
     lookups = []
-    lu_max = 45
+    lu_max = 30
     data_entities = []
 
 
@@ -85,6 +85,9 @@ class Model:
                         lookup += key.replace(" ", "").replace("-", "")
                 if len(lookup) > self.lu_max:
                     lookup = lookup[0:self.lu_max]
+                if lookup[0].isnumeric():
+                    lookup = 'N' + lookup[1:self.lu_max]
+
                 return [lookup, label, options]
         return [None, description, []]
 
@@ -158,6 +161,8 @@ class Model:
             description = str(row["field_description"])
             dataType = row["DATA_TYPE"]
             [lookup_table, description, opts] = self.check_lookup(field, description)
+            if lookup_table == 'MusculoskeletalSign(YesNoUnkno':
+                lookup_table = 'MusculoskeletalSignYesNoUnkno'
             isKey = (field == "patient_id" and self.dts.entity == "patients") or (field == "id_ae" and self.dts.entity == "saf_report")
             self.yaml += self.dts.set_attr(field, description, dataType, lookup_table, isKey, self.dts.entity)
             #if lookup_table == "a":

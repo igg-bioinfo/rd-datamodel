@@ -161,7 +161,7 @@ entities:
 
       - name: Ethnicity
         dataType: xref
-        refEntity: psm_lookups_AfricanArcticCaucasianCaucasianCaucasianCauca
+        refEntity: psm_lookups_AfricanArcticCaucasianCaucasia
         description: Ethnicity of the child
 
       - name: EthniSp
@@ -246,7 +246,7 @@ entities:
 
       - name: RelAffec
         dataType: xref
-        refEntity: psm_lookups_YesAsymptomaticCarrierNoUnknown
+        refEntity: psm_lookups_YesAsymptomaticCarrierNoUnknow
         description: Are relatives affected?
 
       - name: RelaFollow
@@ -256,7 +256,7 @@ entities:
 
       - name: PatInher
         dataType: xref
-        refEntity: psm_lookups_AutosomicDominantRecessiveXLinkedUnknown
+        refEntity: psm_lookups_AutosomicDominantRecessiveXLin
         description: Pattern of inheritance
 
   #////////////////////////////////////////////////////////////////////////////
@@ -413,7 +413,7 @@ entities:
 
       - name: gene_method
         dataType: xref
-        refEntity: psm_lookups_CompleteGeneScreeningMostRelevantExonsMostRel
+        refEntity: psm_lookups_CompleteGeneScreeningMostRelev
         description: Used method for the identification of the variants
 
       - name: laboratory
@@ -422,7 +422,7 @@ entities:
 
       - name: test_type
         dataType: xref
-        refEntity: psm_lookups_TestNotInformativeTestInformativeTestNegative
+        refEntity: psm_lookups_TestNotInformativeTestInformat
         description: Type of the test
 
       - name: not_informative_specify
@@ -505,7 +505,7 @@ entities:
 
       - name: SIGNS_EPISODES_Fever
         dataType: xref
-        refEntity: psm_lookups_NeverSometimesOrOftenAlwaysNotKnown
+        refEntity: psm_lookups_NeverSometimesOrOftenAlwaysNot
         description: Fever >38º C
 
       - name: SIGNS_HEMATOLOGICAL_pan
@@ -515,7 +515,7 @@ entities:
 
       - name: SIGNS_EPISODES_LowFever
         dataType: xref
-        refEntity: psm_lookups_NeverSometimesOrOftenAlwaysNotKnown
+        refEntity: psm_lookups_NeverSometimesOrOftenAlwaysNot
         description: Low grade fever <38º
 
       - name: SIGNS_CARDIO_Ch_Fr
@@ -530,7 +530,7 @@ entities:
 
       - name: SIGNS_EPISODES_DurEpiSo
         dataType: xref
-        refEntity: psm_lookups_01Day2Days3Days4Days5Days6Days7Days8Days9Days
+        refEntity: psm_lookups_N1Day2Days3Days4Days5Days6Days
         description: Mean duration of episodes
 
       - name: SIGNS_GASTRO_Vom_Fr
@@ -653,7 +653,7 @@ entities:
 
       - name: SIGNS_EPISODES_EpiYear
         dataType: xref
-        refEntity: psm_lookups_1Day2Days3Days4Days5Days6Days7Days8Days9Days1
+        refEntity: psm_lookups_NDay2Days3Days4Days5Days6Days7
         description: Number of episodes/year
 
       - name: SIGNS_GASTRO_Con_Fr
@@ -718,7 +718,7 @@ entities:
 
       - name: SIGNS_EPISODES_PatFreq
         dataType: xref
-        refEntity: psm_lookups_RegularPeriodicIrregularNonPeriodicNotKnown
+        refEntity: psm_lookups_RegularPeriodicIrregularNonPer
         description: Pattern of frequency
 
       - name: SIGNS_GASTRO_Diar_Fr
@@ -831,7 +831,7 @@ entities:
 
       - name: CLINICAL_SUMMARY_disease_course
         dataType: xref
-        refEntity: psm_lookups_ContinuousRecurrentContinuousAndRecurrentComp
+        refEntity: psm_lookups_ContinuousRecurrentContinuousA
         description: Disease Course
 
       - name: SIGNS_CARDIO_int_lun_dis
@@ -1904,8 +1904,8 @@ entities:
 
       - name: SIGNS_MUSCULOSKELETAL_other
         dataType: xref
-        refEntity: psm_lookups_YesNoUnknown
-        description: Other Musculoskeletal Sign
+        refEntity: psm_lookups_MusculoskeletalSignYesNoUnkno
+        description: Other
 
       - name: SIGNS_MUSCULOSKELETAL_otherDa
         dataType: datetime
@@ -2174,7 +2174,7 @@ entities:
 
       - name: Outcome
         dataType: xref
-        refEntity: psm_lookups_FatalResolvedResolvedWithSequelaeImprovedPers
+        refEntity: psm_lookups_FatalResolvedResolvedWithSeque
         description: Outcome
 
       - name: ResDate
@@ -2378,7 +2378,7 @@ entities:
 
       - name: ActionDr
         dataType: xref
-        refEntity: psm_lookups_DoseReducedDoseIncreasedDrugInterruptedDrugDi
+        refEntity: psm_lookups_DoseReducedDoseIncreasedDrugIn
         description: Action taken for drug
 
       - name: EvtAbate
@@ -3423,6 +3423,31 @@ entities:
         dataType: string
         description: At sampling time, if patient has been treated or not.
 
+      - name: DNA
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: DNA/PBMCs
+
+      - name: serum
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: Serum
+
+      - name: RNA
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: RNA
+
+      - name: plasma
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: Plasma/Serum
+
+      - name: blood
+        dataType: xref
+        refEntity: psm_lookups_YesNo
+        description: Whole blood
+
   #////////////////////////////////////////////////////////////////////////////
   
   # @name psm_experimentSets
@@ -3457,31 +3482,6 @@ entities:
         dataType: hyperlink
         description: A unique symbol that establishes identity of the resource.
         tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
-        
-      - name: filePart1URI
-        dataType: hyperlink
-        description: A unique symbol that establishes identity of the resource.
-        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
-        
-      - name: filePart2URI
-        dataType: hyperlink
-        description: A unique symbol that establishes identity of the resource.
-        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
-        
-      - name: filePart3URI
-        dataType: hyperlink
-        description: A unique symbol that establishes identity of the resource.
-        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
-        
-      - name: filePart4URI
-        dataType: hyperlink
-        description: A unique symbol that establishes identity of the resource.
-        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071  
-        
-      - name: filePart5URI
-        dataType: hyperlink
-        description: A unique symbol that establishes identity of the resource.
-        tags: NCIT_C165071 http://purl.obolibrary.org/obo/NCIT_C165071 
   
   #////////////////////////////////////////////////////////////////////////////
   

@@ -74,7 +74,9 @@ python3 6_SAMPLES_IMPORT.py --samples_xlsx ./data/SAMPLES.xlsx
 
 **STEP 7 - IMPORT EXPERIMENT SETS**
 
-Protocols for files are created according to folder (ex. /pt_OLINK_V1).
+Protocols are created according to folder (ex. /pt_OLINK_V1).
+Protocols files and experiment sets metadata are located in Molgenis web application.
+Experiment sets files are located in GARR Object Storage.
 To import files related to samples and protocols, launch from **/persaids** folder:
 ```
 python3 7_SETS_IMPORT.py --files_path ./files

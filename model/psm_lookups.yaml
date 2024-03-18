@@ -133,7 +133,7 @@ entities:
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
-  - name: AfricanArcticCaucasianCaucasianCaucasianCauca
+  - name: AfricanArcticCaucasianCaucasia
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
@@ -145,7 +145,7 @@ entities:
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
-  - name: YesAsymptomaticCarrierNoUnknown
+  - name: YesAsymptomaticCarrierNoUnknow
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
@@ -153,7 +153,7 @@ entities:
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
-  - name: AutosomicDominantRecessiveXLinkedUnknown
+  - name: AutosomicDominantRecessiveXLin
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
@@ -161,11 +161,11 @@ entities:
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
-  - name: CompleteGeneScreeningMostRelevantExonsMostRel
+  - name: CompleteGeneScreeningMostRelev
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
-  - name: TestNotInformativeTestInformativeTestNegative
+  - name: TestNotInformativeTestInformat
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
@@ -173,7 +173,7 @@ entities:
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
-  - name: NeverSometimesOrOftenAlwaysNotKnown
+  - name: NeverSometimesOrOftenAlwaysNot
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
@@ -181,11 +181,11 @@ entities:
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
-  - name: 01Day2Days3Days4Days5Days6Days7Days8Days9Days
+  - name: N1Day2Days3Days4Days5Days6Days
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
-  - name: 1Day2Days3Days4Days5Days6Days7Days8Days9Days1
+  - name: NDay2Days3Days4Days5Days6Days7
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
@@ -193,7 +193,7 @@ entities:
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
-  - name: RegularPeriodicIrregularNonPeriodicNotKnown
+  - name: RegularPeriodicIrregularNonPer
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
@@ -201,11 +201,15 @@ entities:
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
-  - name: ContinuousRecurrentContinuousAndRecurrentComp
+  - name: ContinuousRecurrentContinuousA
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
   - name: NoMildSevereNotKnown
+    description: PerSAIDs lookup
+    extends: psm_lookups_attributeTemplatePerSAIDs
+
+  - name: MusculoskeletalSignYesNoUnkno
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
@@ -217,7 +221,7 @@ entities:
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
-  - name: FatalResolvedResolvedWithSequelaeImprovedPers
+  - name: FatalResolvedResolvedWithSeque
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
@@ -225,7 +229,7 @@ entities:
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 
-  - name: DoseReducedDoseIncreasedDrugInterruptedDrugDi
+  - name: DoseReducedDoseIncreasedDrugIn
     description: PerSAIDs lookup
     extends: psm_lookups_attributeTemplatePerSAIDs
 

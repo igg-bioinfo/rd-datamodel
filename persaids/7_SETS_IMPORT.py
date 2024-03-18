@@ -19,6 +19,8 @@ def get_args(argv):
 #MAIN THREAD
 def main(argv):
     request = Request()
+    if request.token == "":
+        return
     args = get_args(argv)
     for pt_path in glob.glob(os.path.join(args.files_path, "pt_*/")): 
         pt_id = pt_path.replace("pt_", "").split("/")[2]
@@ -33,8 +35,9 @@ def main(argv):
         docx_id = upload_file(request, docx_files[0])
         oProtocol.uri = "/api/files/" + docx_id + "?alt=media"
         oProtocol.save(request)   
-        for file in glob.glob(os.path.join(pt_path, "*.csv")) + glob.glob(os.path.join(pt_path, "*.part00")):
-            oExperimentSet = ExperimentSet(request, file)
+        #for file in glob.glob(os.path.join(pt_path, "*.csv")) + glob.glob(os.path.join(pt_path, "*.part00")):
+        for file in glob.glob(os.path.join(pt_path, "*.csv")) + glob.glob(os.path.join(pt_path, "*.tsv")):
+            oExperimentSet = ExperimentSet(request, file, oProtocol.name.lower())
             oExperimentSet.samplingProtocol = pt_id
             oExperimentSet.save(request)
         

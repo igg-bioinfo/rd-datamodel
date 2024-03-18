@@ -14,6 +14,7 @@ persaids/data/*
 persaids/files/*
 persaids/dts/*
 persaids/ef_data/*
+persaids/app_creds.sh
 
 # Distribution / packaging
 .Python
